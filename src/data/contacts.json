@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "social": "Email",
+    "display": "luqmanherifa@gmail.com",
+    "link": "mailto:luqmanherifa@gmail.com"
+  },
+  {
+    "id": 2,
+    "social": "Instagram",
+    "display": "instagram.com/luqmanherifa",
+    "link": "https://www.instagram.com/luqmanherifa"
+  },
+  {
+    "id": 3,
+    "social": "LinkedIn",
+    "display": "linkedin.com/in/luqmanherifa",
+    "link": "https://www.linkedin.com/in/luqmanherifa"
+  },
+  {
+    "id": 4,
+    "social": "GitHub",
+    "display": "github.com/luqmanherifa",
+    "link": "https://github.com/luqmanherifa"
+  },
+  {
+    "id": 5,
+    "social": "Dribbble",
+    "display": "dribbble.com/luqmanherifa",
+    "link": "https://dribbble.com/luqmanherifa"
+  }
+]
