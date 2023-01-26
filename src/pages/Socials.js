@@ -23,7 +23,7 @@ export default function Socials() {
               <thead>
                 <tr className="border border-slate-700">
                   <th className="px-8 py-3 text-left">Social</th>
-                  <th className="px-3 py-3 text-left w-80">Link</th>
+                  <th className="px-3 py-3 text-left w-96">Link</th>
                 </tr>
               </thead>
               <tbody>
