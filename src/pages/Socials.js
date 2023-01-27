@@ -10,7 +10,7 @@ export default function Socials() {
     <section className="pb-28 sm:pb-10">
       <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="font-bold text-3xl mb-7 text-pink-400 bg-pink-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center">
+          <h2 className="font-bold text-3xl mb-7 text-pink-400 bg-pink-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2">
             Socials
           </h2>
           <div>
