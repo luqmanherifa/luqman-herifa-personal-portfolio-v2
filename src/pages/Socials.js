@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Contacts from "../data/contacts.json";
+import SocialsData from "../data/socials.json";
 
 export default function Socials() {
   useEffect(function () {
@@ -27,13 +27,13 @@ export default function Socials() {
                 </tr>
               </thead>
               <tbody>
-                {Contacts.map((contact) => {
+                {SocialsData.map((social) => {
                   return (
-                    <tr key={contact.id} className="border border-slate-700">
-                      <td className="px-8 py-3 sm:px-4">{contact.social}</td>
+                    <tr key={social.id} className="border border-slate-700">
+                      <td className="px-8 py-3 sm:px-4">{social.social}</td>
                       <td className="px-3 py-3 text-sky-500 sm:px-1 hover:text-sky-300">
-                        <a href={contact.link} target="_blank" rel="noreferrer">
-                          {contact.display}
+                        <a href={social.link} target="_blank" rel="noreferrer">
+                          {social.display}
                         </a>
                       </td>
                     </tr>

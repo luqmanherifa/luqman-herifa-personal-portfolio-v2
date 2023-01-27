@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Projects from "../data/projects.json";
+import WorksData from "../data/works.json";
 
 export default function Works() {
   useEffect(function () {
@@ -28,15 +28,15 @@ export default function Works() {
               </h3>
             </div>
             <div className="flex gap-7 flex-wrap justify-center">
-              {Projects.map((project) => {
+              {WorksData.map((work) => {
                 return (
                   <div
-                    key={project.id}
+                    key={work.id}
                     className="max-w-xs overflow-hidden group relative rounded-2xl hover:scale-95 transition-all duration-500"
                   >
-                    <a href={project.link} target="_blank" rel="noreferrer">
+                    <a href={work.link} target="_blank" rel="noreferrer">
                       <img
-                        src={project.image}
+                        src={work.image}
                         alt=""
                         className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
                       />
