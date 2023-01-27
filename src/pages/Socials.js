@@ -7,10 +7,10 @@ export default function Socials() {
   }, []);
 
   return (
-    <section className="pb-28">
-      <div className="max-w-6xl mx-auto flex justify-center pt-9">
+    <section className="pb-28 sm:pb-10">
+      <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="font-bold text-3xl mb-7 text-pink-400 bg-pink-400/10 rounded-full px-7 py-3 inline-block">
+          <h2 className="font-bold text-3xl mb-7 text-pink-400 bg-pink-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center">
             Socials
           </h2>
           <div>
@@ -22,16 +22,16 @@ export default function Socials() {
             <table className="text-slate-400 border border-slate-700 text-sm">
               <thead>
                 <tr className="border border-slate-700">
-                  <th className="px-8 py-3 text-left">Social</th>
-                  <th className="px-3 py-3 text-left w-96">Link</th>
+                  <th className="px-8 py-3 text-left sm:px-4">Social</th>
+                  <th className="px-3 py-3 text-left w-96 sm:px-1">Link</th>
                 </tr>
               </thead>
               <tbody>
                 {Contacts.map((contact) => {
                   return (
                     <tr key={contact.id} className="border border-slate-700">
-                      <td className="px-8 py-3 ">{contact.social}</td>
-                      <td className="px-3 py-3 text-sky-500">
+                      <td className="px-8 py-3 sm:px-4">{contact.social}</td>
+                      <td className="px-3 py-3 text-sky-500 sm:px-1 hover:text-sky-300">
                         <a href={contact.link} target="_blank" rel="noreferrer">
                           {contact.display}
                         </a>

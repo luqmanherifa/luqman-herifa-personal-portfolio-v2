@@ -12,13 +12,13 @@ import icon from "./images/icon.png";
 function App() {
   return (
     <div className="app">
-      <section>
-        <div className="h-20 text-white flex items-center justify-between mx-auto max-w-6xl">
+      <section className="sm:border-b sm:border-slate-700">
+        <div className="h-20 text-white flex items-center justify-between mx-auto max-w-6xl sm:max-w-xs sm:h-16">
           <div className="flex gap-3 items-center">
-            <img src={icon} alt="icon" className="w-8" />
-            <p className="font-bold text-lg">Luqman Herifa</p>
+            <img src={icon} alt="icon" className="w-8 sm:w-7" />
+            <p className="font-bold text-lg sm:hidden">Luqman Herifa</p>
           </div>
-          <nav className="flex gap-8 font-semibold text-sm">
+          <nav className="flex gap-8 font-semibold text-sm sm:gap-3 sm:text-xs">
             <Link to="/" className="hover:text-slate-300">
               Home
             </Link>

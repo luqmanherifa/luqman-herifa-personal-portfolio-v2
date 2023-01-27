@@ -7,14 +7,14 @@ export default function About() {
   }, []);
 
   return (
-    <section className="pb-28">
-      <div className="max-w-6xl mx-auto flex justify-center pt-9">
+    <section className="pb-28 sm:pb-10">
+      <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="font-bold text-3xl mb-7 text-cyan-400 bg-cyan-400/10 rounded-full px-7 py-3 inline-block">
+          <h2 className="font-bold text-3xl mb-7 text-cyan-400 bg-cyan-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center">
             About Me
           </h2>
-          <div className="flex">
-            <div className="mr-7 overflow-hidden group relative max-w-[200px] rounded-2xl hover:scale-95 transition-all duration-500">
+          <div className="flex sm:block">
+            <div className="mr-7 overflow-hidden group relative max-w-[200px] rounded-2xl hover:scale-95 transition-all duration-500 sm:mx-auto sm:mb-7">
               <img
                 src={profile}
                 alt="about"

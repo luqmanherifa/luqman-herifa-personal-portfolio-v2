@@ -7,10 +7,12 @@ export default function NotFound() {
   }, []);
 
   return (
-    <section className="pb-28">
-      <h1 className="text-white font-bold text-6xl text-center tracking-tight pt-40">
-        Ups! Page Not Found :(
-      </h1>
+    <section className="pb-28 flex justify-center sm:pb-10">
+      <div className="pt-36 text-center sm:max-w-xs">
+        <h1 className="text-white font-bold text-6xl tracking-tight">
+          Ups! Page Not Found :(
+        </h1>
+      </div>
     </section>
   );
 }
