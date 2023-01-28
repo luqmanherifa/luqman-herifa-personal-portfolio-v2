@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import profile from "../images/profile.png";
+import Profile from "../images/profile.png";
 
 export default function About() {
   useEffect(function () {
@@ -16,7 +16,7 @@ export default function About() {
           <div className="flex sm:block">
             <div className="mr-7 overflow-hidden group relative max-w-[200px] rounded-2xl hover:scale-95 transition-all duration-500 sm:mx-auto sm:mb-7 sm:max-w-[100px]">
               <img
-                src={profile}
+                src={Profile}
                 alt="about"
                 className="cursor-pointer group-hover:scale-125 transition-all duration-500"
               />

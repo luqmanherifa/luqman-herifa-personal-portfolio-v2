@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import SocialsData from "../data/socials.json";
+import DataSocials from "../data/socials.json";
 
 export default function Socials() {
   useEffect(function () {
@@ -27,7 +27,7 @@ export default function Socials() {
                 </tr>
               </thead>
               <tbody>
-                {SocialsData.map((social) => {
+                {DataSocials.map((social) => {
                   return (
                     <tr key={social.id} className="border border-slate-700">
                       <td className="px-8 py-3 sm:px-4">{social.social}</td>

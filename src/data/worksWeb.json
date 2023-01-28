@@ -1,0 +1,30 @@
+[
+  {
+      "id": 1,
+      "category": "web",
+      "name": "Luqman Herifa: Personal Portfolio v1",
+      "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
+      "image": "https://cdn.dribbble.com/users/6699911/screenshots/20498490/media/cd4a0c33ae25a7fdf18261d1631136ab.png"
+  },
+  {
+    "id": 2,
+    "category": "web",
+    "name": "Quintess: Music Platform Landing Page",
+    "link": "https://github.com/luqmanherifa/quintess-music-platform-landing-page",
+    "image": "https://cdn.dribbble.com/users/6699911/screenshots/20498500/media/c196c4db771892ca37040b92de9b8d6c.png"
+  },
+  {
+    "id": 3,
+    "category": "web",
+    "name": "Sterna: Apparel Store Catalog",
+    "link": "https://github.com/luqmanherifa/sterna-apparel-store-catalog",
+    "image": "https://cdn.dribbble.com/users/6699911/screenshots/20498645/media/bdd08b972687cef09f94a750ef16c9f4.png"
+  },
+  {
+    "id": 4,
+    "category": "web",
+    "name": "Senema: Movie Search Engine",
+    "link": "https://github.com/luqmanherifa/senema-movie-search-engine",
+    "image": "https://cdn.dribbble.com/users/6699911/screenshots/20498650/media/afcf278a07c23f139567996b9964e9cd.png"
+  }
+]
