@@ -7,10 +7,10 @@ export default function About() {
   }, []);
 
   return (
-    <section className="pb-28 sm:pb-10">
+    <section className="pb-20 sm:pb-10">
       <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="font-bold text-3xl mb-7 text-cyan-400 bg-cyan-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2">
+          <h2 className="font-bold text-3xl mb-7 text-cyan-400 bg-cyan-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2 dark:bg-cyan-400/20">
             About Me
           </h2>
           <div className="flex sm:block">
@@ -22,13 +22,13 @@ export default function About() {
               />
             </div>
             <div>
-              <p className="text-slate-400 mb-4">
+              <p className="text-slate-400 mb-4 dark:text-slate-600">
                 Halo, my name is Luqman. I just graduated from Computer Science
                 Study Program at Sekolah Tinggi Informatika dan Komputer
                 Indonesia Malang. I have an interest and hobby in computers and
                 design.
               </p>
-              <p className="text-slate-400">
+              <p className="text-slate-400 dark:text-slate-600">
                 I've learned, practiced, and worked using some programming and
                 design software and technologies such as NetBeans, Android
                 Studio, Unity, VS Code, GitHub, Blender, CorelDRAW, Figma, Java,
