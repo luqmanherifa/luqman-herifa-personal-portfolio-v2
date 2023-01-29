@@ -1,11 +1,18 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import WorksWeb from "../data/worksWeb.json";
 import WorksMobile from "../data/worksMobile.json";
 // import LuqmanHerifaV1 from "../images/luqmanherifav1.png";
 
 export default function Works() {
-  useEffect(function () {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
     document.title = "Works";
+
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, []);
 
   return (
@@ -29,24 +36,34 @@ export default function Works() {
               </h3>
             </div>
             <div className="flex justify-center">
-              <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
-                {WorksWeb.map((workWeb) => {
-                  return (
-                    <div
-                      key={workWeb.id}
-                      className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
-                    >
-                      <a href={workWeb.link} target="_blank" rel="noreferrer">
-                        <img
-                          src={workWeb.image}
-                          alt=""
-                          className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
-                        />
-                      </a>
-                    </div>
-                  );
-                })}
-              </div>
+              {loading ? (
+                <p className="text-white text-xl py-10 dark:text-slate-900 flex animate-pulse-fast">
+                  L
+                  <div className="animate-bounce-fast">
+                    <p>o</p>
+                  </div>
+                  ading...
+                </p>
+              ) : (
+                <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
+                  {WorksWeb.map((workWeb) => {
+                    return (
+                      <div
+                        key={workWeb.id}
+                        className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
+                      >
+                        <a href={workWeb.link} target="_blank" rel="noreferrer">
+                          <img
+                            src={workWeb.image}
+                            alt=""
+                            className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
+                          />
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -58,28 +75,38 @@ export default function Works() {
               </h3>
             </div>
             <div className="flex justify-center">
-              <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
-                {WorksMobile.map((workMobile) => {
-                  return (
-                    <div
-                      key={workMobile.id}
-                      className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
-                    >
-                      <a
-                        href={workMobile.link}
-                        target="_blank"
-                        rel="noreferrer"
+              {loading ? (
+                <p className="text-white text-xl py-10 dark:text-slate-900 flex animate-pulse-fast">
+                  L
+                  <div className="animate-bounce-fast">
+                    <p>o</p>
+                  </div>
+                  ading...
+                </p>
+              ) : (
+                <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
+                  {WorksMobile.map((workMobile) => {
+                    return (
+                      <div
+                        key={workMobile.id}
+                        className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
                       >
-                        <img
-                          src={workMobile.image}
-                          alt=""
-                          className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
-                        />
-                      </a>
-                    </div>
-                  );
-                })}
-              </div>
+                        <a
+                          href={workMobile.link}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img
+                            src={workMobile.image}
+                            alt=""
+                            className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
+                          />
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>

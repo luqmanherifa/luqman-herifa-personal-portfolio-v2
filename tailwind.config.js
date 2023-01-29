@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: {
         pattern: "url('/src/images/pattern.png')",
       },
+      animation: {
+        "bounce-fast": "bounce 0.3s infinite",
+        "pulse-fast": "pulse 0.8s infinite",
+      },
     },
     screens: {
       "2xl": { max: "1535px" },
