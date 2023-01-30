@@ -12,5 +12,19 @@
     "name": "Winzard: Play and Learn Biology",
     "link": "https://github.com/luqmanherifa/winzard-play-and-learn-biology",
     "image": "https://cdn.dribbble.com/users/6699911/screenshots/20504269/media/75e6f88009259f53a99e2ff61399672f.png"
+  },
+  {
+    "id": 3,
+    "category": "mobile",
+    "name": "Starfield: Library Catalog",
+    "link": "https://github.com/luqmanherifa/starfield-library-catalog",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_starfield.png"
+  },
+  {
+    "id": 4,
+    "category": "mobile",
+    "name": "Wendy: Bookstore Catalog",
+    "link": "https://github.com/luqmanherifa/wendy-bookstore-catalog",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_wendy.png"
   }
 ]
