@@ -18,7 +18,7 @@ export default function Works() {
   return (
     <section className="pb-20 sm:pb-10">
       <div>
-        <div className="max-w-3xl mx-auto pt-9 sm:pt-9 sm:max-w-xs">
+        <div className="max-w-3xl mx-auto pt-9 sm:pt-9 sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
           <h2 className="font-bold text-3xl mb-7 text-indigo-400 bg-indigo-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2 dark:bg-indigo-400/20">
             Works
           </h2>
@@ -29,9 +29,9 @@ export default function Works() {
           </div>
         </div>
         <div>
-          <div className="mx-auto border border-slate-700 max-w-5xl py-12 my-7 rounded-xl sm:max-w-xs sm:py-6 sm:my-6 dark:border-slate-400">
+          <div className="mx-auto border border-slate-700 max-w-5xl py-12 my-7 rounded-none sm:py-6 sm:my-6 dark:border-slate-400 sm:max-w-xs md:max-w-lg lg:max-w-xl">
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-7 text-yellow-400 bg-yellow-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 dark:bg-yellow-400/20">
+              <h3 className="font-bold text-xl mb-7 text-yellow-400 bg-yellow-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 sm:text-base dark:bg-yellow-400/20">
                 Web Development
               </h3>
             </div>
@@ -50,7 +50,7 @@ export default function Works() {
                     return (
                       <div
                         key={workWeb.id}
-                        className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
+                        className="max-w-md overflow-hidden group relative rounded-2xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem] sm:rounded-lg"
                       >
                         <a href={workWeb.link} target="_blank" rel="noreferrer">
                           <img
@@ -68,9 +68,9 @@ export default function Works() {
           </div>
         </div>
         <div>
-          <div className="mx-auto border border-slate-700 max-w-5xl py-10 my-10 rounded-xl sm:max-w-xs sm:py-6 sm:my-6 dark:border-slate-400">
+          <div className="mx-auto border border-slate-700 max-w-5xl py-10 my-10 rounded-none sm:py-6 sm:my-6 dark:border-slate-400 sm:max-w-xs md:max-w-lg lg:max-w-xl">
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-7 text-teal-400 bg-teal-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 dark:bg-teal-400/20">
+              <h3 className="font-bold text-xl mb-7 text-teal-400 bg-teal-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 sm:text-base dark:bg-teal-400/20">
                 Mobile Development
               </h3>
             </div>
@@ -89,7 +89,7 @@ export default function Works() {
                     return (
                       <div
                         key={workMobile.id}
-                        className="max-w-md overflow-hidden group relative rounded-xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem]"
+                        className="max-w-md overflow-hidden group relative rounded-2xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem] sm:rounded-lg"
                       >
                         <a
                           href={workMobile.link}

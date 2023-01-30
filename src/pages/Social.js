@@ -8,7 +8,7 @@ export default function Social() {
 
   return (
     <section className="pb-20 sm:pb-10">
-      <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:max-w-xs sm:pt-9">
+      <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:pt-9 sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
         <div className="max-w-3xl">
           <h2 className="font-bold text-3xl mb-7 text-pink-400 bg-pink-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2 dark:bg-pink-400/20">
             Social
@@ -23,7 +23,7 @@ export default function Social() {
               <thead>
                 <tr className="border border-slate-700 dark:border-slate-400">
                   <th className="px-8 py-3 text-left sm:px-4">Social</th>
-                  <th className="px-3 py-3 text-left w-96 sm:px-1">Link</th>
+                  <th className="px-3 py-3 text-left w-96 sm:px-1">URL</th>
                 </tr>
               </thead>
               <tbody>
@@ -34,8 +34,8 @@ export default function Social() {
                       className="border border-slate-700 dark:border-slate-400"
                     >
                       <td className="px-8 py-3 sm:px-4">{social.social}</td>
-                      <td className="px-3 py-3 text-sky-500 sm:px-1 hover:text-sky-300 dark:hover:text-sky-600">
-                        <a href={social.link} target="_blank" rel="noreferrer">
+                      <td className="px-3 py-3 text-sky-500 sm:px-1 hover:text-sky-300 dark:hover:text-sky-800">
+                        <a href={social.url} target="_blank" rel="noreferrer">
                           {social.display}
                         </a>
                       </td>

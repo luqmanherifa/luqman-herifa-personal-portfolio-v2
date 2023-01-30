@@ -8,7 +8,7 @@ export default function NotFound() {
 
   return (
     <section className="pb-28 flex justify-center sm:pb-10">
-      <div className="pt-36 text-center sm:max-w-xs">
+      <div className="pt-36 text-center sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
         <h1 className="text-white font-bold text-6xl tracking-tight dark:text-slate-600">
           Ups! Page Not Found :(
         </h1>

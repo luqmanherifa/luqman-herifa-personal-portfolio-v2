@@ -25,23 +25,23 @@ function App() {
 
   return (
     <div className="app min-h-screen bg-slate-900 dark:bg-white">
-      <section className="sm:border-b sm:border-slate-700">
-        <div className="h-20 text-white flex items-center justify-between mx-auto max-w-6xl sm:max-w-xs sm:h-16">
+      <section className="sm:border-b sm:border-slate-700 md:border-b md:border-slate-700 lg:border-b lg:border-slate-700 dark:border-slate-400">
+        <div className="h-20 text-white flex items-center justify-between mx-auto max-w-6xl sm:h-16 sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
           <div>
             <a
               href="https://luqmanherifa.site"
               className="flex gap-3 items-center"
             >
               <img src={icon} alt="icon" className="w-8 sm:w-7" />
-              <p className="font-bold text-lg sm:hidden dark:text-slate-900">
+              {/* <p className="font-semibold text-lg sm:hidden dark:text-slate-600">
                 Luqman Herifa
-              </p>
+              </p> */}
             </a>
           </div>
-          <nav className="flex gap-8 font-semibold text-sm sm:gap-3 sm:text-xs dark:text-slate-700">
+          <nav className="flex gap-8 font-medium text-sm sm:text-xs dark:text-slate-700 sm:font-normal md:font-normal lg:font-normal sm:gap-3 md:gap-4 lg:gap-5">
             <Link
               to="/"
-              className="hover:text-slate-300 dark:hover:text-slate-500"
+              className="hover:text-slate-300 dark:hover:text-slate-400"
             >
               Home
             </Link>
@@ -56,7 +56,7 @@ function App() {
             </Link>
             <div className="flex items-center">
               <button
-                className="bg-white dark:bg-slate-900 rounded-full p-1"
+                className="bg-white hover:bg-slate-300 dark:bg-slate-600 dark:hover:bg-slate-400 rounded-full p-1"
                 onClick={handleThemeSwitch}
               ></button>
             </div>
