@@ -22,9 +22,9 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
   
 - ### Colors
-  - ![#22D3EE](https://placehold.co/20x20/22D3EE/22D3EE.png)  #22D3EE
-  - ![#818CF8](https://placehold.co/20x20/818CF8/818CF8.png)  #818CF8
-  - ![#F472B6](https://placehold.co/20x20/F472B6/F472B6.png)  #F472B6
+  - ![#EC4899](https://placehold.co/20x20/EC4899/EC4899.png)  #EC4899
+  - ![#6366F1](https://placehold.co/20x20/6366F1/6366F1.png)  #6366F1
+  - ![#EC4899](https://placehold.co/20x20/EC4899/EC4899.png)  #EC4899
   - ![#0F172A](https://placehold.co/20x20/0F172A/0F172A.png)  #0F172A
 
   
