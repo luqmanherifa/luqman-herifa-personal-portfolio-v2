@@ -4,7 +4,7 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
 
 ## Display
 
-![Display]()
+![Display](https://cdn.dribbble.com/users/6699911/screenshots/20579690/media/aad6c64cce6385b8e44be0ca876b989f.png)
 
 ## Software
 
@@ -27,10 +27,12 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
 - ### Font
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
 - ### Colors
+
   - ![#06B6D4](https://placehold.co/20x20/06B6D4/06B6D4.png)  #06B6D4
   - ![#6366F1](https://placehold.co/20x20/6366F1/6366F1.png)  #6366F1
   - ![#EC4899](https://placehold.co/20x20/EC4899/EC4899.png)  #EC4899
   - ![#0F172A](https://placehold.co/20x20/0F172A/0F172A.png)  #0F172A
+
 - ### Tools
   - Figma
 
