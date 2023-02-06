@@ -8,21 +8,21 @@ export default function About() {
 
   return (
     <section className="pb-20 sm:pb-10">
-      <div className="max-w-6xl mx-auto flex justify-center pt-9 sm:pt-9 sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
+      <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="font-bold text-3xl mb-7 text-cyan-400 bg-cyan-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2 dark:bg-cyan-400/20">
+          <h2 className="mb-7 inline-block rounded-full bg-cyan-400/10 px-7 py-3 text-3xl font-bold text-cyan-400 dark:bg-cyan-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl">
             About Me
           </h2>
-          <div className="flex sm:block md:block lg:block">
-            <div className="mr-7 overflow-hidden group relative max-w-[200px] rounded-2xl hover:scale-95 transition-all duration-500 sm:mx-auto sm:mb-7 sm:max-w-[100px] sm:rounded-lg md:mb-7 md:max-w-[100px] md:rounded-lg lg:mb-7 lg:max-w-[100px] lg:rounded-lg">
+          <div className="flex lg:block md:block sm:block">
+            <div className="group relative mr-7 max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:max-w-[100px] lg:rounded-lg md:mb-7 md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:max-w-[100px] sm:rounded-lg">
               <img
                 src={Profile}
                 alt="about"
-                className="cursor-pointer group-hover:scale-125 transition-all duration-500"
+                className="cursor-pointer transition-all duration-500 group-hover:scale-125"
               />
             </div>
             <div>
-              <p className="text-slate-400 mb-4 dark:text-slate-600">
+              <p className="mb-4 text-slate-400 dark:text-slate-600">
                 Halo, my name is Luqman. I just graduated from Computer Science
                 Study Program at Sekolah Tinggi Informatika dan Komputer
                 Indonesia Malang. I have an interest and hobby in computers and

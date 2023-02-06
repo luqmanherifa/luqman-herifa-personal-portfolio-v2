@@ -18,26 +18,24 @@ export default function Works() {
   return (
     <section className="pb-20 sm:pb-10">
       <div>
-        <div className="max-w-3xl mx-auto pt-9 sm:pt-9 sm:max-w-xs md:max-w-lg lg:max-w-xl xl:max-w-4xl">
-          <h2 className="font-bold text-3xl mb-7 text-indigo-400 bg-indigo-400/10 rounded-full px-7 py-3 inline-block sm:flex sm:justify-center sm:text-2xl sm:py-2 dark:bg-indigo-400/20">
+        <div className="mx-auto max-w-3xl pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
+          <h2 className="mb-7 inline-block rounded-full bg-indigo-400/10 px-7 py-3 text-3xl font-bold text-indigo-400 dark:bg-indigo-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl">
             Works
           </h2>
           <div>
-            <p className="text-slate-400 dark:text-slate-600">
-              Here are some of my works.
-            </p>
+            <p className="text-slate-400 dark:text-slate-600">Here are some of my works.</p>
           </div>
         </div>
         <div>
-          <div className="mx-auto border border-slate-700 max-w-5xl py-12 my-7 rounded-none sm:py-6 sm:my-6 dark:border-slate-400 sm:max-w-xs md:max-w-lg lg:max-w-xl">
+          <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-6">
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-7 text-yellow-400 bg-yellow-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 sm:text-base dark:bg-yellow-400/20">
+              <h3 className="mb-7 inline-block rounded-full bg-yellow-400/10 px-5 py-2 text-xl font-bold text-yellow-400 dark:bg-yellow-400/20 sm:mb-5 sm:text-base">
                 Web Development
               </h3>
             </div>
             <div className="flex justify-center">
               {loading ? (
-                <p className="text-white text-xl py-10 dark:text-slate-900 flex animate-pulse-fast">
+                <p className="flex animate-pulse-fast py-10 text-xl text-white dark:text-slate-900">
                   L
                   <div className="animate-bounce-fast">
                     <p>o</p>
@@ -45,18 +43,18 @@ export default function Works() {
                   ading...
                 </p>
               ) : (
-                <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
+                <div className="flex max-w-5xl flex-wrap justify-center gap-7 sm:gap-5">
                   {WorksWeb.map((workWeb) => {
                     return (
                       <div
                         key={workWeb.id}
-                        className="max-w-md overflow-hidden group relative rounded-2xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem] sm:rounded-lg"
+                        className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
                       >
                         <a href={workWeb.link} target="_blank" rel="noreferrer">
                           <img
                             src={workWeb.image}
                             alt=""
-                            className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
+                            className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                           />
                         </a>
                       </div>
@@ -68,15 +66,15 @@ export default function Works() {
           </div>
         </div>
         <div>
-          <div className="mx-auto border border-slate-700 max-w-5xl py-10 my-10 rounded-none sm:py-6 sm:my-6 dark:border-slate-400 sm:max-w-xs md:max-w-lg lg:max-w-xl">
+          <div className="mx-auto my-10 max-w-5xl rounded-[2rem] border border-slate-700 py-10 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-6">
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-7 text-teal-400 bg-teal-400/10 rounded-full px-5 py-2 inline-block sm:mb-5 sm:text-base dark:bg-teal-400/20">
+              <h3 className="mb-7 inline-block rounded-full bg-teal-400/10 px-5 py-2 text-xl font-bold text-teal-400 dark:bg-teal-400/20 sm:mb-5 sm:text-base">
                 Mobile Development
               </h3>
             </div>
             <div className="flex justify-center">
               {loading ? (
-                <p className="text-white text-xl py-10 dark:text-slate-900 flex animate-pulse-fast">
+                <p className="flex animate-pulse-fast py-10 text-xl text-white dark:text-slate-900">
                   L
                   <div className="animate-bounce-fast">
                     <p>o</p>
@@ -84,22 +82,18 @@ export default function Works() {
                   ading...
                 </p>
               ) : (
-                <div className="flex gap-7 flex-wrap justify-center max-w-5xl sm:gap-5">
+                <div className="flex max-w-5xl flex-wrap justify-center gap-7 sm:gap-5">
                   {WorksMobile.map((workMobile) => {
                     return (
                       <div
                         key={workMobile.id}
-                        className="max-w-md overflow-hidden group relative rounded-2xl hover:scale-95 transition-all duration-500 sm:max-w-[16rem] sm:rounded-lg"
+                        className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
                       >
-                        <a
-                          href={workMobile.link}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
+                        <a href={workMobile.link} target="_blank" rel="noreferrer">
                           <img
                             src={workMobile.image}
                             alt=""
-                            className="cursor-pointer group-hover:scale-125 transition-all duration-500 group-hover:rotate-6"
+                            className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                           />
                         </a>
                       </div>
