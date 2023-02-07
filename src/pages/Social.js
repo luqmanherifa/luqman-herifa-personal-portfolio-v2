@@ -18,7 +18,7 @@ export default function Social() {
               I'm currently looking for new opportunities and experiences. If you have an offer, question, or just want to say halo, we can
               connect via social media and I'll try my best to get back to you!
             </p>
-            <div className="max-w-lg rounded-2xl border border-slate-700">
+            <div className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400">
               <table className="text-sm text-slate-400 dark:text-slate-600">
                 <thead>
                   <tr className="dark:border-slate-400">

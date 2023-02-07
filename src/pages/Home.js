@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <section className="pb-20 sm:pb-10">
-      <div className="mx-auto max-w-6xl bg-pattern bg-center bg-no-repeat py-28 dark:bg-none xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:bg-none sm:py-10">
+      <div className="mx-auto max-w-6xl bg-bgcolors bg-center bg-no-repeat py-28 xl:max-w-4xl lg:max-w-xl lg:bg-none md:max-w-lg md:bg-none sm:max-w-xs sm:bg-none sm:py-10">
         <div>
           <h1 className="mb-6 text-center text-6xl font-extrabold tracking-tight text-white dark:text-slate-900 sm:text-left sm:text-5xl sm:font-bold">
             Halo, selamat datang di <br className="lg:hidden md:hidden sm:hidden" />{" "}
