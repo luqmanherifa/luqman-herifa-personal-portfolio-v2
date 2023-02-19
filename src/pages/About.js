@@ -20,7 +20,7 @@ export default function About() {
             <div>
               <p className="mb-4 text-slate-400 dark:text-slate-600">
                 Halo! I'm Luqman. I recently graduated with a degree in Computer Science from Sekolah Tinggi Informatika dan Komputer
-                Indonesia Malang (STIKI Malang). I have 1.1 years of experience as an IT support and 6 months of internship as a mobile
+                Indonesia Malang (STIKI Malang). I have 1.2 years of experience as an IT support and 6 months of internship as a mobile
                 developer. I am currently enhancing my skills in web development and user interface design.
               </p>
               <p className="text-slate-400 dark:text-slate-600">
