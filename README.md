@@ -18,14 +18,11 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
   - Visual Studio Code
 
 ### Features
-  - Create Post
-  - Read Post
-  - Update Post
-  - Delete Post
   - Home Page
-  - Dashboard Page
-  - Log in
-  - Sign up
+  - About Page
+  - Works Page
+  - Social Page
+  - Dark Mode
 
 ## Design
 ### Font
