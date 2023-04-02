@@ -5,45 +5,55 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2-new.png)
 
 ## Software
-- ### Languages
+### Languages
   - JavaScript
   - HTML/CSS
 
-- ### Libraries
+### Libraries
   - React
   - Tailwind CSS
   - Google Fonts
 
-- ### Tools
+### Tools
   - Visual Studio Code
-  
+
+### Features
+  - Create Post
+  - Read Post
+  - Update Post
+  - Delete Post
+  - Home Page
+  - Dashboard Page
+  - Log in
+  - Sign up
+
 ## Design
-- ### Font
+### Font
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
   
-- ### Colors
+### Colors
   - ![#06B6D4](https://placehold.co/20x20/06B6D4/06B6D4.png)  #06B6D4
   - ![#6366F1](https://placehold.co/20x20/6366F1/6366F1.png)  #6366F1
   - ![#EC4899](https://placehold.co/20x20/EC4899/EC4899.png)  #EC4899
   - ![#0F172A](https://placehold.co/20x20/0F172A/0F172A.png)  #0F172A
 
-- ### Tools
+### Tools
   - Figma
 
 ## Build
-- ### Platform
+### Platform
   - Web
   
-- ### Deployment
+### Deployment
   - [Niagahoster](https://luqmanherifa.site)
   - [Netlify](https://luqmanherifav2-luqmanherifa.netlify.app)
 
-- ### Responsive
+### Responsive
   - Desktop
   - Mobile
   - Tablet
 
-- ### Date created
+### Date created
   - January 2023
   
 ## Social
