@@ -1,4 +1,4 @@
-# Luqman Herifa: Personal Portfolio v2 s
+# Luqman Herifa: Personal Portfolio v2
 Luqman Herifa is a personal portfolio v2 contains information about me, works, and social media contacts based on web. The project was developed for personal portfolio using React, JavaScript, Tailwind CSS, HTML/CSS, and others.
 
 ## Display
