@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import WorksWeb from "../data/worksWeb.json";
-import WorksMobile from "../data/worksMobile.json";
-// import LuqmanHerifaV1 from "../images/luqmanherifav1.png";
+import WorksWeb from "../data/works-web.json";
+import WorksMobile from "../data/works-mobile.json";
 
 export default function Works() {
   const [loading, setLoading] = useState(true);
@@ -36,10 +35,7 @@ export default function Works() {
             <div className="flex justify-center">
               {loading ? (
                 <p className="flex animate-pulse-fast py-10 text-xl text-white dark:text-slate-900">
-                  L
-                  <div className="animate-bounce-fast">
-                    <p>o</p>
-                  </div>
+                  L<span className="animate-bounce-fast">o</span>
                   ading...
                 </p>
               ) : (
@@ -75,10 +71,7 @@ export default function Works() {
             <div className="flex justify-center">
               {loading ? (
                 <p className="flex animate-pulse-fast py-10 text-xl text-white dark:text-slate-900">
-                  L
-                  <div className="animate-bounce-fast">
-                    <p>o</p>
-                  </div>
+                  L<span className="animate-bounce-fast">o</span>
                   ading...
                 </p>
               ) : (
