@@ -24,9 +24,9 @@ export default function About() {
                 developer. I am currently enhancing my skills in web development and user interface design.
               </p>
               <p className="text-slate-400 dark:text-slate-600">
-                I have skills and experience in front-end web development using technologies such as React, Tailwind CSS, JavaScript,
-                HTML/CSS, daisyUI, Bootstrap, Visual Studio Code, and Git; in mobile development using technologies such as Java, C#, MySQL,
-                Vuforia AR, Android Studio, and Unity; in user interface design using technologies such as Figma, CorelDRAW, and Blender.
+                I have skills and experience in web development using technologies such as React, JavaScript, Tailwind CSS, daisyUI,
+                Bootstrap, HTML/CSS, Laravel, PHP, MySQL, GitHub, and VS Code; in mobile development using technologies such as C#, Java,
+                Unity, and Android Studio; in user interface design using technologies such as Figma, CorelDRAW, and Blender.
               </p>
             </div>
           </div>
