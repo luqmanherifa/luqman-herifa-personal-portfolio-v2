@@ -52,7 +52,13 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
 
 ### Date created
   - January 2023
-  
+
+### How to run
+  - React
+```
+npm run start
+```
+
 ## Social
   - [Email](mailto:luqmanherifa@gmail.com)
   - [Instagram](https://www.instagram.com/luqmanherifa)
