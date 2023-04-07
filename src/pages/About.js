@@ -14,9 +14,9 @@ export default function About() {
             About Me
           </h2>
           <div className="flex lg:block md:block sm:block">
-            <div className="group relative mr-7 h-[211px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg">
+            <figure className="group relative mr-7 h-[217px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg">
               <img src={Profile} alt="about" className="cursor-pointer transition-all duration-500 group-hover:scale-125" />
-            </div>
+            </figure>
             <div>
               <p className="mb-4 text-slate-400 dark:text-slate-600">
                 Halo! I'm Luqman. I recently graduated with a degree in Computer Science from Sekolah Tinggi Informatika dan Komputer
