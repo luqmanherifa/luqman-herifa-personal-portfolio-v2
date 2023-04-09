@@ -14,7 +14,7 @@ export default function About() {
             About Me
           </h2>
           <div className="flex lg:block md:block sm:block">
-            <figure className="group relative mr-7 h-[217px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg">
+            <figure className="group relative mr-7 h-[213px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg">
               <img src={Profile} alt="about" className="cursor-pointer transition-all duration-500 group-hover:scale-125" />
             </figure>
             <div>
@@ -25,8 +25,8 @@ export default function About() {
               </p>
               <p className="text-slate-400 dark:text-slate-600">
                 I have skills and experience in web development using technologies such as React, JavaScript, Tailwind CSS, daisyUI,
-                Bootstrap, HTML/CSS, Laravel, PHP, MySQL, GitHub, and VS Code; in mobile development using technologies such as C#, Java,
-                Unity, and Android Studio; in user interface design using technologies such as Figma, CorelDRAW, and Blender.
+                Bootstrap, jQuery, HTML/CSS, Laravel, PHP, MySQL, GitHub, and VS Code; in mobile development using technologies such as C#,
+                Java, Unity, and Android Studio; in user interface design using technologies such as Figma, CorelDRAW, and Blender.
               </p>
             </div>
           </div>
