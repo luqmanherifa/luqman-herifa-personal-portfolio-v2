@@ -19,9 +19,10 @@ export default function About() {
             </figure>
             <div>
               <p className="mb-4 text-slate-400 dark:text-slate-600">
-                Halo! I'm Luqman. I recently graduated with a degree in Computer Science from Sekolah Tinggi Informatika dan Komputer
-                Indonesia Malang (STIKI Malang). I have 1.2 years of experience as an IT support and 6 months of internship as a mobile
-                developer. I am currently enhancing my skills in web development and user interface design.
+                I'm Luqman. I recently graduated with a degree in Computer Science from Sekolah Tinggi Informatika dan Komputer Indonesia
+                Malang (STIKI Malang). I have 1.2 years of experience as a web developer and user interface designer, 1.2 years of work as
+                an IT support, and 6 months of internship as a mobile developer. I am currently enhancing my skills in web development and
+                user interface design.
               </p>
               <p className="text-slate-400 dark:text-slate-600">
                 I have skills and experience in web development using technologies such as React, JavaScript, Tailwind CSS, daisyUI,
