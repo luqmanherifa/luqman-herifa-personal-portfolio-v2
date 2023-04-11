@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "category": "interface",
+    "name": "Quintess: Music Platform Landing Page",
+    "link": "https://www.figma.com/community/file/1227659850613172455",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_quintess.png"
+  },
+  {
+    "id": 2,
+    "category": "interface",
+    "name": "Senema: Movie Search Engine",
+    "link": "https://www.figma.com/community/file/1227657805104639200",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_senema.png"
+
+  },
+  {
+    "id": 3,
+    "category": "interface",
+    "name": "Sterna: Apparel Store Catalog",
+    "link": "https://www.figma.com/community/file/1223291608629407378",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_sterna.png"
+  },
+  {
+    "id": 4,
+    "category": "interface",
+    "name": "Paytails: Payment Section Page",
+    "link": "https://www.figma.com/community/file/1223283226201836158",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_paytails.png"
+  }
+]
