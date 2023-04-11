@@ -4,7 +4,7 @@
     "category": "web",
     "name": "Luqman Herifa: Personal Portfolio v2",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2-new.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2_new.png"
   },
   {
     "id": 2,
@@ -47,5 +47,12 @@
     "name": "Luqman Herifa: Personal Portfolio v1",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav1.png"
+  },
+  {
+    "id": 8,
+    "category": "web",
+    "name": "Damas: Student List v1",
+    "link": "https://github.com/luqmanherifa/damas-student-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damas.png"
   }
 ]
