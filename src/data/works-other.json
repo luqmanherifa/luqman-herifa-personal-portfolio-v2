@@ -2,15 +2,15 @@
   {
     "id": 1,
     "category": "web",
-    "name": "Luqman Herifa: Personal Portfolio v2",
-    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2_new.png"
+    "name": "Todos: To-Do List v2",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
   },
   {
     "id": 2,
     "category": "web",
-    "name": "Wordium: Writing Platform",
-    "link": "https://github.com/luqmanherifa/wordium-writing-platform",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_wordium.png"
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv1.png"
   }
 ]
