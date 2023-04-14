@@ -1,16 +1,58 @@
 [
   {
     "id": 1,
-    "category": "web",
+    "category": "other",
     "name": "Todos: To-Do List v2",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_paytails.png"
   },
   {
     "id": 2,
-    "category": "web",
+    "category": "other",
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
+  },
+  {
+    "id": 3,
+    "category": "other",
     "name": "Todos: To-Do List v1",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv1.png"
+  },
+  {
+    "id": 4,
+    "category": "other",
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_mathelp.png"
+  },
+  {
+    "id": 5,
+    "category": "other",
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_kopipedia.png"
+  },
+  {
+    "id": 6,
+    "category": "other",
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_reeva.png"
+  },
+  {
+    "id": 7,
+    "category": "other",
+    "name": "Todos: To-Do List v1",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_progateclone.png"
+  },
+  {
+    "id": 8,
+    "category": "other",
+    "name": "Damas: Student List v1",
+    "link": "https://github.com/luqmanherifa/damas-student-list-v1",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damas.png"
   }
 ]
