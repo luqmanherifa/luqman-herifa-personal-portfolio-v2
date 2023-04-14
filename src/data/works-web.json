@@ -2,23 +2,23 @@
   {
     "id": 1,
     "category": "web",
-    "name": "Luqman Herifa: Personal Portfolio v2",
-    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2_new.png"
-  },
-  {
-    "id": 2,
-    "category": "web",
     "name": "Wordium: Writing Platform",
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_wordium.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "category": "web",
     "name": "NoTimeToNews: News Portal",
     "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_notimetonews.png"
+  },
+  {
+    "id": 3,
+    "category": "web",
+    "name": "Luqman Herifa: Personal Portfolio v2",
+    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2.png"
   },
   {
     "id": 4,

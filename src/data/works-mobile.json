@@ -18,13 +18,13 @@
     "category": "mobile",
     "name": "Starfield: Library Catalog",
     "link": "https://github.com/luqmanherifa/starfield-library-catalog",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_starfield_new.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_starfield.png"
   },
   {
     "id": 4,
     "category": "mobile",
     "name": "Wendy: Bookstore Catalog",
     "link": "https://github.com/luqmanherifa/wendy-bookstore-catalog",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_wendy_new.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_wendy.png"
   }
 ]
