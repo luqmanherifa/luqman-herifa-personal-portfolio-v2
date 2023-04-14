@@ -2,15 +2,15 @@
   {
     "id": 1,
     "category": "other",
-    "name": "Todos: To-Do List v2",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
+    "name": "Paytails: Payment Section Page",
+    "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_paytails.png"
   },
   {
     "id": 2,
     "category": "other",
-    "name": "Todos: To-Do List v1",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "name": "Todos: To-Do List v2",
+    "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
   },
   {
@@ -23,29 +23,29 @@
   {
     "id": 4,
     "category": "other",
-    "name": "Todos: To-Do List v1",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "name": "Mathelp: Math Calculator",
+    "link": "https://github.com/luqmanherifa/mathelp-math-calculator",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_mathelp.png"
   },
   {
     "id": 5,
     "category": "other",
-    "name": "Todos: To-Do List v1",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "name": "Kopipedia: Coffee Shop Landing Page",
+    "link": "https://github.com/luqmanherifa/kopipedia-coffee-shop-landing-page",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_kopipedia.png"
   },
   {
     "id": 6,
     "category": "other",
-    "name": "Todos: To-Do List v1",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "name": "Reeva: Company Profile Landing Page",
+    "link": "https://github.com/luqmanherifa/reeva-company-profile-landing-page",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_reeva.png"
   },
   {
     "id": 7,
     "category": "other",
-    "name": "Todos: To-Do List v1",
-    "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
+    "name": "Progate: Landing Page Clone",
+    "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_progateclone.png"
   },
   {
