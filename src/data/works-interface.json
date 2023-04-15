@@ -1,35 +1,39 @@
 [
   {
     "id": 1,
-    "category": "interface",
+    "category": "Interface",
     "name": "Quintess: Music Platform Landing Page",
-    "nd_css": "mt-2 rounded-lg bg-indigo-400/10 py-2 px-3 text-sm text-indigo-400",
+    "css": "mt-2 rounded-lg bg-indigo-400/10 py-2 px-3 text-sm text-indigo-400",
     "link": "https://www.figma.com/community/file/1227659850613172455",
+    "live": "https://quintess-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_quintess.png"
   },
   {
     "id": 2,
-    "category": "interface",
+    "category": "Interface",
     "name": "Senema: Movie Search Engine",
-    "nd_css": "mt-2 rounded-lg bg-teal-400/10 py-2 px-3 text-sm text-teal-400",
+    "css": "mt-2 rounded-lg bg-teal-400/10 py-2 px-3 text-sm text-teal-400",
     "link": "https://www.figma.com/community/file/1227657805104639200",
+    "live": "https://senema-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_senema.png"
 
   },
   {
     "id": 3,
-    "category": "interface",
+    "category": "Interface",
     "name": "Sterna: Apparel Store Catalog",
-    "nd_css": "mt-2 rounded-lg bg-rose-400/10 py-2 px-3 text-sm text-rose-400",
+    "css": "mt-2 rounded-lg bg-rose-400/10 py-2 px-3 text-sm text-rose-400",
     "link": "https://www.figma.com/community/file/1223291608629407378",
+    "live": "https://sterna-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_sterna.png"
   },
   {
     "id": 4,
-    "category": "interface",
+    "category": "Interface",
     "name": "Paytails: Payment Section Page",
-    "nd_css": "mt-2 rounded-lg bg-yellow-400/10 py-2 px-3 text-sm text-yellow-400",
+    "css": "mt-2 rounded-lg bg-yellow-400/10 py-2 px-3 text-sm text-yellow-400 dark:text-yellow-500",
     "link": "https://www.figma.com/community/file/1223283226201836158",
+    "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_paytails.png"
   }
 ]

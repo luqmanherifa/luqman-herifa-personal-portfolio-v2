@@ -25,6 +25,7 @@ export default function Works() {
         <WorksInterfaceCp />
         <WorksOtherCp />
       </div>
+      <div className="hidden bg-teal-400/10 bg-rose-400/10 bg-sky-400/10 bg-emerald-400/10 bg-slate-400/10 bg-slate-400/10 bg-amber-400/10 bg-green-400/10 text-teal-400 text-rose-400 text-gray-300 text-sky-400 text-emerald-400 text-amber-400 text-green-400 text-slate-300 line-clamp-3 line-clamp-2 dark:text-gray-500 dark:text-yellow-500 dark:text-slate-500 dark:text-slate-500 dark:text-amber-600"></div>
     </section>
   );
 }

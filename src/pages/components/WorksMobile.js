@@ -40,13 +40,12 @@ export default function WorksMobileCp() {
                       </a>
                     </div>
                     <div className="max-w-md sm:max-w-[16rem]">
-                      <div className={workMobile.nd_css}>{workMobile.name}</div>
-                      <div className={workMobile.nd_css}>{workMobile.desc}</div>
+                      <div className={workMobile.css}>{workMobile.name}</div>
+                      <div className={workMobile.css}>{workMobile.desc}</div>
                       <div className="flex justify-between sm:block">
                         <div className="flex gap-2">
-                          <div className={workMobile.tech_css}>{workMobile.tech_1}</div>
-                          <div className={workMobile.tech_css}>{workMobile.tech_2}</div>
-                          <div className={workMobile.tech_css}>{workMobile.tech_3}</div>
+                          <div className={workMobile.css}>{workMobile.tech_1}</div>
+                          <div className={workMobile.css}>{workMobile.tech_2}</div>
                         </div>
                         <div className="flex gap-2">
                           <a href={workMobile.link} target="_blank" rel="noreferrer">

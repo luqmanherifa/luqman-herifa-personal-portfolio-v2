@@ -16,7 +16,7 @@ export default function WorksInterfaceCp() {
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-6">
         <div className="text-center">
           <h3 className="mb-7 inline-block rounded-full bg-blue-400/10 px-5 py-2 text-xl font-bold text-blue-400 dark:bg-blue-400/20 sm:mb-5 sm:text-base">
-            Interface Development
+            User Interface Design
           </h3>
         </div>
         <div className="flex justify-center">
@@ -40,13 +40,20 @@ export default function WorksInterfaceCp() {
                       </a>
                     </div>
                     <div className="max-w-md sm:max-w-[16rem]">
-                      <div className="flex justify-between sm:block">
-                        <div className={workInterface.nd_css}>{workInterface.name}</div>
-                        <a href={workInterface.link} target="_blank" rel="noreferrer">
-                          <div className="mt-2 rounded-lg bg-zinc-400/10 py-2 px-3 text-sm text-zinc-200 hover:bg-zinc-100 hover:text-zinc-700 dark:text-zinc-600 dark:hover:bg-zinc-300">
-                            Figma
-                          </div>
-                        </a>
+                      <div>
+                        <div className={workInterface.css}>{workInterface.name}</div>
+                        <div className="flex justify-end gap-2 sm:justify-start">
+                          <a href={workInterface.link} target="_blank" rel="noreferrer">
+                            <div className="mt-2 rounded-lg bg-zinc-400/10 py-2 px-3 text-sm text-zinc-200 hover:bg-zinc-100 hover:text-zinc-700 dark:text-zinc-600 dark:hover:bg-zinc-300">
+                              Figma
+                            </div>
+                          </a>
+                          <a href={workInterface.live} target="_blank" rel="noreferrer">
+                            <div className="mt-2 rounded-lg bg-zinc-400/10 py-2 px-3 text-sm text-zinc-200 hover:bg-zinc-100 hover:text-zinc-700 dark:text-zinc-600 dark:hover:bg-zinc-300">
+                              Live
+                            </div>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

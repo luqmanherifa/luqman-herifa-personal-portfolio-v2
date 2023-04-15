@@ -40,13 +40,13 @@ export default function WorksWebCp() {
                       </a>
                     </div>
                     <div className="max-w-md sm:max-w-[16rem]">
-                      <div className={workWeb.nd_css}>{workWeb.name}</div>
-                      <div className={workWeb.nd_css}>{workWeb.desc}</div>
+                      <div className={workWeb.css}>{workWeb.name}</div>
+                      <div className={workWeb.css}>{workWeb.desc}</div>
                       <div className="flex justify-between sm:block">
                         <div className="flex gap-2">
-                          <div className={workWeb.tech_css}>{workWeb.tech_1}</div>
-                          <div className={workWeb.tech_css}>{workWeb.tech_2}</div>
-                          <div className={workWeb.tech_css}>{workWeb.tech_3}</div>
+                          <div className={workWeb.css}>{workWeb.tech_1}</div>
+                          <div className={workWeb.css}>{workWeb.tech_2}</div>
+                          <div className={workWeb.css}>{workWeb.tech_3}</div>
                         </div>
                         <div className="flex gap-2">
                           <a href={workWeb.link} target="_blank" rel="noreferrer">
