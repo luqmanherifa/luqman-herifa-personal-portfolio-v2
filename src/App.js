@@ -30,9 +30,6 @@ function App() {
           <div>
             <a href="https://luqmanherifa.site" className="flex items-center gap-3">
               <img src={icon} alt="icon" className="w-8 sm:w-7" />
-              {/* <p className="font-semibold text-lg sm:hidden dark:text-slate-600">
-                Luqman Herifa
-              </p> */}
             </a>
           </div>
           <nav className="flex gap-8 text-sm font-medium dark:text-slate-700 lg:gap-5 lg:font-normal md:gap-4 md:font-normal sm:gap-3 sm:text-xs sm:font-normal">

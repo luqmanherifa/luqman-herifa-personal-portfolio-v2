@@ -3,11 +3,11 @@ import DataSocial from "../data/social.json";
 
 export default function Social() {
   useEffect(function () {
-    document.title = "Social";
+    document.title = "Luqman Herifa Social";
   }, []);
 
   return (
-    <section className="sm:pb-10">
+    <section className="sm:pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
           <h2 className="mb-7 inline-block rounded-full bg-pink-400/10 px-7 py-3 text-2xl font-bold text-pink-400 dark:bg-pink-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl">
