@@ -8,12 +8,12 @@ export default function WorksInterfaceCp() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 1000);
   }, []);
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-6">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <div className="text-center">
           <h3 className="mb-7 inline-block rounded-full bg-blue-400/10 px-5 py-2 text-xl font-bold text-blue-400 dark:bg-blue-400/20 sm:mb-5 sm:text-base">
             User Interface Design
@@ -40,9 +40,9 @@ export default function WorksInterfaceCp() {
                       </a>
                     </div>
                     <div className="max-w-md sm:max-w-[16rem]">
-                      <div>
+                      <div className="flex justify-between sm:block">
                         <div className={workInterface.css}>{workInterface.name}</div>
-                        <div className="flex justify-end gap-2 sm:justify-start">
+                        <div className="flex gap-2">
                           <a href={workInterface.link} target="_blank" rel="noreferrer">
                             <div className="mt-2 rounded-lg bg-zinc-400/10 py-2 px-3 text-sm text-zinc-200 hover:bg-zinc-100 hover:text-zinc-700 dark:text-zinc-600 dark:hover:bg-zinc-300">
                               Figma
