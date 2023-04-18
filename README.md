@@ -12,6 +12,7 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
 ### Libraries
   - React
   - Tailwind CSS
+  - Framer Motion
   - Google Fonts
 
 ### Tools
