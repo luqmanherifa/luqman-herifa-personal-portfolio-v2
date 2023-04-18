@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import DataSocial from "../data/social.json";
+import { motion } from "framer-motion";
 
-export default function Social() {
+function Social() {
   useEffect(function () {
     document.title = "Luqman Herifa Social";
   }, []);
@@ -10,15 +11,30 @@ export default function Social() {
     <section className="sm:pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <h2 className="mb-7 inline-block rounded-full bg-pink-400/10 px-7 py-3 text-2xl font-bold text-pink-400 dark:bg-pink-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl">
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ x: [-150, 0], opacity: 1 }}
+            transition={{ delay: 0 }}
+            className="mb-7 inline-block rounded-full bg-pink-400/10 px-7 py-3 text-2xl font-bold text-pink-400 dark:bg-pink-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl"
+          >
             Social
-          </h2>
+          </motion.h2>
           <div>
-            <p className="mb-7 text-slate-400 dark:text-slate-600">
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ x: [-150, 0], opacity: 1 }}
+              transition={{ delay: 0.1 }}
+              className="mb-7 text-slate-400 dark:text-slate-600"
+            >
               I'm currently looking for new opportunities and experiences. If you have an offer, question, or just want to say halo, we can
               connect via social media and I'll try my best to get back to you!
-            </p>
-            <div className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400">
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ x: [-150, 0], opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400"
+            >
               <table className="text-sm text-slate-400 dark:text-slate-600">
                 <thead>
                   <tr className="dark:border-slate-400">
@@ -41,10 +57,12 @@ export default function Social() {
                   })}
                 </tbody>
               </table>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
+export default Social;

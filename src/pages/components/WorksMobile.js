@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import WorksMobile from "../../data/works-mobile.json";
+import { motion } from "framer-motion";
 
-export default function WorksMobileCp() {
+function WorksMobileCp() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +31,14 @@ export default function WorksMobileCp() {
               {WorksMobile.map((workMobile) => {
                 return (
                   <div key={workMobile.id}>
-                    <div className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0,
+                      }}
+                      className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
+                    >
                       <a href={workMobile.link} target="_blank" rel="noreferrer">
                         <img
                           src={workMobile.image}
@@ -38,8 +46,15 @@ export default function WorksMobileCp() {
                           className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                         />
                       </a>
-                    </div>
-                    <div className="max-w-md sm:max-w-[16rem]">
+                    </motion.div>
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0.7,
+                      }}
+                      className="max-w-md sm:max-w-[16rem]"
+                    >
                       <div className={workMobile.css}>{workMobile.name}</div>
                       <div className={workMobile.css}>{workMobile.desc}</div>
                       <div className="flex justify-between sm:block">
@@ -60,7 +75,7 @@ export default function WorksMobileCp() {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </div>
                 );
               })}
@@ -71,3 +86,5 @@ export default function WorksMobileCp() {
     </div>
   );
 }
+
+export default WorksMobileCp;

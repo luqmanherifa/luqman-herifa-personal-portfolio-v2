@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import WorksWeb from "../../data/works-web.json";
+import { motion } from "framer-motion";
 
-export default function WorksWebCp() {
+function WorksWebCp() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +31,14 @@ export default function WorksWebCp() {
               {WorksWeb.map((workWeb) => {
                 return (
                   <div key={workWeb.id}>
-                    <div className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0,
+                      }}
+                      className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
+                    >
                       <a href={workWeb.link} target="_blank" rel="noreferrer">
                         <img
                           src={workWeb.image}
@@ -38,8 +46,15 @@ export default function WorksWebCp() {
                           className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                         />
                       </a>
-                    </div>
-                    <div className="max-w-md sm:max-w-[16rem]">
+                    </motion.div>
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0.7,
+                      }}
+                      className="max-w-md sm:max-w-[16rem]"
+                    >
                       <div className={workWeb.css}>{workWeb.name}</div>
                       <div className={workWeb.css}>{workWeb.desc}</div>
                       <div className="flex justify-between sm:block">
@@ -61,7 +76,7 @@ export default function WorksWebCp() {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </div>
                 );
               })}
@@ -72,3 +87,5 @@ export default function WorksWebCp() {
     </div>
   );
 }
+
+export default WorksWebCp;

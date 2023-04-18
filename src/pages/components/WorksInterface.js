@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import WorksInterface from "../../data/works-interface.json";
+import { motion } from "framer-motion";
 
-export default function WorksInterfaceCp() {
+function WorksInterfaceCp() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +31,14 @@ export default function WorksInterfaceCp() {
               {WorksInterface.map((workInterface) => {
                 return (
                   <div key={workInterface.id}>
-                    <div className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0,
+                      }}
+                      className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
+                    >
                       <a href={workInterface.link} target="_blank" rel="noreferrer">
                         <img
                           src={workInterface.image}
@@ -38,8 +46,15 @@ export default function WorksInterfaceCp() {
                           className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                         />
                       </a>
-                    </div>
-                    <div className="max-w-md sm:max-w-[16rem]">
+                    </motion.div>
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0.7,
+                      }}
+                      className="max-w-md sm:max-w-[16rem]"
+                    >
                       <div className="flex justify-between sm:block">
                         <div className={workInterface.css}>{workInterface.name}</div>
                         <div className="flex gap-2">
@@ -55,7 +70,7 @@ export default function WorksInterfaceCp() {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </div>
                 );
               })}
@@ -66,3 +81,5 @@ export default function WorksInterfaceCp() {
     </div>
   );
 }
+
+export default WorksInterfaceCp;

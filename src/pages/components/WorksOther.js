@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import WorksOther from "../../data/works-other.json";
+import { motion } from "framer-motion";
 
-export default function WorksOtherCp() {
+function WorksOtherCp() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,9 +14,9 @@ export default function WorksOtherCp() {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400  lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <div className="text-center">
-          <h3 className="mb-7 inline-block rounded-full bg-gray-400/10 px-5 py-2 text-xl font-bold text-gray-300 dark:bg-gray-400/20 sm:mb-5 sm:text-base">
+          <h3 className="mb-7 inline-block rounded-full bg-gray-400/10 px-5 py-2 text-xl font-bold text-gray-300 dark:bg-gray-400/20 dark:text-gray-500 sm:mb-5 sm:text-base">
             Other Projects
           </h3>
         </div>
@@ -30,7 +31,14 @@ export default function WorksOtherCp() {
               {WorksOther.map((workOther) => {
                 return (
                   <div key={workOther.id}>
-                    <div className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0,
+                      }}
+                      className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
+                    >
                       <a href={workOther.link} target="_blank" rel="noreferrer">
                         <img
                           src={workOther.image}
@@ -38,8 +46,15 @@ export default function WorksOtherCp() {
                           className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                         />
                       </a>
-                    </div>
-                    <div className="max-w-md sm:max-w-[16rem]">
+                    </motion.div>
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{
+                        delay: 0.7,
+                      }}
+                      className="max-w-md sm:max-w-[16rem]"
+                    >
                       <div className={workOther.css}>{workOther.name}</div>
                       <div className={workOther.css}>{workOther.desc}</div>
                       <div className="flex justify-between sm:block">
@@ -61,7 +76,7 @@ export default function WorksOtherCp() {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </div>
                 );
               })}
@@ -72,3 +87,5 @@ export default function WorksOtherCp() {
     </div>
   );
 }
+
+export default WorksOtherCp;
