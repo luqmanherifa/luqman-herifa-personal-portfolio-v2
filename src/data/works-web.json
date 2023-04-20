@@ -93,14 +93,14 @@
   {
     "id": 8,
     "category": "Web",
-    "name": "Damas: Student List v1",
-    "desc": "Damas is a student database v1 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP using PHP and MySQL.",
-    "tech_1": "PHP",
-    "tech_2": "MySQL",
-    "tech_3": "jQuery",
+    "name": "Simpro: Profile and Blog",
+    "desc": "Simpro is a profile and blog articles based on web, developed individually for practicing React using React, JavaScript, and HTML/CSS.",
+    "tech_1": "React",
+    "tech_2": "JavaScript",
+    "tech_3": "HTML/CSS",
     "css": "mt-2 rounded-lg bg-gray-400/10 py-2 px-3 text-sm text-gray-300 dark:text-gray-500 line-clamp-3",
-    "link": "https://github.com/luqmanherifa/damas-student-list-v1",
-    "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damas.png"
+    "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
+    "live": "https://simpro-luqmanherifa.netlify.app",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_simpro.png"
   }
 ]
