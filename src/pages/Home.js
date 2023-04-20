@@ -7,12 +7,12 @@ function Home() {
   }, []);
 
   return (
-    <section className="sm:pb-20">
+    <section className="pb-20">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0 }}
-        className="mx-auto max-w-6xl bg-bgcolors bg-center bg-no-repeat py-28 xl:max-w-4xl lg:max-w-xl lg:bg-none md:max-w-lg md:bg-none sm:max-w-xs sm:bg-none sm:py-10"
+        className="mx-auto max-w-6xl bg-bgcolors bg-center bg-no-repeat py-28 xl:max-w-4xl lg:max-w-xl lg:bg-none lg:py-9 md:max-w-lg md:bg-none md:py-9 sm:max-w-xs sm:bg-none sm:py-9"
       >
         <div>
           <motion.h1

@@ -11,7 +11,7 @@ function Works() {
   }, []);
 
   return (
-    <section className="pb-20 sm:pb-20">
+    <section className="pb-20">
       <div>
         <div className="mx-auto max-w-3xl pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
           <motion.h2

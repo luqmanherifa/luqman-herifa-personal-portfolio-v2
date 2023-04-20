@@ -8,7 +8,7 @@ function NotFound() {
   }, []);
 
   return (
-    <section className="flex justify-center sm:pb-20">
+    <section className="flex justify-center pb-20">
       <div className="pt-24 text-center xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs">
         <motion.h1
           initial={{ scale: 0 }}

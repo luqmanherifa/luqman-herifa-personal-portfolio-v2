@@ -31,27 +31,20 @@ function WorksWebCp() {
               {WorksWeb.map((workWeb) => {
                 return (
                   <div key={workWeb.id}>
-                    <motion.div
-                      initial={{ scale: 0 }}
-                      animate={{ scale: 1 }}
-                      transition={{
-                        delay: 0,
-                      }}
-                      className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg"
-                    >
-                      <a href={workWeb.link} target="_blank" rel="noreferrer">
+                    <a href={workWeb.link} target="_blank" rel="noreferrer">
+                      <figure className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
                         <img
                           src={workWeb.image}
                           alt=""
                           className="cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125"
                         />
-                      </a>
-                    </motion.div>
+                      </figure>
+                    </a>
                     <motion.div
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{
-                        delay: 0.7,
+                        delay: 0.5,
                       }}
                       className="max-w-md sm:max-w-[16rem]"
                     >

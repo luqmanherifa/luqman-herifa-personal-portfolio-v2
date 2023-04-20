@@ -8,7 +8,7 @@ function About() {
   }, []);
 
   return (
-    <section className="sm:pb-20">
+    <section className="pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
           <motion.h2
