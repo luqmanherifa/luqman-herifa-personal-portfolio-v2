@@ -93,7 +93,7 @@
     "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v1",
     "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damasv1.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv1.png"
   },
   {
     "id": 9,
@@ -105,6 +105,42 @@
     "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v2",
     "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damasv2.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv2.png"
+  },
+  {
+    "id": 10,
+    "category": "Mobile",
+    "name": "Hepoca: Hero Power Calculator",
+    "desc": "Hepoca is a hero power calculator app based on Android, developed individually for college project using Java.",
+    "tech_1": "Java",
+    "tech_2": "Android Studio",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "link": "https://github.com/luqmanherifa/hepoca-hero-power-calculator",
+    "live": "https://bit.ly/hepoca-appetize",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_hepoca.png"
+  },
+  {
+    "id": 11,
+    "category": "Mobile",
+    "name": "Beemi: Ideal Weight Calculator",
+    "desc": "Beemi is an ideal weight/BMI calculator app based on Android, developed individually for college project using Java.",
+    "tech_1": "Java",
+    "tech_2": "Android Studio",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "link": "https://github.com/luqmanherifa/beemi-ideal-weight-calculator",
+    "live": "https://bit.ly/beemi-appetize",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_beemi.png"
+  },
+  {
+    "id": 12,
+    "category": "Mobile",
+    "name": "Godel: Instant Text Friend",
+    "desc": "Godel is an instant text friend app based on Android, developed individually for have fun using Java.",
+    "tech_1": "Java",
+    "tech_2": "Android Studio",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-pink-400/10 text-pink-400",
+    "link": "https://github.com/luqmanherifa/godel-instant-text-friend",
+    "live": "https://bit.ly/godel-appetize",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_godel.png"
   }
 ]
