@@ -6,7 +6,7 @@
     "desc": "Paytails is a payment details section page based on web, developed individually for practicing HTML form validation using HTML/CSS.",
     "tech_1": "HTML",
     "tech_2": "CSS",
-    "css": "mt-2 rounded-lg bg-yellow-400/10 py-2 px-3 text-sm text-yellow-400 dark:text-yellow-500 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
     "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_paytails.png"
@@ -18,7 +18,7 @@
     "desc": "Todos is a to-do list v2 app based on web, developed individually for practicing React using React, JavaScript, and HTML/CSS.",
     "tech_1": "React",
     "tech_2": "JavaScript",
-    "css": "mt-2 rounded-lg bg-emerald-400/10 py-2 px-3 text-sm text-emerald-400 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-emerald-400/10 text-emerald-400",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
     "live": "https://todosv2-luqmanherifa.netlify.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
@@ -30,7 +30,7 @@
     "desc": "Todos is a to-do list v1 app based on web, developed individually for online course using JavaScript and HTML/CSS.",
     "tech_1": "JavaScript",
     "tech_2": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-slate-400/10 py-2 px-3 text-sm text-slate-300 dark:text-slate-500 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
     "live": "https://todosv1-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv1.png"
@@ -42,7 +42,7 @@
     "desc": "Mathelp is a math calculator app based on web, developed individually for bootcamp course using JavaScript and HTML/CSS.",
     "tech_1": "JavaScript",
     "tech_2": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-blue-400/10 py-2 px-3 text-sm text-blue-400 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/mathelp-math-calculator",
     "live": "https://mathelp-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_mathelp.png"
@@ -54,7 +54,7 @@
     "desc": "Kopipedia is a coffee shop landing page based on web, developed by a team for bootcamp course using HTML/CSS.",
     "tech_1": "HTML",
     "tech_2": "CSS",
-    "css": "mt-2 rounded-lg bg-amber-400/10 py-2 px-3 text-sm text-amber-400 dark:text-amber-500 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-amber-400/10 text-amber-400 dark:text-amber-500",
     "link": "https://github.com/luqmanherifa/kopipedia-coffee-shop-landing-page",
     "live": "https://kopipedia-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_kopipedia.png"
@@ -66,7 +66,7 @@
     "desc": "Reeva is a company profile landing page based on web, developed individually for practicing Bootstrap using Bootstrap and HTML/CSS.",
     "tech_1": "Bootstrap",
     "tech_2": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-cyan-400/10 py-2 px-3 text-sm text-cyan-400 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-cyan-400/10 text-cyan-400",
     "link": "https://github.com/luqmanherifa/reeva-company-profile-landing-page",
     "live": "https://reeva-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_reeva.png"
@@ -78,21 +78,33 @@
     "desc": "Progate Clone is a Progate landing page clone based on web, developed individually for bootcamp course using HTML/CSS.",
     "tech_1": "HTML",
     "tech_2": "CSS",
-    "css": "mt-2 rounded-lg bg-green-400/10 py-2 px-3 text-sm text-green-400 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-green-400/10 text-green-400",
     "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "live": "https://progateclone-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_progateclone.png"
   },
   {
-    "id": 8,  
+    "id": 8,
     "category": "Web",
     "name": "Damas: Student List v1",
     "desc": "Damas is a student database v1 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP using PHP and MySQL.",
     "tech_1": "PHP",
     "tech_2": "MySQL",
-    "css": "mt-2 rounded-lg bg-gray-400/10 py-2 px-3 text-sm text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v1",
     "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damas.png"
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damasv1.png"
+  },
+  {
+    "id": 9,
+    "category": "Web",
+    "name": "Damas: Student List v2",
+    "desc": "Damas is a student database v2 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP MVC using PHP and MySQL.",
+    "tech_1": "PHP",
+    "tech_2": "MySQL",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "link": "https://github.com/luqmanherifa/damas-student-list-v2",
+    "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_damasv2.png"
   }
 ]

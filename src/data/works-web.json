@@ -7,7 +7,7 @@
     "tech_1": "Laravel",
     "tech_2": "Blade",
     "tech_3": "Tailwind",
-    "css": "mt-2 rounded-lg bg-blue-400/10 py-2 px-3 text-sm text-blue-400 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "live": "https://github.com/luqmanherifa/wordium-writing-platform",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_wordium.png"
@@ -20,7 +20,7 @@
     "tech_1": "React",
     "tech_2": "Laravel",
     "tech_3": "Tailwind",
-    "css": "mt-2 rounded-lg bg-yellow-400/10 py-2 px-3 text-sm text-yellow-400 dark:text-yellow-500 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
     "live": "https://github.com/luqmanherifa/wordium-writing-platform",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_notimetonews.png"
@@ -33,7 +33,7 @@
     "tech_1": "React",
     "tech_2": "JavaScript",
     "tech_3": "Tailwind",
-    "css": "mt-2 rounded-lg bg-slate-400/10 py-2 px-3 text-sm text-slate-300 dark:text-slate-500 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
     "live": "https://luqmanherifa.site",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2.png"
@@ -46,7 +46,7 @@
     "tech_1": "CSS",
     "tech_2": "HTML",
     "tech_3": "JavaScript",
-    "css": "mt-2 rounded-lg bg-indigo-400/10 py-2 px-3 text-sm text-indigo-400 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-indigo-400/10 text-indigo-400",
     "link": "https://github.com/luqmanherifa/quintess-music-platform-landing-page",
     "live": "https://quintess-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_quintess.png"
@@ -59,7 +59,7 @@
     "tech_1": "JavaScript",
     "tech_2": "jQuery",
     "tech_3": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-teal-400/10 py-2 px-3 text-sm text-teal-400 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-teal-400/10 text-teal-400",
     "link": "https://github.com/luqmanherifa/senema-movie-search-engine",
     "live": "https://senema-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_senema.png"
@@ -72,7 +72,7 @@
     "tech_1": "JavaScript",
     "tech_2": "jQuery",
     "tech_3": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-rose-400/10 py-2 px-3 text-sm text-rose-400 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-rose-400/10 text-rose-400",
     "link": "https://github.com/luqmanherifa/sterna-apparel-store-catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_sterna.png"
@@ -85,7 +85,7 @@
     "tech_1": "JavaScript",
     "tech_2": "Bootstrap",
     "tech_3": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-blue-400/10 py-2 px-3 text-sm text-blue-400 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav1.png"
@@ -98,7 +98,7 @@
     "tech_1": "React",
     "tech_2": "JavaScript",
     "tech_3": "HTML/CSS",
-    "css": "mt-2 rounded-lg bg-gray-400/10 py-2 px-3 text-sm text-gray-300 dark:text-gray-500 line-clamp-3",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-3 bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
     "live": "https://simpro-luqmanherifa.netlify.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_simpro.png"
