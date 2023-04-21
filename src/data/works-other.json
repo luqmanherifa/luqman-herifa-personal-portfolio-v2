@@ -50,6 +50,30 @@
   {
     "id": 5,
     "category": "Web",
+    "name": "Damas: Student List v1",
+    "desc": "Damas is a student database v1 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP using PHP and MySQL.",
+    "tech_1": "PHP",
+    "tech_2": "MySQL",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "link": "https://github.com/luqmanherifa/damas-student-list-v1",
+    "live": "http://damas-luqmanherifa.infinityfreeapp.com",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv1.png"
+  },
+  {
+    "id": 6,
+    "category": "Web",
+    "name": "Damas: Student List v2",
+    "desc": "Damas is a student database v2 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP MVC using PHP and MySQL.",
+    "tech_1": "PHP",
+    "tech_2": "MySQL",
+    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "link": "https://github.com/luqmanherifa/damas-student-list-v2",
+    "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
+    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv2.png"
+  },
+  {
+    "id": 7,
+    "category": "Web",
     "name": "Kopipedia: Coffee Shop Landing Page",
     "desc": "Kopipedia is a coffee shop landing page based on web, developed by a team for bootcamp course using HTML/CSS.",
     "tech_1": "HTML",
@@ -60,7 +84,7 @@
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_kopipedia.png"
   },
   {
-    "id": 6,
+    "id": 8,
     "category": "Web",
     "name": "Reeva: Company Profile Landing Page",
     "desc": "Reeva is a company profile landing page based on web, developed individually for practicing Bootstrap using Bootstrap and HTML/CSS.",
@@ -72,7 +96,7 @@
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_reeva.png"
   },
   {
-    "id": 7,
+    "id": 9,
     "category": "Web",
     "name": "Progate: Landing Page Clone",
     "desc": "Progate Clone is a Progate landing page clone based on web, developed individually for bootcamp course using HTML/CSS.",
@@ -82,30 +106,6 @@
     "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "live": "https://progateclone-luqmanherifa.vercel.app",
     "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_progateclone.png"
-  },
-  {
-    "id": 8,
-    "category": "Web",
-    "name": "Damas: Student List v1",
-    "desc": "Damas is a student database v1 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP using PHP and MySQL.",
-    "tech_1": "PHP",
-    "tech_2": "MySQL",
-    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
-    "link": "https://github.com/luqmanherifa/damas-student-list-v1",
-    "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv1.png"
-  },
-  {
-    "id": 9,
-    "category": "Web",
-    "name": "Damas: Student List v2",
-    "desc": "Damas is a student database v2 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP MVC using PHP and MySQL.",
-    "tech_1": "PHP",
-    "tech_2": "MySQL",
-    "css": "mt-2 rounded-lg py-2 px-3 text-sm line-clamp-2 bg-gray-400/10 text-gray-300 dark:text-gray-500",
-    "link": "https://github.com/luqmanherifa/damas-student-list-v2",
-    "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv2.png"
   },
   {
     "id": 10,
