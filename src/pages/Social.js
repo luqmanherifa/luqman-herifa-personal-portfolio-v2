@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import DataSocial from "../data/social.json";
 import { motion } from "framer-motion";
+import Title from "../components/Elements/Title.js";
 
 function Social() {
   useEffect(function () {
@@ -11,14 +12,7 @@ function Social() {
     <section className="pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <motion.h2
-            initial={{ opacity: 0 }}
-            animate={{ x: [-150, 0], opacity: 1 }}
-            transition={{ delay: 0 }}
-            className="mb-7 inline-block rounded-full bg-pink-400/10 px-7 py-3 text-2xl font-bold text-pink-400 dark:bg-pink-400/20 sm:flex sm:justify-center sm:py-2 sm:text-2xl"
-          >
-            Social
-          </motion.h2>
+          <Title classname="bg-pink-400/10 text-pink-400 dark:bg-pink-400/20" title="Social"></Title>
           <div>
             <motion.p
               initial={{ opacity: 0 }}
