@@ -19,7 +19,7 @@ function Home() {
             initial={{ opacity: 0 }}
             animate={{ y: [-100, 0], opacity: 1 }}
             transition={{ delay: 0 }}
-            className="mb-6 text-center text-6xl font-extrabold tracking-tight text-white dark:text-slate-900 sm:text-left sm:text-5xl sm:font-bold"
+            className="mb-6 text-center text-6xl font-extrabold tracking-tight text-slate-50 dark:text-slate-900 sm:text-left sm:text-5xl sm:font-bold"
           >
             Halo, selamat datang di <br className="lg:hidden md:hidden sm:hidden" />{" "}
             <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-pink-500 bg-clip-text text-transparent">Luqman Herifa</span>{" "}

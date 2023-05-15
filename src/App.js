@@ -24,9 +24,9 @@ function App() {
   };
 
   return (
-    <div className="app min-h-screen bg-slate-900 dark:bg-white">
+    <div className="app min-h-screen bg-slate-900 dark:bg-slate-50">
       <section className="dark:border-slate-400 lg:border-b lg:border-slate-700 md:border-b md:border-slate-700 sm:border-b sm:border-slate-700">
-        <div className="mx-auto flex h-20 max-w-6xl items-center justify-between text-white xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:h-16 sm:max-w-xs">
+        <div className="mx-auto flex h-20 max-w-6xl items-center justify-between text-slate-50 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:h-16 sm:max-w-xs">
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
@@ -69,7 +69,7 @@ function App() {
               className="flex items-center"
             >
               <button
-                className="rounded-full bg-white p-1 hover:bg-slate-300 dark:bg-slate-600 dark:hover:bg-slate-400"
+                className="rounded-full bg-slate-50 p-1 hover:bg-slate-300 dark:bg-slate-600 dark:hover:bg-slate-400"
                 onClick={handleThemeSwitch}
               ></button>
             </motion.div>

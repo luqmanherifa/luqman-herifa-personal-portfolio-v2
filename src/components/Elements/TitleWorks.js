@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const TitleWorks = (props) => {
   const { title, classname } = props;
   return (

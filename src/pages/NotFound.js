@@ -8,8 +8,8 @@ function NotFound() {
   }, []);
 
   return (
-    <section className="flex justify-center pb-20">
-      <div className="pt-24 text-center xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs">
+    <section className="flex min-h-screen items-center justify-center pb-20">
+      <div className="text-center xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs">
         <motion.h1
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -19,12 +19,9 @@ function NotFound() {
             damping: 20,
             delay: 0,
           }}
-          className="text-6xl font-bold tracking-tight text-white dark:text-slate-600"
+          className="text-6xl font-bold tracking-tight text-slate-50 dark:text-slate-600"
         >
-          Ups!
-          <br />
-          Page not found
-          <br /> :(
+          Ups! Page not found :(
         </motion.h1>
       </div>
     </section>
