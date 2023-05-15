@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Profile from "../images/profile.png";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title.js";
 
@@ -20,7 +19,7 @@ function About() {
               transition={{ delay: 0 }}
               className="group relative mr-7 h-[200px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg"
             >
-              <img src={Profile} alt="about" className="cursor-pointer transition-all duration-500 group-hover:scale-125" />
+              <img src="/profile.png" alt="about" className="cursor-pointer transition-all duration-500 group-hover:scale-125" />
             </motion.figure>
             <div>
               <motion.p

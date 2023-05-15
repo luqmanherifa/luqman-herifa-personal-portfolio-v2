@@ -8,8 +8,7 @@ module.exports = {
         jakarta: ["Plus Jakarta Sans"],
       },
       backgroundImage: {
-        bgpattern: "url('/src/images/bg_pattern.png')",
-        bgcolors: "url('/src/images/bg_colors.png')",
+        bgcolors: "url('/public/bg_colors.png')",
       },
       animation: {
         "bounce-fast": "bounce 0.3s infinite",

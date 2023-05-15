@@ -2,18 +2,6 @@
   {
     "id": 1,
     "category": "Web",
-    "name": "Paytails: Payment Section Page",
-    "desc": "Paytails is a payment details section page based on web, developed individually for practicing HTML form validation using HTML/CSS.",
-    "tech1": "HTML",
-    "tech2": "CSS",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500 line-clamp-2",
-    "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
-    "live": "https://paytails-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_paytails.png"
-  },
-  {
-    "id": 2,
-    "category": "Web",
     "name": "Todos: To-Do List v2",
     "desc": "Todos is a to-do list v2 app based on web, developed individually for practicing React using React, JavaScript, and HTML/CSS.",
     "tech1": "React",
@@ -21,10 +9,10 @@
     "css": "bg-emerald-400/10 text-emerald-400 line-clamp-2",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
     "live": "https://todosv2-luqmanherifa.netlify.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv2.png"
+    "image": "/works/other_todosv2.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "category": "Web",
     "name": "Todos: To-Do List v1",
     "desc": "Todos is a to-do list v1 app based on web, developed individually for online course using JavaScript and HTML/CSS.",
@@ -33,10 +21,10 @@
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
     "live": "https://todosv1-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_todosv1.png"
+    "image": "/works/other_todosv1.png"
   },
   {
-    "id": 4,
+    "id": 3,
     "category": "Web",
     "name": "Mathelp: Math Calculator",
     "desc": "Mathelp is a math calculator app based on web, developed individually for bootcamp course using JavaScript and HTML/CSS.",
@@ -45,10 +33,10 @@
     "css": "bg-blue-400/10 text-blue-400 line-clamp-2",
     "link": "https://github.com/luqmanherifa/mathelp-math-calculator",
     "live": "https://mathelp-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_mathelp.png"
+    "image": "/works/other_mathelp.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "category": "Web",
     "name": "Damas: Student List v1",
     "desc": "Damas is a student database v1 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP using PHP and MySQL.",
@@ -57,10 +45,10 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/damas-student-list-v1",
     "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv1.png"
+    "image": "/works/other_damasv1.png"
   },
   {
-    "id": 6,
+    "id": 5,
     "category": "Web",
     "name": "Damas: Student List v2",
     "desc": "Damas is a student database v2 contains create, read, update, and delete student information based on web. The project was developed for practicing PHP MVC using PHP and MySQL.",
@@ -69,7 +57,19 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/damas-student-list-v2",
     "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_damasv2.png"
+    "image": "/works/other_damasv2.png"
+  },
+  {
+    "id": 6,
+    "category": "Web",
+    "name": "Paytails: Payment Section Page",
+    "desc": "Paytails is a payment details section page based on web, developed individually for practicing HTML form validation using HTML/CSS.",
+    "tech1": "HTML",
+    "tech2": "CSS",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500 line-clamp-2",
+    "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
+    "live": "https://paytails-luqmanherifa.vercel.app",
+    "image": "/works/other_paytails.png"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "css": "bg-amber-400/10 text-amber-400 dark:text-amber-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/kopipedia-coffee-shop-landing-page",
     "live": "https://kopipedia-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_kopipedia.png"
+    "image": "/works/other_kopipedia.png"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "css": "bg-cyan-400/10 text-cyan-400 line-clamp-2",
     "link": "https://github.com/luqmanherifa/reeva-company-profile-landing-page",
     "live": "https://reeva-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_reeva.png"
+    "image": "/works/other_reeva.png"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "css": "bg-green-400/10 text-green-400 line-clamp-2",
     "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "live": "https://progateclone-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_progateclone.png"
+    "image": "/works/other_progateclone.png"
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/hepoca-hero-power-calculator",
     "live": "https://bit.ly/hepoca-appetize",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_hepoca.png"
+    "image": "/works/other_hepoca.png"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
     "link": "https://github.com/luqmanherifa/beemi-ideal-weight-calculator",
     "live": "https://bit.ly/beemi-appetize",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_beemi.png"
+    "image": "/works/other_beemi.png"
   },
   {
     "id": 12,
@@ -141,6 +141,6 @@
     "css": "bg-pink-400/10 text-pink-400 line-clamp-2",
     "link": "https://github.com/luqmanherifa/godel-instant-text-friend",
     "live": "https://bit.ly/godel-appetize",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/other_godel.png"
+    "image": "/works/other_godel.png"
   }
 ]

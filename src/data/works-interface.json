@@ -6,7 +6,7 @@
     "css": "bg-indigo-400/10 text-indigo-400",
     "link": "https://www.figma.com/community/file/1227659850613172455",
     "live": "https://quintess-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_quintess.png"
+    "image": "/works/interface_quintess.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "css": "bg-teal-400/10 text-teal-400",
     "link": "https://www.figma.com/community/file/1227657805104639200",
     "live": "https://senema-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_senema.png"
+    "image": "/works/interface_senema.png"
 
   },
   {
@@ -25,7 +25,7 @@
     "css": "bg-rose-400/10 py-2 text-rose-400",
     "link": "https://www.figma.com/community/file/1223291608629407378",
     "live": "https://sterna-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_sterna.png"
+    "image": "/works/interface_sterna.png"
   },
   {
     "id": 4,
@@ -34,6 +34,6 @@
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://www.figma.com/community/file/1223283226201836158",
     "live": "https://paytails-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/interface_paytails.png"
+    "image": "/works/interface_paytails.png"
   }
 ]

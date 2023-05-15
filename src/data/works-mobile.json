@@ -9,7 +9,7 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/swanify-learn-indonesian-spelling",
     "live": "https://bit.ly/swanify-googleplay",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_swanify.png"
+    "image": "/works/mobile_swanify.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/winzard-play-and-learn-biology",
     "live": "https://bit.ly/winzard-googleplay",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_winzard.png"
+    "image": "/works/mobile_winzard.png"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "css": "bg-sky-400/10  text-sky-400",
     "link": "https://github.com/luqmanherifa/starfield-library-catalog",
     "live": "https://bit.ly/starfield-appetize",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_starfield.png"
+    "image": "/works/mobile_starfield.png"
   },
   {
     "id": 4,
@@ -45,6 +45,6 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/wendy-bookstore-catalog",
     "live": "https://bit.ly/wendy-appetize",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/mobile_wendy.png"
+    "image": "/works/mobile_wendy.png"
   }
 ]

@@ -10,7 +10,7 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "live": "https://youtu.be/wsGFfr5GPbw",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_wordium.png"
+    "image": "/works/web_wordium.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
     "live": "https://youtu.be/DtDKl8th9u8",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_notimetonews.png"
+    "image": "/works/web_notimetonews.png"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
     "live": "https://luqmanherifa.site",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav2.png"
+    "image": "/works/web_luqmanherifav2.png"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "css": "bg-indigo-400/10 text-indigo-400",
     "link": "https://github.com/luqmanherifa/quintess-music-platform-landing-page",
     "live": "https://quintess-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_quintess.png"
+    "image": "/works/web_quintess.png"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "css": "bg-teal-400/10 text-teal-400",
     "link": "https://github.com/luqmanherifa/senema-movie-search-engine",
     "live": "https://senema-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_senema.png"
+    "image": "/works/web_senema.png"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "css": "bg-rose-400/10 text-rose-400",
     "link": "https://github.com/luqmanherifa/sterna-apparel-store-catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_sterna.png"
+    "image": "/works/web_sterna.png"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_luqmanherifav1.png"
+    "image": "/works/web_luqmanherifav1.png"
   },
   {
     "id": 8,
@@ -101,6 +101,6 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
     "live": "https://simpro-luqmanherifa.netlify.app",
-    "image": "https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_simpro.png"
+    "image": "/works/web_simpro.png"
   }
 ]
