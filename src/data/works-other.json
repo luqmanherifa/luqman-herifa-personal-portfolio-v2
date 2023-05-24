@@ -2,6 +2,18 @@
   {
     "id": 1,
     "category": "Web",
+    "name": "Simpro: Profile and Blog",
+    "desc": "Simpro is a profile and blog articles based on web, developed for practicing React using React, JavaScript, and HTML/CSS.",
+    "tech1": "React",
+    "tech2": "JavaScript",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
+    "live": "https://simpro-luqmanherifa.netlify.app",
+    "image": "/works/web_simpro.png"
+  },
+  {
+    "id": 2,
+    "category": "Web",
     "name": "Todos: To-Do List v2",
     "desc": "Todos is a to-do list v2 app based on web, developed for practicing React using React, JavaScript, and HTML/CSS.",
     "tech1": "React",
@@ -12,7 +24,7 @@
     "image": "/works/other_todosv2.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "category": "Web",
     "name": "Todos: To-Do List v1",
     "desc": "Todos is a to-do list v1 app based on web, developed for online course using JavaScript and HTML/CSS.",
@@ -24,7 +36,7 @@
     "image": "/works/other_todosv1.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "category": "Web",
     "name": "Mathelp: Math Calculator",
     "desc": "Mathelp is a math calculator app based on web, developed for bootcamp course using JavaScript and HTML/CSS.",
@@ -36,7 +48,7 @@
     "image": "/works/other_mathelp.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "category": "Web",
     "name": "Damas: Student List v1",
     "desc": "Damas is a student database v1 based on web, developed for practicing PHP using PHP and MySQL.",
@@ -48,7 +60,7 @@
     "image": "/works/other_damasv1.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "category": "Web",
     "name": "Damas: Student List v2",
     "desc": "Damas is a student database v2 based on web, developed for practicing PHP using PHP, MySQL, and Bootstrap.",
@@ -60,7 +72,19 @@
     "image": "/works/other_damasv2.png"
   },
   {
-    "id": 6,
+    "id": 7,
+    "category": "Web",
+    "name": "Itemu: Item List",
+    "desc": "Itemu is an item database based on web, developed for practicing React using React, JavaScript, and Bootstrap.",
+    "tech1": "React",
+    "tech2": "Bootstrap",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "link": "https://github.com/luqmanherifa/itemu-item-list",
+    "live": "https://itemu-luqmanherifa.netlify.app",
+    "image": "/works/uc_project.png"
+  },
+  {
+    "id": 8,
     "category": "Web",
     "name": "Paytails: Payment Section Page",
     "desc": "Paytails is a payment details section page based on web, developed for practicing HTML form validation using HTML/CSS.",
@@ -72,7 +96,7 @@
     "image": "/works/other_paytails.png"
   },
   {
-    "id": 7,
+    "id": 9,
     "category": "Web",
     "name": "Kopipedia: Coffee Shop Landing Page",
     "desc": "Kopipedia is a coffee shop landing page based on web, developed for bootcamp course by a team using HTML/CSS.",
@@ -84,7 +108,7 @@
     "image": "/works/other_kopipedia.png"
   },
   {
-    "id": 8,
+    "id": 10,
     "category": "Web",
     "name": "Reeva: Company Profile Landing Page",
     "desc": "Reeva is a company profile landing page based on web, developed for practicing Bootstrap using Bootstrap and HTML/CSS.",
@@ -96,7 +120,7 @@
     "image": "/works/other_reeva.png"
   },
   {
-    "id": 9,
+    "id": 11,
     "category": "Web",
     "name": "Progate Clone: Landing Page",
     "desc": "Progate Clone is a Progate landing page clone based on web, developed for bootcamp course using HTML/CSS.",
@@ -108,7 +132,7 @@
     "image": "/works/other_progateclone.png"
   },
   {
-    "id": 10,
+    "id": 12,
     "category": "Mobile",
     "name": "Hepoca: Hero Power Calculator",
     "desc": "Hepoca is a hero power calculator app based on Android, developed for college project using Java.",
@@ -120,7 +144,7 @@
     "image": "/works/other_hepoca.png"
   },
   {
-    "id": 11,
+    "id": 13,
     "category": "Mobile",
     "name": "Beemi: Ideal Weight Calculator",
     "desc": "Beemi is an ideal weight/BMI calculator app based on Android, developed for college project using Java.",
@@ -132,7 +156,7 @@
     "image": "/works/other_beemi.png"
   },
   {
-    "id": 12,
+    "id": 14,
     "category": "Mobile",
     "name": "Godel: Instant Text Friend",
     "desc": "Godel is an instant text friend app based on Android, developed for have fun using Java.",
