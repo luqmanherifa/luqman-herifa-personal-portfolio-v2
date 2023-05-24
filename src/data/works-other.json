@@ -6,7 +6,7 @@
     "desc": "Simpro is a profile and blog articles based on web, developed for practicing React using React, JavaScript, and HTML/CSS.",
     "tech1": "React",
     "tech2": "JavaScript",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
     "live": "https://simpro-luqmanherifa.netlify.app",
     "image": "/works/web_simpro.png"
@@ -18,7 +18,7 @@
     "desc": "Todos is a to-do list v2 app based on web, developed for practicing React using React, JavaScript, and HTML/CSS.",
     "tech1": "React",
     "tech2": "JavaScript",
-    "css": "bg-emerald-400/10 text-emerald-400 line-clamp-2",
+    "css": "bg-emerald-400/10 text-emerald-400",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
     "live": "https://todosv2-luqmanherifa.netlify.app",
     "image": "/works/other_todosv2.png"
@@ -30,7 +30,7 @@
     "desc": "Todos is a to-do list v1 app based on web, developed for online course using JavaScript and HTML/CSS.",
     "tech1": "JavaScript",
     "tech2": "HTML/CSS",
-    "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500 line-clamp-2",
+    "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
     "live": "https://todosv1-luqmanherifa.vercel.app",
     "image": "/works/other_todosv1.png"
@@ -42,7 +42,7 @@
     "desc": "Mathelp is a math calculator app based on web, developed for bootcamp course using JavaScript and HTML/CSS.",
     "tech1": "JavaScript",
     "tech2": "HTML/CSS",
-    "css": "bg-blue-400/10 text-blue-400 line-clamp-2",
+    "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/mathelp-math-calculator",
     "live": "https://mathelp-luqmanherifa.vercel.app",
     "image": "/works/other_mathelp.png"
@@ -54,7 +54,7 @@
     "desc": "Damas is a student database v1 based on web, developed for practicing PHP using PHP and MySQL.",
     "tech1": "PHP",
     "tech2": "MySQL",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v1",
     "live": "http://damas-luqmanherifa.infinityfreeapp.com",
     "image": "/works/other_damasv1.png"
@@ -66,7 +66,7 @@
     "desc": "Damas is a student database v2 based on web, developed for practicing PHP using PHP, MySQL, and Bootstrap.",
     "tech1": "PHP",
     "tech2": "MySQL",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v2",
     "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
     "image": "/works/other_damasv2.png"
@@ -78,7 +78,7 @@
     "desc": "Itemu is an item database based on web, developed for practicing React using React, JavaScript, and Bootstrap.",
     "tech1": "React",
     "tech2": "Bootstrap",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/itemu-item-list",
     "live": "https://itemu-luqmanherifa.netlify.app",
     "image": "/works/uc_project.png"
@@ -90,7 +90,7 @@
     "desc": "Paytails is a payment details section page based on web, developed for practicing HTML form validation using HTML/CSS.",
     "tech1": "HTML",
     "tech2": "CSS",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500 line-clamp-2",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
     "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "/works/other_paytails.png"
@@ -102,7 +102,7 @@
     "desc": "Kopipedia is a coffee shop landing page based on web, developed for bootcamp course by a team using HTML/CSS.",
     "tech1": "HTML",
     "tech2": "CSS",
-    "css": "bg-amber-400/10 text-amber-400 dark:text-amber-500 line-clamp-2",
+    "css": "bg-amber-400/10 text-amber-400 dark:text-amber-500",
     "link": "https://github.com/luqmanherifa/kopipedia-coffee-shop-landing-page",
     "live": "https://kopipedia-luqmanherifa.vercel.app",
     "image": "/works/other_kopipedia.png"
@@ -114,7 +114,7 @@
     "desc": "Reeva is a company profile landing page based on web, developed for practicing Bootstrap using Bootstrap and HTML/CSS.",
     "tech1": "Bootstrap",
     "tech2": "HTML/CSS",
-    "css": "bg-cyan-400/10 text-cyan-400 line-clamp-2",
+    "css": "bg-cyan-400/10 text-cyan-400",
     "link": "https://github.com/luqmanherifa/reeva-company-profile-landing-page",
     "live": "https://reeva-luqmanherifa.vercel.app",
     "image": "/works/other_reeva.png"
@@ -126,7 +126,7 @@
     "desc": "Progate Clone is a Progate landing page clone based on web, developed for bootcamp course using HTML/CSS.",
     "tech1": "HTML",
     "tech2": "CSS",
-    "css": "bg-green-400/10 text-green-400 line-clamp-2",
+    "css": "bg-green-400/10 text-green-400",
     "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "live": "https://progateclone-luqmanherifa.vercel.app",
     "image": "/works/other_progateclone.png"
@@ -138,7 +138,7 @@
     "desc": "Hepoca is a hero power calculator app based on Android, developed for college project using Java.",
     "tech1": "Java",
     "tech2": "Android Studio",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/hepoca-hero-power-calculator",
     "live": "https://bit.ly/hepoca-appetize",
     "image": "/works/other_hepoca.png"
@@ -150,7 +150,7 @@
     "desc": "Beemi is an ideal weight/BMI calculator app based on Android, developed for college project using Java.",
     "tech1": "Java",
     "tech2": "Android Studio",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500 line-clamp-2",
+    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/beemi-ideal-weight-calculator",
     "live": "https://bit.ly/beemi-appetize",
     "image": "/works/other_beemi.png"
@@ -162,7 +162,7 @@
     "desc": "Godel is an instant text friend app based on Android, developed for have fun using Java.",
     "tech1": "Java",
     "tech2": "Android Studio",
-    "css": "bg-pink-400/10 text-pink-400 line-clamp-2",
+    "css": "bg-pink-400/10 text-pink-400",
     "link": "https://github.com/luqmanherifa/godel-instant-text-friend",
     "live": "https://bit.ly/godel-appetize",
     "image": "/works/other_godel.png"

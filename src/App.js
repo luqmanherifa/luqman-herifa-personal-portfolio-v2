@@ -1,14 +1,15 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Works from "./pages/Works";
 import Social from "./pages/Social";
 import NotFound from "./pages/NotFound";
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import Detail from "./pages/Detail";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -37,27 +38,49 @@ function App() {
               delay: 0,
             }}
           >
-            <a href="https://luqmanherifa.site" className="flex items-center gap-3">
+            <a
+              href="https://luqmanherifa.site"
+              className="flex items-center gap-3"
+            >
               <img src="/icon.png" alt="icon" className="w-8 sm:w-7" />
             </a>
           </motion.div>
           <nav className="flex gap-8 text-sm font-medium dark:text-slate-700 lg:gap-5 lg:font-normal md:gap-4 md:font-normal sm:gap-3 sm:text-xs sm:font-normal">
-            <motion.div initial={{ opacity: 0 }} animate={{ y: [-20, 0], opacity: 1 }} transition={{ delay: 0.1 }}>
-              <Link to="/" className="hover:text-slate-300 dark:hover:text-slate-400">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ y: [-20, 0], opacity: 1 }}
+              transition={{ delay: 0.1 }}
+            >
+              <Link
+                to="/"
+                className="hover:text-slate-300 dark:hover:text-slate-400"
+              >
                 Home
               </Link>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} animate={{ y: [-20, 0], opacity: 1 }} transition={{ delay: 0.2 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ y: [-20, 0], opacity: 1 }}
+              transition={{ delay: 0.2 }}
+            >
               <Link to="/about" className="hover:text-cyan-500">
                 About
               </Link>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} animate={{ y: [-20, 0], opacity: 1 }} transition={{ delay: 0.3 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ y: [-20, 0], opacity: 1 }}
+              transition={{ delay: 0.3 }}
+            >
               <Link to="/works" className="hover:text-indigo-500">
                 Works
               </Link>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} animate={{ y: [-20, 0], opacity: 1 }} transition={{ delay: 0.4 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ y: [-20, 0], opacity: 1 }}
+              transition={{ delay: 0.4 }}
+            >
               <Link to="/social" className="hover:text-pink-500">
                 Social
               </Link>
@@ -80,6 +103,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="works" element={<Works />} />
+        <Route path="works/:slug" element={<Detail />} />
         <Route path="social" element={<Social />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

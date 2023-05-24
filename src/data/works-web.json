@@ -8,6 +8,7 @@
     "tech2": "Blade",
     "tech3": "Tailwind",
     "css": "bg-blue-400/10 text-blue-400",
+    "slug": "wordium-writing-platform",
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "live": "https://youtu.be/wsGFfr5GPbw",
     "image": "/works/web_wordium.png"
@@ -21,6 +22,7 @@
     "tech2": "Laravel",
     "tech3": "Tailwind",
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
+    "slug": "notimetonews-news-portal",
     "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
     "live": "https://youtu.be/DtDKl8th9u8",
     "image": "/works/web_notimetonews.png"
@@ -34,6 +36,7 @@
     "tech2": "JavaScript",
     "tech3": "Tailwind",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
+    "slug": "luqman-herifa-personal-portfolio-v2",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
     "live": "https://luqmanherifa.site",
     "image": "/works/web_luqmanherifav2.png"
@@ -47,6 +50,7 @@
     "tech2": "HTML",
     "tech3": "JavaScript",
     "css": "bg-indigo-400/10 text-indigo-400",
+    "slug": "quintess-music-platform-landing-page",
     "link": "https://github.com/luqmanherifa/quintess-music-platform-landing-page",
     "live": "https://quintess-luqmanherifa.vercel.app",
     "image": "/works/web_quintess.png"
@@ -60,6 +64,7 @@
     "tech2": "jQuery",
     "tech3": "HTML/CSS",
     "css": "bg-teal-400/10 text-teal-400",
+    "slug": "senema-movie-search-engine",
     "link": "https://github.com/luqmanherifa/senema-movie-search-engine",
     "live": "https://senema-luqmanherifa.vercel.app",
     "image": "/works/web_senema.png"
@@ -73,6 +78,7 @@
     "tech2": "jQuery",
     "tech3": "HTML/CSS",
     "css": "bg-rose-400/10 text-rose-400",
+    "slug": "sterna-apparel-store-catalog",
     "link": "https://github.com/luqmanherifa/sterna-apparel-store-catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
     "image": "/works/web_sterna.png"
@@ -86,6 +92,7 @@
     "tech2": "Bootstrap",
     "tech3": "HTML/CSS",
     "css": "bg-blue-400/10 text-blue-400",
+    "slug": "luqman-herifa-personal-portfolio-v1",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
     "image": "/works/web_luqmanherifav1.png"
@@ -99,6 +106,7 @@
     "tech2": "JavaScript",
     "tech3": "Tailwind",
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
+    "slug": "carter-shopping-cart",
     "link": "https://github.com/luqmanherifa/carter-shopping-cart",
     "live": "https://carter-luqmanherifa.netlify.app",
     "image": "/works/uc_project.png"
