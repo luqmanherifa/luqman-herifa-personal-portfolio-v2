@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import DataSocial from "../data/social.json";
 import { motion } from "framer-motion";
-import Title from "../components/Elements/Title.js";
+import Title from "../components/Elements/Title.jsx";
 
 function Social() {
   useEffect(function () {
@@ -12,7 +12,10 @@ function Social() {
     <section className="pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl">
-          <Title classname="bg-pink-400/10 text-pink-400 dark:bg-pink-400/20" title="Social"></Title>
+          <Title
+            classname="bg-pink-400/10 text-pink-400 dark:bg-pink-400/20"
+            title="Social"
+          ></Title>
           <div>
             <motion.p
               initial={{ opacity: 0 }}
@@ -20,7 +23,8 @@ function Social() {
               transition={{ delay: 0.1 }}
               className="mb-7 text-slate-400 dark:text-slate-600"
             >
-              I'm currently looking for new opportunities and experiences. If you have an offer, question, or just want to say halo, we can
+              I'm currently looking for new opportunities and experiences. If
+              you have an offer, question, or just want to say halo, we can
               connect via social media and I'll try my best to get back to you!
             </motion.p>
             <motion.div
@@ -39,7 +43,10 @@ function Social() {
                 <tbody>
                   {DataSocial.map((social) => {
                     return (
-                      <tr key={social.id} className="border-t border-slate-700 dark:border-slate-400">
+                      <tr
+                        key={social.id}
+                        className="border-t border-slate-700 dark:border-slate-400"
+                      >
                         <td className="px-9 py-3 sm:px-4">{social.social}</td>
                         <td className="px-3 py-3 text-sky-500 hover:text-sky-300 dark:hover:text-sky-800 sm:px-1">
                           <a href={social.url} target="_blank" rel="noreferrer">

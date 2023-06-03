@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import WorksWeb from "../components/Fragments/WorksWeb.js";
-import WorksMobile from "../components/Fragments/WorksMobile.js";
-import WorksInterface from "../components/Fragments/WorksInterface.js";
-import WorksOther from "../components/Fragments/WorksOther.js";
+import WorksWeb from "../components/Fragments/WorksWeb.jsx";
+import WorksMobile from "../components/Fragments/WorksMobile.jsx";
+import WorksInterface from "../components/Fragments/WorksInterface.jsx";
+import WorksOther from "../components/Fragments/WorksOther.jsx";
 import { motion } from "framer-motion";
-import Title from "../components/Elements/Title.js";
+import Title from "../components/Elements/Title.jsx";
 
 function Works() {
   useEffect(() => {

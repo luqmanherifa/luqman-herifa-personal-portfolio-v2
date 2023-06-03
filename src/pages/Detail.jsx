@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import jsonData from "../data/works-web.json";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Image from "../components/Elements/Works/Image";
 import Name from "../components/Elements/Works/Name";
 import Desc from "../components/Elements/Works/Desc";
