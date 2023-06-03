@@ -40,7 +40,7 @@ function About() {
                 Malang (STIKI Malang). I have 1+ years of experience as a web
                 developer and interface designer, 1+ years of work as an IT
                 support, and 6 months of internship as a software developer. I
-                am currently enhancing my skills in web development and user
+                am currently enhancing my skills in web development and
                 interface design.
               </motion.p>
               <motion.p
