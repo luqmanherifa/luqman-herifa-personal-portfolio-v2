@@ -38,7 +38,7 @@ function About() {
                 I'm Luqman. I recently graduated with a degree in Computer
                 Science from Sekolah Tinggi Informatika dan Komputer Indonesia
                 Malang (STIKI Malang). I have 1+ years of experience as a web
-                developer and user interface designer, 1+ years of work as an IT
+                developer and interface designer, 1+ years of work as an IT
                 support, and 6 months of internship as a software developer. I
                 am currently enhancing my skills in web development and user
                 interface design.
@@ -53,8 +53,8 @@ function About() {
                 technologies such as React, JavaScript, Tailwind CSS, Bootstrap,
                 jQuery, HTML/CSS, Laravel, PHP, MySQL, GitHub, and VS Code; in
                 mobile development using technologies such as Java, C#, Unity,
-                and Android Studio; in user interface design using technologies
-                such as Figma, CorelDRAW, and Blender.
+                and Android Studio; in interface design using technologies such
+                as Figma, CorelDRAW, and Blender.
               </motion.p>
             </div>
           </div>

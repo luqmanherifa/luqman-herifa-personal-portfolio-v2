@@ -40,7 +40,7 @@ function Home() {
               </span>{" "}
               and <br className="lg:hidden md:hidden sm:hidden" />
               <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400 bg-clip-text text-transparent">
-                user interface
+                interface design
               </span>
               . I just graduated from college and currently looking for new
               opportunities.

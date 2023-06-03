@@ -2,12 +2,12 @@
   {
     "id": 1,
     "category": "Mobile",
-    "name": "Swanify: Learn Indonesian Spelling",
+    "name": "Swanify: Learn Language Spelling",
     "desc": "Swanify is a learning media about Indonesian spelling according to PUEBI and augmented reality features based on mobile. The project was developed for college final project using C#, Unity, and Vuforia AR.",
     "tech1": "C#",
     "tech2": "Unity",
     "css": "bg-blue-400/10 text-blue-400",
-    "link": "https://github.com/luqmanherifa/swanify-learn-indonesian-spelling",
+    "link": "https://github.com/luqmanherifa/swanify-learn-language-spelling",
     "live": "https://bit.ly/swanify-googleplay",
     "image": "/works/mobile_swanify.png"
   },
