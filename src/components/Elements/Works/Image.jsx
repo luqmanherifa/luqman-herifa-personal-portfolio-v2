@@ -1,5 +1,5 @@
 const Image = (props) => {
-  const { link, image } = props;
+  const { image } = props;
   return (
     <div>
       <figure className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">

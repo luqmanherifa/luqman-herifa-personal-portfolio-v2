@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import Title from "../components/Elements/Title.jsx";
+import Title from "../components/Elements/Title";
 
 function About() {
   useEffect(function () {
@@ -20,7 +20,7 @@ function About() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0 }}
-              className="group relative mr-7 h-[200px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg"
+              className="group relative mr-7 h-[212px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg"
             >
               <img
                 src="/profile.png"
@@ -37,11 +37,10 @@ function About() {
               >
                 I'm Luqman. I recently graduated with a degree in Computer
                 Science from Sekolah Tinggi Informatika dan Komputer Indonesia
-                Malang (STIKI Malang). I have 1+ years of experience as a web
-                developer and interface designer, 1+ years of work as an IT
-                support, and 6 months of internship as a software developer. I
-                am currently enhancing my skills in web development and
-                interface design.
+                Malang. I have 1+ years of experience as a web developer and
+                interface designer, 1+ years of work as an IT support, and 6
+                months of internship as a software developer. I am currently
+                enhancing my skills in web development and interface design.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
