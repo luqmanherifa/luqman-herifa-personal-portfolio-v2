@@ -4,8 +4,6 @@ import { useParams } from "react-router-dom";
 import Image from "../components/Elements/Works/Image";
 import Name from "../components/Elements/Works/Name";
 import Desc from "../components/Elements/Works/Desc";
-import Tech from "../components/Elements/Works/Tech";
-import Url from "../components/Elements/Works/Url";
 
 function Detail() {
   const [data, setData] = useState(null);
@@ -19,37 +17,32 @@ function Detail() {
 
   useEffect(() => {
     if (selectedObject) {
-      document.title = selectedObject.name;
+      document.title = "Under Construction! " + selectedObject.name;
     }
   }, [selectedObject]);
 
   return (
-    <div className="flex justify-center pt-9 pb-20">
-      {selectedObject && (
-        <div>
-          <Image image={selectedObject.image}></Image>
-          <div className="max-w-md sm:max-w-[16rem]">
-            <Name
-              classname={selectedObject.css}
-              name={selectedObject.name}
-            ></Name>
-            <Desc
-              classname={selectedObject.css}
-              desc={selectedObject.desc}
-            ></Desc>
-            <div className="flex justify-between sm:block">
-              <Tech
+    <div className="mx-auto flex max-w-6xl justify-center pb-20 pt-9">
+      <div className="">
+        <div className="mb-5 animate-bounce text-center text-xl font-medium text-white dark:text-black">
+          This page is under construction!
+        </div>
+        {selectedObject && (
+          <div>
+            <Image image={selectedObject.image}></Image>
+            <div className="max-w-md sm:max-w-[16rem]">
+              <Name
                 classname={selectedObject.css}
-                classname3={selectedObject.css}
-                tech1={selectedObject.tech1}
-                tech2={selectedObject.tech2}
-                tech3={selectedObject.tech3}
-              ></Tech>
-              <Url link={selectedObject.link} live={selectedObject.live}></Url>
+                name={selectedObject.name}
+              ></Name>
+              <Desc
+                classname={selectedObject.css}
+                desc={selectedObject.desc}
+              ></Desc>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
