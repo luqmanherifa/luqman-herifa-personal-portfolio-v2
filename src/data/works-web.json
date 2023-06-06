@@ -58,6 +58,20 @@
   {
     "id": 5,
     "category": "Web",
+    "name": "Qwords Redesign: Landing Page",
+    "desc": "Qwords Redesign is a Qwords landing page redesign contains information about hosting prices, target market, and service offerings based on web. The project was developed for virtual internship using React, JavaScript, and Tailwind CSS.",
+    "tech1": "React",
+    "tech2": "JavaScript",
+    "tech3": "Tailwind CSS",
+    "css": "bg-orange-400/10 text-orange-400",
+    "slug": "qwords-redesign-landing-page",
+    "link": "https://github.com/luqmanherifa/qwords-landing-page",
+    "live": "https://github.com/luqmanherifa/qwords-landing-page",
+    "image": "/works/web_qwords.png"
+  },
+  {
+    "id": 6,
+    "category": "Web",
     "name": "Senema: Movie Search Engine",
     "desc": "Senema is a movie search engine contains information about movie title, release date, plot, and others based on web. The project was developed for practicing fetch API using JavaScript, jQuery, and HTML/CSS.",
     "tech1": "JavaScript",
@@ -70,7 +84,7 @@
     "image": "/works/web_senema.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "category": "Web",
     "name": "Sterna: Apparel Store Catalog",
     "desc": "Sterna is an apparel store catalog contains information about product display, name, and price based on web. The project was developed for practicing fetch data using JavaScript, jQuery, and HTML/CSS.",
@@ -84,7 +98,7 @@
     "image": "/works/web_sterna.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "category": "Web",
     "name": "Luqman Herifa: Personal Portfolio v1",
     "desc": "Luqman Herifa is a personal portfolio v1 contains information about me, education, projects, and social media contacts based on web. The project was developed for personal portfolio using JavaScript, Bootstrap, HTML/CSS, and others.",
@@ -96,19 +110,5 @@
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
     "image": "/works/web_luqmanherifav1.png"
-  },
-  {
-    "id": 8,
-    "category": "Web",
-    "name": "Carter: Shopping Cart",
-    "desc": "Carter is a shopping cart contains add an item to cart and calculating price features based on web. The project was developed for practicing React using React and TailwindCSS.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "tech3": "Tailwind CSS",
-    "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
-    "slug": "carter-shopping-cart",
-    "link": "https://github.com/luqmanherifa/carter-shopping-cart",
-    "live": "https://carter-luqmanherifa.netlify.app",
-    "image": "/works/uc_project.png"
   }
 ]
