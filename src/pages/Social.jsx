@@ -3,8 +3,8 @@ import DataSocial from "../data/social.json";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title";
 
-function Social() {
-  useEffect(function () {
+const Social = () => {
+  useEffect(() => {
     document.title = "Luqman Herifa Social";
   }, []);
 
@@ -64,6 +64,6 @@ function Social() {
       </div>
     </section>
   );
-}
+};
 
 export default Social;

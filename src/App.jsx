@@ -11,7 +11,7 @@ import Social from "./pages/Social";
 import NotFound from "./pages/NotFound";
 import Detail from "./pages/Detail";
 
-function App() {
+const App = () => {
   const [theme, setTheme] = useState("light");
   if (theme === "dark") {
     document.documentElement.classList.add("dark");
@@ -38,10 +38,7 @@ function App() {
               delay: 0,
             }}
           >
-            <a
-              href="https://luqmanherifa.site"
-              className="flex items-center gap-3"
-            >
+            <a href="" className="flex items-center gap-3">
               <img src="/icon.png" alt="icon" className="w-8 sm:w-7" />
             </a>
           </motion.div>
@@ -109,6 +106,6 @@ function App() {
       </Routes>
     </div>
   );
-}
+};
 
 export default App;

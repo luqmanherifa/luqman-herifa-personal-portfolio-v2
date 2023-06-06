@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useEffect } from "react";
 
-function NotFound() {
-  useEffect(function () {
+const NotFound = () => {
+  useEffect(() => {
     document.title = "Ups! Let's Move.";
   }, []);
 
@@ -26,6 +26,6 @@ function NotFound() {
       </div>
     </section>
   );
-}
+};
 
 export default NotFound;

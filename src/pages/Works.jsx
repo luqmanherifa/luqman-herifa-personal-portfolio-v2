@@ -6,7 +6,7 @@ import WorksOther from "../components/Fragments/WorksOther";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title";
 
-function Works() {
+const Works = () => {
   useEffect(() => {
     document.title = "Luqman Herifa Works";
   }, []);
@@ -31,7 +31,7 @@ function Works() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.2 }}
         >
           <WorksWeb />
           <WorksMobile />
@@ -43,6 +43,6 @@ function Works() {
       {/* <div className="hidden bg-orange-400/10 bg-teal-400/10 bg-rose-400/10 bg-sky-400/10 bg-emerald-400/10 bg-slate-400/10 bg-slate-400/10 bg-amber-400/10 bg-green-400/10 text-teal-400 text-rose-400 text-gray-300 text-sky-400 text-emerald-400 text-amber-400 text-orange-400 text-green-400 text-slate-300 line-clamp-3 line-clamp-2 dark:text-gray-500 dark:text-yellow-500 dark:text-slate-500 dark:text-slate-500 dark:text-amber-600"></div> */}
     </section>
   );
-}
+};
 
 export default Works;

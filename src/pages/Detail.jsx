@@ -4,8 +4,9 @@ import { useParams } from "react-router-dom";
 import Image from "../components/Elements/Works/Image";
 import Name from "../components/Elements/Works/Name";
 import Desc from "../components/Elements/Works/Desc";
+import { motion } from "framer-motion";
 
-function Detail() {
+const Detail = () => {
   const [data, setData] = useState(null);
   const { slug } = useParams();
 
@@ -22,7 +23,12 @@ function Detail() {
   }, [selectedObject]);
 
   return (
-    <div className="mx-auto flex max-w-6xl justify-center pb-20 pt-9">
+    <motion.div
+      className="mx-auto flex max-w-6xl justify-center pb-20 pt-9"
+      initial={{ opacity: 0 }}
+      animate={{ x: [-150, 0], opacity: 1 }}
+      transition={{ delay: 0.1 }}
+    >
       <div className="">
         <div className="mb-5 animate-bounce text-center text-xl font-medium text-white dark:text-black">
           This page is under construction!
@@ -43,8 +49,8 @@ function Detail() {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
-}
+};
 
 export default Detail;

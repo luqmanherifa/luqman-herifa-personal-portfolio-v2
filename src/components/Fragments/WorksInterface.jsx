@@ -4,7 +4,7 @@ import Image from "../Elements/Works/Image";
 import Name from "../Elements/Works/Name";
 import Url from "../Elements/Works/Url";
 
-function WorksInterface() {
+const WorksInterface = () => {
   return (
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">

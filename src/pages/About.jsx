@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title";
 
-function About() {
-  useEffect(function () {
+const About = () => {
+  useEffect(() => {
     document.title = "Luqman Herifa About";
   }, []);
 
@@ -19,7 +19,7 @@ function About() {
             <motion.figure
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
-              transition={{ delay: 0 }}
+              transition={{ delay: 0.1 }}
               className="group relative mr-7 h-[212px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg"
             >
               <img
@@ -31,7 +31,7 @@ function About() {
             <div>
               <motion.p
                 initial={{ opacity: 0 }}
-                animate={{ x: [-250, 0], opacity: 1 }}
+                animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.2 }}
                 className="mb-4 text-slate-400 dark:text-slate-600"
               >
@@ -44,7 +44,7 @@ function About() {
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
-                animate={{ x: [-250, 0], opacity: 1 }}
+                animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.3 }}
                 className="text-slate-400 dark:text-slate-600"
               >
@@ -61,6 +61,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;

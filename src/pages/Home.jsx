@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
-function Home() {
-  useEffect(function () {
+const Home = () => {
+  useEffect(() => {
     document.title = "Luqman Herifa";
   }, []);
 
@@ -50,6 +50,6 @@ function Home() {
       </motion.div>
     </section>
   );
-}
+};
 
 export default Home;
