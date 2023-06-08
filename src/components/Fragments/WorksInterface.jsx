@@ -1,5 +1,5 @@
 import WorksInterfaceData from "../../data/works-interface.json";
-import TitleWorks from "../Elements/TitleWorks";
+import TitleWorks from "../Elements/Title/TitleWorks";
 import Image from "../Elements/Works/Image";
 import Name from "../Elements/Works/Name";
 import Url from "../Elements/Works/Url";
@@ -42,6 +42,6 @@ const WorksInterface = () => {
       </div>
     </div>
   );
-}
+};
 
 export default WorksInterface;

@@ -1,5 +1,5 @@
 import WorksOtherData from "../../data/works-other.json";
-import TitleWorks from "../Elements/TitleWorks";
+import TitleWorks from "../Elements/Title/TitleWorks";
 import Image from "../Elements/Works/Image";
 import Name from "../Elements/Works/Name";
 import Desc from "../Elements/Works/Desc";

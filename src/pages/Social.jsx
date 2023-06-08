@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import DataSocial from "../data/social.json";
 import { motion } from "framer-motion";
-import Title from "../components/Elements/Title";
+import Title from "../components/Elements/Title/Title";
 
 const Social = () => {
   useEffect(() => {

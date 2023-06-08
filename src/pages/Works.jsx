@@ -4,7 +4,7 @@ import WorksMobile from "../components/Fragments/WorksMobile";
 import WorksInterface from "../components/Fragments/WorksInterface";
 import WorksOther from "../components/Fragments/WorksOther";
 import { motion } from "framer-motion";
-import Title from "../components/Elements/Title";
+import Title from "../components/Elements/Title/Title";
 
 const Works = () => {
   useEffect(() => {
