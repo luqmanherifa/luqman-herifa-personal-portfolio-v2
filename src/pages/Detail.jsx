@@ -29,22 +29,24 @@ const Detail = () => {
       animate={{ x: [-150, 0], opacity: 1 }}
       transition={{ delay: 0.1 }}
     >
-      <div className="">
+      <div>
         <div className="mb-5 animate-bounce text-center text-xl font-medium text-white dark:text-black">
           This page is under construction!
         </div>
         {selectedObject && (
-          <div>
-            <Image image={selectedObject.image}></Image>
-            <div className="max-w-md sm:max-w-[16rem]">
-              <Name
-                classname={selectedObject.css}
-                name={selectedObject.name}
-              ></Name>
-              <Desc
-                classname={selectedObject.css}
-                desc={selectedObject.desc}
-              ></Desc>
+          <div className="flex justify-center">
+            <div>
+              <Image image={selectedObject.image}></Image>
+              <div className="max-w-md sm:max-w-[16rem]">
+                <Name
+                  classname={selectedObject.css}
+                  name={selectedObject.name}
+                ></Name>
+                <Desc
+                  classname={selectedObject.css}
+                  desc={selectedObject.desc}
+                ></Desc>
+              </div>
             </div>
           </div>
         )}
