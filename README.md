@@ -1,7 +1,7 @@
 # Luqman Herifa: Personal Portfolio v2
 
 ## Display
-![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/web_luqmanherifav2.png)
+![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/luqmanherifav2.png)
 
 ## Software
 ### Languages
