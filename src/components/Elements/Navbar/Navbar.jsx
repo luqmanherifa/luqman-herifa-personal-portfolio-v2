@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import React from "react";
@@ -15,6 +15,7 @@ const Navbar = () => {
   const [theme, setTheme] = useState("light");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -35,6 +36,7 @@ const Navbar = () => {
       text: "Home",
       page: "/",
       css: "hover:text-slate-300 dark:hover:text-slate-400",
+      active: "text-slate-300 dark:text-slate-400",
       delay: "0.1",
     },
     {
@@ -42,6 +44,7 @@ const Navbar = () => {
       text: "About",
       page: "/about",
       css: "hover:text-cyan-500",
+      active: "text-cyan-500",
       delay: "0.2",
     },
     {
@@ -49,6 +52,7 @@ const Navbar = () => {
       text: "Works",
       page: "/works",
       css: "hover:text-indigo-500",
+      active: "text-indigo-500",
       delay: "0.3",
     },
     {
@@ -56,6 +60,7 @@ const Navbar = () => {
       text: "Social",
       page: "/social",
       css: "hover:text-pink-500",
+      active: "text-pink-500",
       delay: "0.4",
     },
   ];
@@ -74,7 +79,14 @@ const Navbar = () => {
                 key={data.id}
               >
                 <div>
-                  <Link to={`${data.page}`} className={`${data.css}`}>
+                  <Link
+                    to={`${data.page}`}
+                    className={
+                      location.pathname === data.page
+                        ? `${data.css} ${data.active}`
+                        : data.css
+                    }
+                  >
                     {data.text}
                   </Link>
                 </div>
@@ -140,7 +152,14 @@ const Navbar = () => {
                       key={data.id}
                       className="mb-2"
                     >
-                      <Link to={`${data.page}`} className={`${data.css}`}>
+                      <Link
+                        to={`${data.page}`}
+                        className={
+                          location.pathname === data.page
+                            ? `${data.css} ${data.active}`
+                            : data.css
+                        }
+                      >
                         {data.text}
                       </Link>
                     </motion.div>
