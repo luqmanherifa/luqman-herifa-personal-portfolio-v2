@@ -9,7 +9,7 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
-    "image": "/works/web_luqmanherifav1.png"
+    "image": "/works/luqmanherifav1.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/simpro-profile-and-blog",
     "live": "https://simpro-luqmanherifa.netlify.app",
-    "image": "/works/other_simpro.png"
+    "image": "/works/simpro.png"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "css": "bg-emerald-400/10 text-emerald-400",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v2",
     "live": "https://todosv2-luqmanherifa.netlify.app",
-    "image": "/works/other_todosv2.png"
+    "image": "/works/todosv2.png"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "link": "https://github.com/luqmanherifa/todos-to-do-list-v1",
     "live": "https://todosv1-luqmanherifa.vercel.app",
-    "image": "/works/other_todosv1.png"
+    "image": "/works/todosv1.png"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "css": "bg-blue-400/10 text-blue-400",
     "link": "https://github.com/luqmanherifa/mathelp-math-calculator",
     "live": "https://mathelp-luqmanherifa.vercel.app",
-    "image": "/works/other_mathelp.png"
+    "image": "/works/mathelp.png"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v1",
     "live": "http://damas-luqmanherifa.infinityfreeapp.com",
-    "image": "/works/other_damasv1.png"
+    "image": "/works/damasv1.png"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/damas-student-list-v2",
     "live": "http://damasv2-luqmanherifa.infinityfreeapp.com",
-    "image": "/works/other_damasv2.png"
+    "image": "/works/damasv2.png"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/itemu-item-list",
     "live": "https://itemu-luqmanherifa.netlify.app",
-    "image": "/works/other_itemu.png"
+    "image": "/works/itemu.png"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "css": "bg-rose-400/10 text-rose-400",
     "link": "https://github.com/luqmanherifa/sterna-apparel-store-catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
-    "image": "/works/web_sterna.png"
+    "image": "/works/sterna.png"
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "link": "https://github.com/luqmanherifa/paytails-payment-section-page",
     "live": "https://paytails-luqmanherifa.vercel.app",
-    "image": "/works/other_paytails.png"
+    "image": "/works/paytails.png"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "css": "bg-amber-400/10 text-amber-400 dark:text-amber-500",
     "link": "https://github.com/luqmanherifa/kopipedia-coffee-shop-landing-page",
     "live": "https://kopipedia-luqmanherifa.vercel.app",
-    "image": "/works/other_kopipedia.png"
+    "image": "/works/kopipedia.png"
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
     "css": "bg-cyan-400/10 text-cyan-400",
     "link": "https://github.com/luqmanherifa/reeva-company-profile-landing-page",
     "live": "https://reeva-luqmanherifa.vercel.app",
-    "image": "/works/other_reeva.png"
+    "image": "/works/reeva.png"
   },
   {
     "id": 13,
@@ -153,7 +153,7 @@
     "css": "bg-green-400/10 text-green-400",
     "link": "https://github.com/luqmanherifa/progate-landing-page-clone",
     "live": "https://progateclone-luqmanherifa.vercel.app",
-    "image": "/works/other_progateclone.png"
+    "image": "/works/progateclone.png"
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/hepoca-hero-power-calculator",
     "live": "https://bit.ly/hepoca-appetize",
-    "image": "/works/other_hepoca.png"
+    "image": "/works/hepoca.png"
   },
   {
     "id": 15,
@@ -177,7 +177,7 @@
     "css": "bg-gray-400/10 text-gray-300 dark:text-gray-500",
     "link": "https://github.com/luqmanherifa/beemi-ideal-weight-calculator",
     "live": "https://bit.ly/beemi-appetize",
-    "image": "/works/other_beemi.png"
+    "image": "/works/beemi.png"
   },
   {
     "id": 16,
@@ -189,6 +189,6 @@
     "css": "bg-pink-400/10 text-pink-400",
     "link": "https://github.com/luqmanherifa/godel-instant-text-friend",
     "live": "https://bit.ly/godel-appetize",
-    "image": "/works/other_godel.png"
+    "image": "/works/godel.png"
   }
 ]

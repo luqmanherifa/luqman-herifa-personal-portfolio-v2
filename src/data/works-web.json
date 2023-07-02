@@ -11,7 +11,7 @@
     "slug": "luqman-herifa-personal-portfolio-v2",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
     "live": "https://luqmanherifa.site",
-    "image": "/works/web_luqmanherifav2.png"
+    "image": "/works/luqmanherifav2.png"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "slug": "proteus-post-hub",
     "link": "https://github.com/luqmanherifa/proteus-post-hub",
     "live": "https://proteus-luqmanherifa.netlify.app",
-    "image": "/works/uc_project.png"
+    "image": "/works/uc.png"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "slug": "notimetonews-news-portal",
     "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
     "live": "https://youtu.be/DtDKl8th9u8",
-    "image": "/works/web_notimetonews.png"
+    "image": "/works/notimetonews.png"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
     "slug": "wordium-writing-platform",
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "live": "https://youtu.be/wsGFfr5GPbw",
-    "image": "/works/web_wordium.png"
+    "image": "/works/wordium.png"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
     "slug": "carter-shopping-cart",
     "link": "https://github.com/luqmanherifa/carter-shopping-cart",
     "live": "https://carter-luqmanherifa.netlify.app",
-    "image": "/works/uc_project.png"
+    "image": "/works/uc.png"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "slug": "qwords-redesign-landing-page",
     "link": "https://github.com/luqmanherifa/qwords-redesign-landing-page",
     "live": "https://github.com/luqmanherifa/qwords-redesign-landing-page",
-    "image": "/works/web_qwords.png"
+    "image": "/works/qwordsredesign.png"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
     "slug": "quintess-music-platform-landing-page",
     "link": "https://github.com/luqmanherifa/quintess-music-platform-landing-page",
     "live": "https://quintess-luqmanherifa.vercel.app",
-    "image": "/works/web_quintess.png"
+    "image": "/works/quintess.png"
   },
   {
     "id": 8,
@@ -109,6 +109,6 @@
     "slug": "senema-movie-search-engine",
     "link": "https://github.com/luqmanherifa/senema-movie-search-engine",
     "live": "https://senema-luqmanherifa.vercel.app",
-    "image": "/works/web_senema.png"
+    "image": "/works/senema.png"
   }
 ]
