@@ -59,13 +59,8 @@
 npm run start
 ```
 
-## Social
-  - [Email](mailto:luqmanherifa@gmail.com)
-  - [Instagram](https://www.instagram.com/luqmanherifa)
-  - [LinkedIn](https://www.linkedin.com/in/luqmanherifa)
-  - [Dribbble](https://dribbble.com/luqmanherifa)
-
 ## Thanks to
-  - [array id](https://www.youtube.com/@arrayid)
   - [Sandhika Galih](https://www.youtube.com/@sandhikagalihWPU)
+  - [Nauval](https://www.youtube.com/@mhdnauvalazhar)
+  - [React](https://react.dev)
   - [Tailwind CSS](  https://tailwindcss.com)
