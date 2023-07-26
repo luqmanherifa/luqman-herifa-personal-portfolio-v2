@@ -138,7 +138,7 @@ const Navbar = () => {
           </motion.button>
         </div>
       </div>
-      <nav className="bg-slate-900 dark:bg-slate-50">
+      <nav className="bg-slate-900 dark:bg-white">
         {isMobileMenuOpen && (
           <div className="hidden sm:block">
             <div className="mx-auto max-w-xs">
