@@ -14,7 +14,9 @@ const WorksOther = () => {
     setShowAll(!showAll);
   };
 
-  const displayData = showAll ? WorksOtherData : WorksOtherData.slice(0, 6);
+  const displayOtherData = showAll
+    ? WorksOtherData
+    : WorksOtherData.slice(0, 4);
 
   return (
     <div>
@@ -25,7 +27,7 @@ const WorksOther = () => {
         ></TitleWorks>
         <div className="flex justify-center">
           <div className="flex max-w-5xl flex-wrap justify-center gap-7 sm:gap-5">
-            {displayData.map((workOther) => {
+            {displayOtherData.map((workOther) => {
               return (
                 <div key={workOther.id}>
                   <Image link={workOther.link} image={workOther.image}></Image>
@@ -55,7 +57,7 @@ const WorksOther = () => {
         </div>
         <div className="mt-7 flex justify-center">
           <button
-            className="mr-2 mb-2 rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800"
+            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-white hover:bg-blue-800"
             onClick={toggleShowAll}
           >
             {showAll ? "Show Less" : "Show More"}
