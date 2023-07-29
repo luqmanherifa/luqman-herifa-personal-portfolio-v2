@@ -1,4 +1,4 @@
-# Luqman Herifa: Personal Portfolio v2
+# Luqman Herifa: Personal Portfolio
 
 ## Display
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/luqmanherifav2.png)
