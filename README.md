@@ -12,7 +12,6 @@
   - React
   - Tailwind CSS
   - Framer Motion
-  - Google Fonts
 
 ### Tools
   - Visual Studio Code
