@@ -17,13 +17,6 @@
 ### Tools
   - Visual Studio Code
 
-### Features
-  - Home Page
-  - About Page
-  - Works Page
-  - Social Page
-  - Dark Mode
-
 ## Design
 ### Font
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
