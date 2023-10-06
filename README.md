@@ -55,5 +55,6 @@ npm run start
 ## Thanks to
   - [Sandhika Galih](https://www.youtube.com/@sandhikagalihWPU)
   - [Nauval](https://www.youtube.com/@mhdnauvalazhar)
+  - [Brittany Chiang](https://github.com/bchiang7)
   - [React](https://react.dev)
   - [Tailwind CSS](  https://tailwindcss.com)
