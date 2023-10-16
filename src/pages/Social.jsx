@@ -5,7 +5,7 @@ import Title from "../components/Elements/Title/Title";
 
 const Social = () => {
   useEffect(() => {
-    document.title = "Luqman Herifa Social";
+    document.title = "Luqman Social";
   }, []);
 
   return (
