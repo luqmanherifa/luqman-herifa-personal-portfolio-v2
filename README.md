@@ -34,7 +34,7 @@
   - Web
   
 ### Deployment
-  - [Niagahoster](https://luqmanherifa.site)
+  - [Niagahoster](https://luqmaaan.site)
   - [Netlify](https://luqmanherifav2-luqmanherifa.netlify.app)
 
 ### Responsive
