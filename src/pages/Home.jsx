@@ -34,7 +34,7 @@ const Home = () => {
             transition={{ delay: 0 }}
           >
             <p className="text-center text-lg text-slate-400 dark:text-slate-600 sm:text-left">
-              I'm Luqman, a full-stack web developer specializing in{" "}
+              I'm Luqman, a Full-stack Web Developer specializing in{" "}
               <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400 bg-clip-text text-transparent">
                 front-end web
               </span>{" "}

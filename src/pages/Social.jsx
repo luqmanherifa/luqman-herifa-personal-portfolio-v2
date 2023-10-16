@@ -23,9 +23,7 @@ const Social = () => {
               transition={{ delay: 0.1 }}
               className="mb-7 text-slate-400 dark:text-slate-600"
             >
-              I'm currently looking for new opportunities and experiences. If
-              you have an offer, question, or just want to say halo, we can
-              connect via social media and I'll try my best to get back to you!
+              Let's connect via social media!
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}
