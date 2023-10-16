@@ -49,11 +49,11 @@ const About = () => {
                 className="text-slate-400 dark:text-slate-600"
               >
                 I have skills and experience in web development using
-                technologies such as NextJS, ReactJS, JavaScript, Tailwind CSS,
-                Bootstrap, jQuery, HTML/CSS, Laravel, PHP, MySQL, GitHub, and VS
-                Code; in mobile development using technologies such as Java, C#,
-                Unity, and Android Studio; in interface design using
-                technologies such as Figma, CorelDRAW, and Blender.
+                technologies such as React, Laravel, NextJS, Tailwind CSS,
+                Bootstrap, JavaScript, PHP, HTML/CSS, MySQL, and GitHub; in
+                mobile development using technologies such as Java, C#, and
+                Unity; in interface design using technologies such as Figma and
+                CorelDRAW.
               </motion.p>
             </div>
           </div>
