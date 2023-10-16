@@ -12,7 +12,7 @@ const Icon = () => {
         delay: 0,
       }}
     >
-      <a href="https://luqmanherifa.site" className="flex items-center gap-3">
+      <a href="https://luqmaaan.site" className="flex items-center gap-3">
         <img src="/icon.png" alt="icon" className="w-8 sm:w-7" />
       </a>
     </motion.div>
