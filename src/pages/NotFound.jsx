@@ -19,7 +19,7 @@ const NotFound = () => {
             damping: 20,
             delay: 0,
           }}
-          className="text-6xl font-bold tracking-tight text-slate-50 dark:text-slate-600"
+          className="text-6xl font-bold tracking-tight text-slate-100 dark:text-slate-600"
         >
           Ups! Page not found :(
         </motion.h1>

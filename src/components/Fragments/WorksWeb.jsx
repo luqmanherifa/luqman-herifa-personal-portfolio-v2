@@ -53,7 +53,7 @@ const WorksWeb = () => {
         </div>
         <div className="mt-7 flex justify-center">
           <button
-            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-white hover:bg-blue-800"
+            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800"
             onClick={toggleShowAll}
           >
             {showAll ? "Show Less" : "Show More"}
