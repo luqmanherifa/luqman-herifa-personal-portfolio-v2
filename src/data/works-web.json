@@ -20,7 +20,7 @@
     "desc": "Motocraft is a motorcycle workshop management information system contains promo, info, services, spare part, employee, attendance, and revenue features based on web. The project was developed for motorcycle workshop MIS using React, Laravel, Tailwind CSS, MySQL, and others.",
     "tech1": "React",
     "tech2": "Laravel",
-    "tech3": "Tailwind CSS",
+    "tech3": "MySQL",
     "css": "bg-red-400/10 text-red-400 dark:text-red-500",
     "slug": "motocraft-motorcycle-workshop-app",
     "link": "https://github.com/luqmanherifa/motocraft-motorcycle-workshop-app",
