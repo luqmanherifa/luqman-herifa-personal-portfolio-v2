@@ -1,7 +1,10 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Works from "./pages/Works";
-import Detail from "./pages/Detail";
+import DetailWeb from "./pages/DetailWeb";
+import DetailMobile from "./pages/DetailMobile";
+import DetailInterface from "./pages/DetailInterface";
+import DetailOther from "./pages/DetailOther";
 import Social from "./pages/Social";
 import NotFound from "./pages/NotFound";
 
@@ -19,8 +22,20 @@ const routes = [
     element: <Works />,
   },
   {
-    path: "/works/:slug",
-    element: <Detail />,
+    path: "/web/:slug",
+    element: <DetailWeb />,
+  },
+  {
+    path: "/mobile/:slug",
+    element: <DetailMobile />,
+  },
+  {
+    path: "/interface/:slug",
+    element: <DetailInterface />,
+  },
+  {
+    path: "/other/:slug",
+    element: <DetailOther />,
   },
   {
     path: "/social",

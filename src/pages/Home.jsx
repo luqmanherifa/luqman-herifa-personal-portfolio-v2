@@ -26,7 +26,7 @@ const Home = () => {
             <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent">
               Luqman Portfolio
             </span>{" "}
-            <br className="lg:hidden md:hidden sm:hidden" />{" "}
+            <br className="lg:hidden md:hidden sm:block" />{" "}
             <span>A Web Developer Journey</span>
           </motion.h1>
           <motion.div

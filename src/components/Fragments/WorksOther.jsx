@@ -6,6 +6,7 @@ import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
 import Url from "../Elements/Works/Url";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const WorksOther = () => {
   const [showAll, setShowAll] = useState(false);
@@ -30,7 +31,9 @@ const WorksOther = () => {
             {displayOtherData.map((workOther) => {
               return (
                 <div key={workOther.id}>
-                  <Image link={workOther.link} image={workOther.image}></Image>
+                  <Link to={`/other/${workOther.slug}`}>
+                    <Image image={workOther.image}></Image>
+                  </Link>
                   <div className="max-w-md sm:max-w-[16rem]">
                     <Name
                       classname={workOther.css}

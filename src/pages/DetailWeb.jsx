@@ -3,7 +3,7 @@ import jsonData from "../data/works-web.json";
 import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const Detail = () => {
+const DetailWeb = () => {
   const [data, setData] = useState(null);
   const { slug } = useParams();
 
@@ -27,7 +27,7 @@ const Detail = () => {
       transition={{ delay: 0.1 }}
     >
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
-        <div className="max-w-3xl xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs">
+        <div className="max-w-3xl sm:max-w-xs">
           {selectedObject && (
             <div>
               <div className="mb-3 flex gap-3 text-slate-100">
@@ -94,4 +94,4 @@ const Detail = () => {
   );
 };
 
-export default Detail;
+export default DetailWeb;

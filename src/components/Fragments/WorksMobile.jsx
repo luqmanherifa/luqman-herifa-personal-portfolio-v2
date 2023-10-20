@@ -5,6 +5,7 @@ import Name from "../Elements/Works/Name";
 import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
 import Url from "../Elements/Works/Url";
+import { Link } from "react-router-dom";
 
 const WorksMobile = () => {
   return (
@@ -19,10 +20,9 @@ const WorksMobile = () => {
             {WorksMobileData.map((workMobile) => {
               return (
                 <div key={workMobile.id}>
-                  <Image
-                    link={workMobile.link}
-                    image={workMobile.image}
-                  ></Image>
+                  <Link to={`/mobile/${workMobile.slug}`}>
+                    <Image image={workMobile.image}></Image>
+                  </Link>
                   <div className="max-w-md sm:max-w-[16rem]">
                     <Name
                       classname={workMobile.css}

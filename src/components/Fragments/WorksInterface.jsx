@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import WorksInterfaceData from "../../data/works-interface.json";
 import TitleWorks from "../Elements/Title/TitleWorks";
 import Image from "../Elements/Works/Image";
@@ -17,10 +18,9 @@ const WorksInterface = () => {
             {WorksInterfaceData.map((workInterface) => {
               return (
                 <div key={workInterface.id}>
-                  <Image
-                    link={workInterface.link}
-                    image={workInterface.image}
-                  ></Image>
+                  <Link to={`/interface/${workInterface.slug}`}>
+                    <Image image={workInterface.image}></Image>
+                  </Link>
                   <div className="max-w-md sm:max-w-[16rem]">
                     <div className="flex justify-between sm:block">
                       <Name

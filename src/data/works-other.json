@@ -7,6 +7,7 @@
     "tech1": "JavaScript",
     "tech2": "PHP",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
+    "slug": "web-learning-journey",
     "link": "https://github.com/luqmanherifa/web-learning-journey",
     "live": "https://github.com/luqmanherifa/web-learning-journey",
     "image": "/works/weblearningjourney.png"
@@ -19,6 +20,7 @@
     "tech1": "Java",
     "tech2": "PHP",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
+    "slug": "college-coding-journey",
     "link": "https://github.com/luqmanherifa/college-coding-journey",
     "live": "https://github.com/luqmanherifa/college-coding-journey",
     "image": "/works/collegecodingjourney.png"
@@ -31,6 +33,7 @@
     "tech1": "JavaScript",
     "tech2": "Bootstrap",
     "css": "bg-blue-400/10 text-blue-400",
+    "slug": "luqman-herifa-personal-portfolio-v1",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
     "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
     "image": "/works/luqmanherifav1.png"
@@ -69,6 +72,7 @@
     "tech1": "JavaScript",
     "tech2": "jQuery",
     "css": "bg-rose-400/10 text-rose-400",
+    "slug": "sterna-apparel-store-catalog",
     "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Sterna%20-%20Apparel%20Store%20Catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
     "image": "/works/sterna.png"
@@ -94,6 +98,7 @@
     "tech1": "HTML",
     "tech2": "CSS",
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
+    "slug": "paytails-payment-section-page",
     "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Paytails%20-%20Payment%20Section%20Page",
     "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "/works/paytails.png"
