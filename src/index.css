@@ -37,7 +37,3 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background-color: #f8fafc;
 }
-
-.cursor-light {
-  filter: blur(100px);
-}
