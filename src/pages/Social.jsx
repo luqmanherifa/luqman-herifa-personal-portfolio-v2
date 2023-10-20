@@ -9,7 +9,7 @@ const Social = () => {
   }, []);
 
   return (
-    <section className="pb-20">
+    <section className="pb-0 sm:pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="w-[48rem] max-w-3xl">
           <Title
@@ -34,7 +34,7 @@ const Social = () => {
               <table className="text-sm text-slate-400 dark:text-slate-600">
                 <thead>
                   <tr className="dark:border-slate-400">
-                    <th className="px-9 py-3 text-left sm:px-4">Social</th>
+                    <th className="px-9 py-4 text-left sm:px-4">Social</th>
                     <th className="w-96 px-4 py-3 text-left sm:px-1">URL</th>
                   </tr>
                 </thead>
@@ -45,8 +45,8 @@ const Social = () => {
                         key={social.id}
                         className="border-t border-slate-700 dark:border-slate-400"
                       >
-                        <td className="px-9 py-3 sm:px-4">{social.social}</td>
-                        <td className="px-3 py-3 text-sky-500 hover:text-sky-300 dark:hover:text-sky-800 sm:px-1">
+                        <td className="px-9 py-4 sm:px-4">{social.social}</td>
+                        <td className="px-3 py-4 text-sky-500 hover:text-sky-300 dark:hover:text-sky-800 sm:px-1">
                           <a href={social.url} target="_blank" rel="noreferrer">
                             {social.display}
                           </a>
