@@ -9,7 +9,7 @@ const Social = () => {
   }, []);
 
   return (
-    <section className="pb-0 sm:pb-20">
+    <section className="pb-20 sm:pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="w-[48rem] max-w-3xl">
           <Title
@@ -21,7 +21,7 @@ const Social = () => {
               initial={{ opacity: 0 }}
               animate={{ x: [-150, 0], opacity: 1 }}
               transition={{ delay: 0.1 }}
-              className="mb-7 text-slate-400 dark:text-slate-600"
+              className="mb-7 text-base text-slate-400 dark:text-slate-600"
             >
               Let's connect via social media!
             </motion.p>
@@ -31,7 +31,7 @@ const Social = () => {
               transition={{ delay: 0.2 }}
               className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400"
             >
-              <table className="text-sm text-slate-400 dark:text-slate-600">
+              <table className="text-base text-slate-400 dark:text-slate-600 sm:text-sm">
                 <thead>
                   <tr className="dark:border-slate-400">
                     <th className="px-9 py-4 text-left sm:px-4">Social</th>

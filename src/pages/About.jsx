@@ -16,24 +16,25 @@ const About = () => {
             title="About"
           ></Title>
           <div className="flex lg:block md:block sm:block">
-            <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
-              className="group relative mr-7 h-[215px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg"
-            >
-              <img
-                src="/profile.png"
-                alt="about"
-                className="cursor-pointer transition-all duration-500 group-hover:scale-125"
-              />
-            </motion.figure>
+            <div className="group relative mr-7 h-[215px] w-[717px] max-w-[200px] overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 lg:mb-7 lg:h-auto lg:max-w-[100px] lg:rounded-lg md:mb-7 md:h-auto md:max-w-[100px] md:rounded-lg sm:mx-auto sm:mb-7 sm:h-auto sm:max-w-[100px] sm:rounded-lg">
+              <motion.figure
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 0.5 }}
+              >
+                <img
+                  src="/profile.png"
+                  alt="about"
+                  className="cursor-pointer transition-all duration-500 group-hover:scale-125"
+                />
+              </motion.figure>
+            </div>
             <div>
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mb-4 text-slate-400 dark:text-slate-600"
+                className="mb-4 text-base text-slate-400 dark:text-slate-600"
               >
                 I'm Luqman, a Web Developer with 2+ years of experience, a
                 graduate of STIKI Malang in Computer Science. I also have
@@ -46,7 +47,7 @@ const About = () => {
                 initial={{ opacity: 0 }}
                 animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.3 }}
-                className="text-slate-400 dark:text-slate-600"
+                className="text-base text-slate-400 dark:text-slate-600"
               >
                 I have skills and experience in web development using
                 technologies such as React, Laravel, NextJS, Tailwind CSS,

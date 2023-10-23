@@ -19,7 +19,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             animate={{ y: [-100, 0], opacity: 1 }}
             transition={{ delay: 0 }}
-            className="mb-6 text-center text-6xl font-bold tracking-tight text-slate-100 dark:font-extrabold dark:text-slate-900 sm:text-left sm:text-5xl sm:font-bold"
+            className="mb-6 text-center text-5xl font-bold tracking-tight text-slate-100 dark:font-extrabold dark:text-slate-900 sm:text-left sm:text-5xl sm:font-bold"
           >
             Welcome to
             <br className="hidden sm:block" />{" "}
@@ -34,7 +34,7 @@ const Home = () => {
             animate={{ y: [100, 0], opacity: 1 }}
             transition={{ delay: 0 }}
           >
-            <p className="text-center text-xl text-slate-400 dark:text-slate-600 sm:text-left">
+            <p className="text-center text-lg text-slate-400 dark:text-slate-600 sm:text-left">
               I'm Luqman, a Full-stack Web Developer specializing in{" "}
               <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400 bg-clip-text text-transparent">
                 front-end web

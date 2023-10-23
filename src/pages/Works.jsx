@@ -23,7 +23,7 @@ const Works = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="text-slate-400 dark:text-slate-600"
+            className="text-base text-slate-400 dark:text-slate-600"
           >
             Here are some of my works.
           </motion.p>

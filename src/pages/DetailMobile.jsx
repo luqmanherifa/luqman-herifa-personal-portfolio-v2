@@ -39,12 +39,12 @@ const DetailMobile = () => {
                 </div>
               </div>
 
-              <div className="mt-2 mb-5 text-4xl font-bold leading-tight text-slate-100 dark:text-slate-900">
+              <div className="mt-2 mb-4 text-4xl font-bold leading-tight text-slate-100 dark:text-slate-900">
                 <p>{selectedObject.name}</p>
               </div>
 
-              <div className="mb-8 text-slate-400 dark:text-slate-500">
-                <p className="text-xl">{selectedObject.desc}</p>
+              <div className="mb-7 text-slate-400 dark:text-slate-500">
+                <p className="text-lg">{selectedObject.desc}</p>
               </div>
 
               <div>
@@ -53,8 +53,8 @@ const DetailMobile = () => {
                 </figure>
               </div>
 
-              <div className="mt-8 flex flex-col gap-1">
-                <div className="flex gap-1 text-lg text-slate-400 dark:text-slate-500">
+              <div className="mt-7 flex flex-col gap-1.5">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-slate-500">
                   <div className="font-semibold text-slate-100 dark:text-slate-600">
                     GitHub:
                   </div>
@@ -68,7 +68,7 @@ const DetailMobile = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex gap-1 text-lg text-slate-400 dark:text-slate-500">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-slate-500">
                   <div className="font-semibold text-slate-100 dark:text-slate-600">
                     Live:
                   </div>
