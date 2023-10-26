@@ -19,6 +19,7 @@
 ## Design
 ### Font
   - [Inter](https://fonts.google.com/specimen/Inter)
+  - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
   
 ### Colors
   - ![#06B6D4](https://placehold.co/20x20/06B6D4/06B6D4.png)  #06B6D4
