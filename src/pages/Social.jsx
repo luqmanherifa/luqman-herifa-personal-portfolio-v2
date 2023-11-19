@@ -31,7 +31,7 @@ const Social = () => {
               transition={{ delay: 0.2 }}
               className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400"
             >
-              <table className="text-base text-slate-400 dark:text-slate-600 sm:text-sm">
+              <table className="text-sm text-slate-400 dark:text-slate-600">
                 <thead>
                   <tr className="dark:border-slate-400">
                     <th className="px-9 py-4 text-left sm:px-4">Social</th>
