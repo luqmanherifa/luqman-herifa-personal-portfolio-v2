@@ -48,7 +48,7 @@ const DetailMobile = () => {
               </div>
 
               <div>
-                <figure className="relative w-full overflow-hidden rounded-3xl sm:rounded-2xl">
+                <figure className="relative h-[576px] w-full overflow-hidden rounded-3xl sm:h-auto sm:rounded-2xl">
                   <img src={selectedObject.image} alt="" />
                 </figure>
               </div>

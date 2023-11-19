@@ -2,7 +2,7 @@ const Image = (props) => {
   const { image } = props;
   return (
     <div>
-      <figure className="group relative max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:max-w-[16rem] sm:rounded-lg">
+      <figure className="group relative h-[336px] max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-auto sm:max-w-[16rem] sm:rounded-lg">
         <img
           src={image}
           alt=""

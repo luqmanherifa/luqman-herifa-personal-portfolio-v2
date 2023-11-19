@@ -2,31 +2,44 @@
   {
     "id": 1,
     "category": "Web",
-    "name": "Web Learning Journey",
+    "name": "Web Development Journey",
     "desc": "A collection of some web learning journey projects that I worked on after graduating from college.",
     "tech1": "JavaScript",
     "tech2": "PHP",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
-    "slug": "web-learning-journey",
-    "link": "https://github.com/luqmanherifa/web-learning-journey",
-    "live": "https://github.com/luqmanherifa/web-learning-journey",
-    "image": "/works/weblearningjourney.png"
+    "slug": "web-development-journey",
+    "link": "https://github.com/luqmanherifa/web-development-journey",
+    "live": "https://github.com/luqmanherifa/web-development-journey",
+    "image": "/works/webdj.png"
   },
   {
     "id": 2,
-    "category": "Web",
-    "name": "College Coding Journey",
+    "category": "College",
+    "name": "College Development Journey",
     "desc": "A collection of some college coding journey projects that I worked on during my college days.",
     "tech1": "Java",
     "tech2": "PHP",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
-    "slug": "college-coding-journey",
-    "link": "https://github.com/luqmanherifa/college-coding-journey",
-    "live": "https://github.com/luqmanherifa/college-coding-journey",
-    "image": "/works/collegecodingjourney.png"
+    "slug": "college-development-journey",
+    "link": "https://github.com/luqmanherifa/college-development-journey",
+    "live": "https://github.com/luqmanherifa/college-development-journey",
+    "image": "/works/collegedj.png"
   },
   {
     "id": 3,
+    "category": "AI",
+    "name": "AI Development Journey",
+    "desc": "A collection of some artificial intelligence learning journey projects that I worked on during the AI boom era.",
+    "tech1": "Python",
+    "tech2": "OpenCV",
+    "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
+    "slug": "ai-development-journey",
+    "link": "https://github.com/luqmanherifa/ai-development-journey",
+    "live": "https://github.com/luqmanherifa/ai-development-journey",
+    "image": "/works/aidj.png"
+  },
+  {
+    "id": 4,
     "category": "Web",
     "name": "Luqman Herifa: Personal Portfolio v1",
     "desc": "Luqman Herifa is a personal portfolio v1 contains information about me, education, projects, and social media contacts based on web. The project was developed for personal portfolio using JavaScript, Bootstrap, HTML/CSS, and others.",
@@ -39,7 +52,7 @@
     "image": "/works/luqmanherifav1.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "category": "Web",
     "name": "Qwords Redesign: Landing Page",
     "desc": "Qwords Redesign is a Qwords landing page redesign contains information about hosting prices, target market, and service offerings based on web. The project was developed for virtual internship using React, JavaScript, and Tailwind CSS.",
@@ -47,12 +60,12 @@
     "tech2": "JavaScript",
     "css": "bg-orange-400/10 text-orange-400",
     "slug": "qwords-redesign-landing-page",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Qwords%20Redesign%20-%20Landing%20Page",
+    "link": "https://github.com/luqmanherifa/web-development-journey/tree/main/Qwords%20Redesign%20-%20Landing%20Page",
     "live": "https://qwordsredesign-luqmanherifa.netlify.app",
     "image": "/works/qwordsredesign.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "category": "Web",
     "name": "Quintess: Music Platform Landing Page",
     "desc": "Quintess is a music platform landing page contains information about platform advantages, features, and testimonials based on web. The project was developed for practicing slicing UI using CSS/HTML and JavaScript.",
@@ -60,12 +73,12 @@
     "tech2": "HTML",
     "css": "bg-indigo-400/10 text-indigo-400",
     "slug": "quintess-music-platform-landing-page",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Quintess%20-%20Music%20Platform%20Landing%20Page",
+    "link": "https://github.com/luqmanherifa/web-development-journey/tree/main/Quintess%20-%20Music%20Platform%20Landing%20Page",
     "live": "https://quintess-luqmanherifa.vercel.app",
     "image": "/works/quintess.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "category": "Web",
     "name": "Sterna: Apparel Store Catalog",
     "desc": "Sterna is an apparel store catalog contains information about product display, name, and price based on web. The project was developed for practicing fetch data using JavaScript, jQuery, and HTML/CSS.",
@@ -73,22 +86,9 @@
     "tech2": "jQuery",
     "css": "bg-rose-400/10 text-rose-400",
     "slug": "sterna-apparel-store-catalog",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Sterna%20-%20Apparel%20Store%20Catalog",
+    "link": "https://github.com/luqmanherifa/web-development-journey/tree/main/Sterna%20-%20Apparel%20Store%20Catalog",
     "live": "https://sterna-luqmanherifa.vercel.app",
     "image": "/works/sterna.png"
-  },
-  {
-    "id": 7,
-    "category": "Web",
-    "name": "Senema: Movie Search Engine",
-    "desc": "Senema is a movie search engine contains information about movie title, release date, plot, and others based on web. The project was developed for practicing fetch API using JavaScript, jQuery, and HTML/CSS.",
-    "tech1": "JavaScript",
-    "tech2": "jQuery",
-    "css": "bg-teal-400/10 text-teal-400",
-    "slug": "senema-movie-search-engine",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Senema%20-%20Movie%20Search%20Engine",
-    "live": "https://senema-luqmanherifa.vercel.app",
-    "image": "/works/senema.png"
   },
   {
     "id": 8,
@@ -99,7 +99,7 @@
     "tech2": "CSS",
     "css": "bg-yellow-400/10 text-yellow-400 dark:text-yellow-500",
     "slug": "paytails-payment-section-page",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Paytails%20-%20Payment%20Section%20Page",
+    "link": "https://github.com/luqmanherifa/web-development-journey/tree/main/Paytails%20-%20Payment%20Section%20Page",
     "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "/works/paytails.png"
   }
