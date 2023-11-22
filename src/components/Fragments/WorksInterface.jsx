@@ -8,9 +8,9 @@ import Url from "../Elements/Works/Url";
 const WorksInterface = () => {
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="bg-blue-400/10 text-blue-400 dark:bg-blue-400/20"
+          classname="bg-blue-400/10 text-blue-400 dark:bg-white"
           title="Interface Design"
         ></TitleWorks>
         <div className="flex justify-center">

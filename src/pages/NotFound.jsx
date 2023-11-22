@@ -19,7 +19,7 @@ const NotFound = () => {
             damping: 20,
             delay: 0,
           }}
-          className="text-6xl font-bold tracking-tight text-slate-100 dark:text-slate-600"
+          className="text-6xl font-bold tracking-tight text-slate-100 dark:text-blue-600"
         >
           Ups! <br className="hidden lg:block md:block sm:block" />
           Page not found :(

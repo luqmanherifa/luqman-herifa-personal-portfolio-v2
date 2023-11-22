@@ -31,19 +31,19 @@ const DetailOther = () => {
           {selectedObject && (
             <div>
               <div className="mb-3 flex gap-3 text-slate-100">
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-base text-slate-300 dark:border-slate-400 dark:bg-slate-200 dark:text-slate-500">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-base text-slate-300 dark:border-blue-600 dark:bg-white dark:text-blue-600">
                   {selectedObject.tech1}
                 </div>
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-base text-slate-300 dark:border-slate-400 dark:bg-slate-200 dark:text-slate-500">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-base text-slate-300 dark:border-blue-600 dark:bg-white dark:text-blue-600">
                   {selectedObject.tech2}
                 </div>
               </div>
 
-              <div className="mt-2 mb-4 text-4xl font-bold leading-tight text-slate-100 dark:text-slate-900">
+              <div className="mt-2 mb-4 text-4xl font-bold leading-tight text-slate-100 dark:text-blue-600">
                 <p>{selectedObject.name}</p>
               </div>
 
-              <div className="mb-7 text-slate-400 dark:text-slate-500">
+              <div className="mb-7 text-slate-400 dark:text-blue-600">
                 <p className="text-lg">{selectedObject.desc}</p>
               </div>
 
@@ -54,11 +54,11 @@ const DetailOther = () => {
               </div>
 
               <div className="mt-7 flex flex-col gap-1.5">
-                <div className="flex gap-1 text-base text-slate-400 dark:text-slate-500">
-                  <div className="font-semibold text-slate-100 dark:text-slate-600">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-600">
+                  <div className="font-semibold text-slate-100 dark:text-blue-600">
                     GitHub:
                   </div>
-                  <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-slate-800">
+                  <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-800">
                     <a
                       href={selectedObject.link}
                       target="_blank"
@@ -68,11 +68,11 @@ const DetailOther = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex gap-1 text-base text-slate-400 dark:text-slate-500">
-                  <div className="font-semibold text-slate-100 dark:text-slate-600">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-600">
+                  <div className="font-semibold text-slate-100 dark:text-blue-600">
                     Live:
                   </div>
-                  <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-slate-800">
+                  <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-800">
                     <a
                       href={selectedObject.live}
                       target="_blank"

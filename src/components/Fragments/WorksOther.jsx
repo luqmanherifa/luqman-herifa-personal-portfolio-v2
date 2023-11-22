@@ -21,9 +21,9 @@ const WorksOther = () => {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-slate-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="bg-gray-400/10 text-gray-300 dark:text-gray-500 dark:bg-gray-400/20"
+          classname="bg-gray-400/10 text-gray-300 dark:text-gray-500 dark:bg-white"
           title="Other Projects"
         ></TitleWorks>
         <div className="flex justify-center">
@@ -60,7 +60,7 @@ const WorksOther = () => {
         </div>
         <div className="mt-7 flex justify-center">
           <button
-            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800"
+            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-blue-600 dark:bg-blue-100 dark:text-blue-600 dark:hover:bg-blue-200"
             onClick={toggleShowAll}
           >
             {showAll ? "Show Less" : "Show More"}

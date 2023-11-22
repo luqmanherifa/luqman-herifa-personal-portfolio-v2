@@ -13,7 +13,7 @@ const Social = () => {
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="w-[48rem] max-w-3xl">
           <Title
-            classname="bg-pink-400/10 text-pink-400 dark:bg-pink-400/20"
+            classname="bg-pink-400/10 text-pink-400 dark:bg-white"
             title="Social"
           ></Title>
           <div>
@@ -21,7 +21,7 @@ const Social = () => {
               initial={{ opacity: 0 }}
               animate={{ x: [-150, 0], opacity: 1 }}
               transition={{ delay: 0.1 }}
-              className="mb-7 text-base text-slate-400 dark:text-slate-600"
+              className="mb-7 text-base text-slate-400 dark:text-blue-600"
             >
               Let's connect via social media!
             </motion.p>
@@ -29,11 +29,11 @@ const Social = () => {
               initial={{ opacity: 0 }}
               animate={{ x: [-150, 0], opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="max-w-lg rounded-2xl border border-slate-700 dark:border-slate-400"
+              className="max-w-lg rounded-2xl border border-slate-700 dark:border-blue-600"
             >
-              <table className="text-sm text-slate-400 dark:text-slate-600">
+              <table className="text-sm text-slate-400 dark:text-blue-600">
                 <thead>
-                  <tr className="dark:border-slate-400">
+                  <tr className="dark:border-blue-600">
                     <th className="px-9 py-4 text-left sm:px-4">Social</th>
                     <th className="w-96 px-4 py-3 text-left sm:px-1">URL</th>
                   </tr>
@@ -43,10 +43,10 @@ const Social = () => {
                     return (
                       <tr
                         key={social.id}
-                        className="border-t border-slate-700 dark:border-slate-400"
+                        className="border-t border-slate-700 dark:border-blue-600"
                       >
                         <td className="px-9 py-4 sm:px-4">{social.social}</td>
-                        <td className="px-3 py-4 text-sky-500 hover:text-sky-300 dark:hover:text-sky-800 sm:px-1">
+                        <td className="px-3 py-4 text-sky-500 hover:text-sky-300 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
                           <a href={social.url} target="_blank" rel="noreferrer">
                             {social.display}
                           </a>
