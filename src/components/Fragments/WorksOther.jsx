@@ -23,7 +23,7 @@ const WorksOther = () => {
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="bg-gray-400/10 text-gray-300 dark:text-gray-500 dark:bg-white"
+          classname="bg-gray-400/10 text-gray-300 dark:text-blue-600 dark:bg-white"
           title="Other Projects"
         ></TitleWorks>
         <div className="flex justify-center">
