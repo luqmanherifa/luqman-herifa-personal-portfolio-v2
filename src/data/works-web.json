@@ -24,7 +24,7 @@
     "css": "bg-red-400/10 text-red-400 dark:text-red-500",
     "slug": "motocraft-motorcycle-workshop-app",
     "link": "https://github.com/luqmanherifa/motocraft-motorcycle-workshop-app",
-    "live": "https://github.com/luqmanherifa/motocraft-motorcycle-workshop-app",
+    "live": "https://youtu.be/Zycy6pxrcNg",
     "image": "/works/motocraft.png"
   },
   {
@@ -72,11 +72,11 @@
   {
     "id": 6,
     "category": "Web",
-    "name": "Under Construction",
+    "name": "Coming Soon",
     "desc": "This website is currently under construction. Please bear with us while we work on improving it to provide you with the best possible experience. Thank you for your understanding.",
-    "tech1": "UC",
-    "tech2": "UC",
-    "tech3": "UC",
+    "tech1": "React",
+    "tech2": "Laravel",
+    "tech3": "Tailwind CSS",
     "css": "bg-slate-400/10 text-slate-300 dark:text-slate-500",
     "slug": "under-construction",
     "link": "works/under-construction",
