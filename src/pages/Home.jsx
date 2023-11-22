@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Luqman Portfolio";
+    document.title = "Luqman Blueprints";
   }, []);
 
   return (
@@ -25,7 +25,7 @@ const Home = () => {
             Dive into
             <br className="sm:block" />
             <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent dark:text-blue-600">
-              Luqman Portfolio
+              Luqman Blueprints
             </span>
           </motion.h1>
           <motion.div
