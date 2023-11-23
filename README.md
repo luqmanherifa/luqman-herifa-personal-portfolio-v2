@@ -9,9 +9,11 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
   - JavaScript
   - HTML/CSS
 
-### Libraries
+### Frameworks
   - React
   - Tailwind CSS
+
+### Libraries
   - Framer Motion
 
 ### Tools
