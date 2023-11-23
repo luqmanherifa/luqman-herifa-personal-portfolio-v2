@@ -41,19 +41,6 @@
   {
     "id": 4,
     "category": "Web",
-    "name": "Luqman Herifa: Personal Portfolio v1",
-    "desc": "Luqman Herifa is a personal portfolio v1 contains information about me, education, projects, and social media contacts based on web. The project was developed for personal portfolio using JavaScript, Bootstrap, HTML/CSS, and others.",
-    "tech1": "JavaScript",
-    "tech2": "Bootstrap",
-    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-white dark:border dark:border-blue-600",
-    "slug": "luqman-herifa-personal-portfolio-v1",
-    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
-    "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
-    "image": "/works/luqmanherifav1.png"
-  },
-  {
-    "id": 5,
-    "category": "Web",
     "name": "Quintess: Music Platform Landing Page",
     "desc": "Quintess is a music platform landing page contains information about platform advantages, features, and testimonials based on web. The project was developed for practicing slicing UI using CSS/HTML and JavaScript.",
     "tech1": "CSS",
@@ -65,7 +52,7 @@
     "image": "/works/quintess.png"
   },
   {
-    "id": 6,
+    "id": 5,
     "category": "Web",
     "name": "Qwords Redesign: Landing Page",
     "desc": "Qwords Redesign is a Qwords landing page redesign contains information about hosting prices, target market, and service offerings based on web. The project was developed for virtual internship using React, JavaScript, and Tailwind CSS.",
@@ -78,7 +65,7 @@
     "image": "/works/qwordsredesign.png"
   },
   {
-    "id": 7,
+    "id": 6,
     "category": "Web",
     "name": "Sterna: Apparel Store Catalog",
     "desc": "Sterna is an apparel store catalog contains information about product display, name, and price based on web. The project was developed for practicing fetch data using JavaScript, jQuery, and HTML/CSS.",
@@ -91,7 +78,7 @@
     "image": "/works/sterna.png"
   },
   {
-    "id": 8,
+    "id": 7,
     "category": "Web",
     "name": "Paytails: Payment Section Page",
     "desc": "Paytails is a payment details section page based on web, developed for practicing HTML form validation using HTML/CSS.",
@@ -102,5 +89,18 @@
     "link": "https://github.com/luqmanherifa/web-development-journey/tree/main/Paytails%20-%20Payment%20Section%20Page",
     "live": "https://paytails-luqmanherifa.vercel.app",
     "image": "/works/paytails.png"
+  },
+  {
+    "id": 8,
+    "category": "Web",
+    "name": "Luqman Herifa: Personal Portfolio v1",
+    "desc": "Luqman Herifa is a personal portfolio v1 contains information about me, education, projects, and social media contacts based on web. The project was developed for personal portfolio using JavaScript, Bootstrap, HTML/CSS, and others.",
+    "tech1": "JavaScript",
+    "tech2": "Bootstrap",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-white dark:border dark:border-blue-600",
+    "slug": "luqman-herifa-personal-portfolio-v1",
+    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v1",
+    "live": "https://luqmanherifav1-luqmanherifa.vercel.app",
+    "image": "/works/luqmanherifav1.png"
   }
 ]
