@@ -2,20 +2,6 @@
   {
     "id": 1,
     "category": "Web",
-    "name": "Luqman Herifa: Personal Portfolio v2",
-    "desc": "Luqman Herifa is a personal portfolio v2 contains information about me, works, and social media contacts based on web. The project was developed for personal portfolio using React, JavaScript, Tailwind CSS, HTML/CSS, and others.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "tech3": "Tailwind CSS",
-    "css": "bg-slate-400/10 text-slate-300 dark:text-blue-600 dark:bg-white dark:border dark:border-blue-600",
-    "slug": "luqman-herifa-personal-portfolio-v2",
-    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "live": "https://luqmaaan.site",
-    "image": "/works/luqmanherifav2.png"
-  },
-    {
-    "id": 2,
-    "category": "Web",
     "name": "Motocraft: Motorcycle Workshop App",
     "desc": "Motocraft is a motorcycle workshop management information system contains promo, info, services, spare part, employee, attendance, and revenue features based on web. The project was developed for motorcycle workshop MIS using React, Laravel, Tailwind CSS, MySQL, and others.",
     "tech1": "React",
@@ -28,7 +14,7 @@
     "image": "/works/motocraft.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "category": "Web",
     "name": "Wordium: Writing Platform",
     "desc": "Wordium is a writing platform contains story, knowledge, and perspective, post submit and edit features based on web. The project was developed for practicing Laravel and CRUD using Blade, Laravel, Tailwind CSS, MySQL, and others.",
@@ -40,6 +26,20 @@
     "link": "https://github.com/luqmanherifa/wordium-writing-platform",
     "live": "https://youtu.be/wsGFfr5GPbw",
     "image": "/works/wordium.png"
+  },
+  {
+    "id": 3,
+    "category": "Web",
+    "name": "Luqman Herifa: Personal Portfolio v2",
+    "desc": "Luqman Herifa is a personal portfolio v2 contains information about me, works, and social media contacts based on web. The project was developed for personal portfolio using React, JavaScript, Tailwind CSS, HTML/CSS, and others.",
+    "tech1": "React",
+    "tech2": "JavaScript",
+    "tech3": "Tailwind CSS",
+    "css": "bg-slate-400/10 text-slate-300 dark:text-blue-600 dark:bg-white dark:border dark:border-blue-600",
+    "slug": "luqman-herifa-personal-portfolio-v2",
+    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
+    "live": "https://luqmaaan.site",
+    "image": "/works/luqmanherifav2.png"
   },
   {
     "id": 4,
