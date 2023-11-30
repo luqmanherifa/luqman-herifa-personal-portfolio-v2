@@ -34,16 +34,11 @@ const Home = () => {
             transition={{ delay: 0 }}
           >
             <p className="text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:text-left">
-              I'm Luqman, a Full-stack Web Developer specializing in{" "}
-              <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400 bg-clip-text text-transparent dark:text-blue-600">
-                front-end web
-              </span>{" "}
+              I am Luqman, a Full-stack Web Developer specializing in front-end
+              web
               <br className="lg:hidden md:hidden sm:hidden" />
-              and{" "}
-              <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400 bg-clip-text text-transparent dark:text-blue-600">
-                interface design
-              </span>
-              . I'm currently looking for new opportunities.
+              and interface design . I am currently looking for new
+              opportunities.
             </p>
           </motion.div>
         </div>
