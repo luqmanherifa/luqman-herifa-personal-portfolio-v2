@@ -37,7 +37,7 @@ const Home = () => {
               I am Luqman, a Full-stack Web Developer specializing in front-end
               web
               <br className="lg:hidden md:hidden sm:hidden" />
-              and interface design . I am currently looking for new
+              and interface design. I am currently looking for new
               opportunities.
             </p>
           </motion.div>
