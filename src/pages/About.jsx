@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className="pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
-        <div className="max-w-3xl md:max-w-lg">
+        <div className="max-w-xl md:max-w-lg">
           <Title
             classname="bg-cyan-400/10 text-cyan-400 dark:bg-white"
             title="About"
@@ -34,16 +34,15 @@ const About = () => {
                 initial={{ opacity: 0 }}
                 animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mb-4 text-base text-slate-400 dark:text-blue-600 2xl:w-[36rem] lg:w-auto md:w-auto sm:w-auto"
+                className="mb-4 text-base text-slate-400 dark:text-blue-600 2xl:w-[24rem] lg:w-auto md:w-auto sm:w-auto"
               >
                 I am Luqman, a Full-stack Web Developer with 1+ year of
                 experience, a graduate of STIKI Malang in Computer Science. I
                 also have experience as an IT Support and Software Developer
                 Intern. I am currently focused on enhancing my skills in web
-                development and interface design. I am seeking an opportunity to
-                utilize my expertise in web development, with hands-on
-                experience in technologies such as React, Laravel, Tailwind CSS,
-                JavaScript, PHP, HTML/CSS, MySQL, and others.
+                development and interface design. I have hands-on experience in
+                technologies such as React, Laravel, Tailwind CSS, JavaScript,
+                PHP, HTML/CSS, MySQL, and others.
               </motion.p>
             </div>
           </div>
