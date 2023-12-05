@@ -38,7 +38,7 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
   - Web
   
 ### Deployment
-  - [Niagahoster](https://luqmaaan.site)
+  - [Niagahoster](https://luqmanblueprints.site)
   - [Netlify](https://luqmanherifa.netlify.app)
 
 ### Responsive
