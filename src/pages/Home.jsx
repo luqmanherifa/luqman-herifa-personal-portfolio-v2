@@ -24,7 +24,7 @@ const Home = () => {
             Halo! <br className="hidden sm:block" />
             Dive into
             <br className="sm:block" />
-            <span className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 bg-clip-text font-extrabold text-transparent dark:text-blue-600">
+            <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent dark:text-blue-600">
               Luqman Blueprints
             </span>
           </motion.h1>
