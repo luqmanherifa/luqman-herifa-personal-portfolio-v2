@@ -67,15 +67,15 @@
   {
     "id": 6,
     "category": "Web",
-    "name": "Web Hosting Provider Landing Page",
-    "desc": "Web Hosting Provider Landing Page is a web hosting provider landing page redesign contains information about hosting prices, target market, and service offerings based on web. The project was developed for virtual internship using React, JavaScript, and Tailwind CSS.",
+    "name": "Hostider: Hosting Provider Landing Page",
+    "desc": "Hostider is a web hosting provider landing page redesign contains information about hosting prices, target market, and service offerings based on web. The project was developed for virtual internship using React, JavaScript, and Tailwind CSS.",
     "tech1": "React",
     "tech2": "JavaScript",
     "css": "bg-orange-400/10 text-orange-400 dark:text-blue-600 dark:bg-white dark:border dark:border-blue-600",
-    "slug": "web-hosting-provider-landing-page",
-    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Web%20Hosting%20Provider%20Landing%20Page",
-    "live": "https://whplp-luqmanherifa.netlify.app",
-    "image": "/works/whplp.png"
+    "slug": "hostider-hosting-provider-landing-page",
+    "link": "https://github.com/luqmanherifa/web-learning-journey/tree/main/Hostider%20-%20Hosting%20Provider%20Landing%20Page",
+    "live": "https://hostider-luqmanherifa.netlify.app/",
+    "image": "/works/hostider.png"
   },
   {
     "id": 7,
