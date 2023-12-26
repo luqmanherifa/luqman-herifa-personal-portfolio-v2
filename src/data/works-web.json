@@ -59,7 +59,7 @@
     "id": 5,
     "category": "Web",
     "name": "Proteus: Post Hub",
-    "desc": "Proteus is a post hub contains posts and users information and detail, post and user submit and edit features based on web. The project was developed for practicing React and fetch API using React, Axios, TailwindCSS, and others.",
+    "desc": "Proteus is a post hub contains posts and users information and detail, post and user submit and edit features based on web. The project was developed for practicing React and fetch API using React, Axios, Tailwind CSS, and others.",
     "tech1": "React",
     "tech2": "JavaScript",
     "tech3": "Tailwind CSS",
