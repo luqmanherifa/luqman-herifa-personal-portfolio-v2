@@ -36,7 +36,7 @@ const About = () => {
                 transition={{ delay: 0.2 }}
                 className="mb-4 text-base text-slate-400 dark:text-blue-600 2xl:w-[24rem] lg:w-auto md:w-auto sm:w-auto"
               >
-                I am Luqman, a Full-stack Web Developer with 2+ year of
+                I am Luqman, a Full-stack Web Developer with 2+ years of
                 experience, a graduate of STIKI Malang in Computer Science. I
                 also have experience as an IT Support and Software Developer
                 Intern. I am currently focused on enhancing my skills in web
