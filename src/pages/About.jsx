@@ -36,13 +36,13 @@ const About = () => {
                 transition={{ delay: 0.2 }}
                 className="mb-4 text-base text-slate-400 dark:text-blue-600 2xl:w-[24rem] lg:w-auto md:w-auto sm:w-auto"
               >
-                I am Luqman, a Full-stack Web Developer with 2+ years of
-                experience, a graduate of STIKI Malang in Computer Science. I
-                also have experience as an IT Support and Software Developer
-                Intern. I am currently focused on enhancing my skills in web
-                development and interface design. I have hands-on experience in
-                technologies such as React, Laravel, Tailwind CSS, JavaScript,
-                PHP, HTML/CSS, MySQL, and others.
+                I am a Full-stack Web Developer with 2+ years of experience, a
+                graduate of STIKI Malang in Computer Science. I also have
+                experience as an IT Support and Software Engineer Intern. I am
+                currently seeking an opportunity to utilize my expertise in web
+                development, with hands-on experience in technologies such as
+                React, Laravel, NextJS, Tailwind CSS, JavaScript, PHP,
+                TypeScript, HTML/CSS, MySQL, and others.
               </motion.p>
             </div>
           </div>
