@@ -47,7 +47,7 @@ Luqman Herifa is a personal portfolio v2 contains information about me, works, a
   - Tablet
 
 ### Date created
-  - January 2023 — Present
+  - January 2023 — December 2023
 
 ### How to run
   - React
