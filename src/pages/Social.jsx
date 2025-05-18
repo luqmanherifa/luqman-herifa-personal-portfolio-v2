@@ -9,55 +9,58 @@ const Social = () => {
   }, []);
 
   return (
-    <section className="pb-20 sm:pb-20">
+    <section className="pb-20">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
-        <div className="w-[48rem] max-w-xl">
+        <div className="flex w-[48rem] max-w-2xl flex-col items-center justify-center">
           <Title
             classname="bg-pink-400/10 text-pink-400 dark:bg-white"
             title="Social"
           ></Title>
-          <div>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ x: [-150, 0], opacity: 1 }}
-              transition={{ delay: 0.1 }}
-              className="mb-7 text-base text-slate-400 dark:text-blue-600"
-            >
-              Let's connect via social media!
-            </motion.p>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ x: [-150, 0], opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              className="max-w-lg rounded-2xl border border-slate-700 dark:border-blue-600"
-            >
-              <table className="text-sm text-slate-400 dark:text-blue-600">
-                <thead>
-                  <tr className="dark:border-blue-600">
-                    <th className="px-9 py-4 text-left sm:px-4">Social</th>
-                    <th className="w-96 px-4 py-3 text-left sm:px-1">URL</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {DataSocial.map((social) => {
-                    return (
-                      <tr
-                        key={social.id}
-                        className="border-t border-slate-700 dark:border-blue-600"
-                      >
-                        <td className="px-9 py-4 sm:px-4">{social.social}</td>
-                        <td className="px-3 py-4 text-sky-500 hover:text-sky-300 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
-                          <a href={social.url} target="_blank" rel="noreferrer">
-                            {social.display}
-                          </a>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </motion.div>
-          </div>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ x: [-150, 0], opacity: 1 }}
+            transition={{ delay: 0.1 }}
+            className="mb-7 text-base text-slate-400 dark:text-blue-600"
+          >
+            I’d love to connect — feel free to reach out or just say hi through
+            my social media!
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ x: [-150, 0], opacity: 1 }}
+            transition={{ delay: 0.2 }}
+            className="max-w-lg rounded-2xl border border-slate-700 dark:border-blue-600"
+          >
+            <table className="text-sm text-slate-400 dark:text-blue-600">
+              <thead>
+                <tr className="dark:border-blue-600">
+                  <th className="px-9 py-5 text-left font-semibold sm:px-4">
+                    Social
+                  </th>
+                  <th className="w-96 px-4 py-5 text-left font-semibold sm:px-1">
+                    URL
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {DataSocial.map((social) => {
+                  return (
+                    <tr
+                      key={social.id}
+                      className="border-t border-slate-700 dark:border-blue-600"
+                    >
+                      <td className="px-9 py-5 sm:px-4">{social.social}</td>
+                      <td className="px-3 py-5 text-sky-500 hover:text-sky-300 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
+                        <a href={social.url} target="_blank" rel="noreferrer">
+                          {social.display}
+                        </a>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </motion.div>
         </div>
       </div>
     </section>
