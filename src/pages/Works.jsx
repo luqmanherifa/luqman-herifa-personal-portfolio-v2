@@ -12,7 +12,7 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="pb-10">
+    <section className="pb-10 sm:pb-5">
       <div>
         <div className="mx-auto flex max-w-3xl flex-col items-center justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
           <Title
@@ -23,7 +23,7 @@ const Works = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="text-base text-slate-400 dark:text-blue-600"
+            className="text-center text-base text-slate-400 dark:text-blue-600"
           >
             Here’s a glimpse of what I’ve built — from fun side projects to
             real-world applications.

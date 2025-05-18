@@ -7,7 +7,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="pb-10">
+    <section className="pb-10 sm:pb-5">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

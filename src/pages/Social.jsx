@@ -9,7 +9,7 @@ const Social = () => {
   }, []);
 
   return (
-    <section className="pb-20">
+    <section className="pb-10 sm:pb-5">
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="flex w-[48rem] max-w-2xl flex-col items-center justify-center">
           <Title
@@ -20,7 +20,7 @@ const Social = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="mb-7 text-base text-slate-400 dark:text-blue-600"
+            className="mb-7 text-center text-base text-slate-400 dark:text-blue-600"
           >
             I’d love to connect — feel free to reach out or just say hi through
             my social media!
