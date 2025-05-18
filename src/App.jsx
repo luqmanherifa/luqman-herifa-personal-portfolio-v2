@@ -6,7 +6,7 @@ import routes from "./routes";
 
 const App = () => {
   return (
-    <div className="app min-h-screen bg-slate-900 dark:bg-white">
+    <div className="app min-h-screen bg-slate-900 dark:bg-slate-100">
       <Navbar />
       <Routes>
         {routes.map((route, index) => (

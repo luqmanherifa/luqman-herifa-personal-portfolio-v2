@@ -13,7 +13,7 @@ const Social = () => {
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="flex w-[48rem] max-w-2xl flex-col items-center justify-center">
           <Title
-            classname="bg-pink-400/10 text-pink-400 dark:bg-white"
+            classname="bg-pink-400/10 text-pink-400 dark:bg-slate-100"
             title="Social"
           ></Title>
           <motion.p

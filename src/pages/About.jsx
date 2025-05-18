@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-xl md:max-w-lg">
           <Title
-            classname="bg-cyan-400/10 text-cyan-400 dark:bg-white"
+            classname="bg-cyan-400/10 text-cyan-400 dark:bg-slate-100"
             title="About"
           ></Title>
           <div className="flex sm:block">
