@@ -1,4 +1,5 @@
 import Home from "./pages/Home";
+import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Works from "./pages/Works";
 import DetailWeb from "./pages/DetailWeb";
@@ -12,6 +13,10 @@ const routes = [
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/hero",
+    element: <Hero />,
   },
   {
     path: "/about",
