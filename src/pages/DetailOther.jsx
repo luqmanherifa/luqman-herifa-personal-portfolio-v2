@@ -39,7 +39,7 @@ const DetailOther = () => {
                 </div>
               </div>
 
-              <div className="mt-2 mb-4 text-4xl font-bold leading-tight text-slate-100 dark:text-blue-600">
+              <div className="mt-2 mb-4 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-600">
                 <p>{selectedObject.name}</p>
               </div>
 
@@ -55,7 +55,7 @@ const DetailOther = () => {
 
               <div className="mt-7 flex flex-col gap-1.5">
                 <div className="flex gap-1 text-base text-slate-400 dark:text-blue-600">
-                  <div className="font-semibold text-slate-100 dark:text-blue-600">
+                  <div className="font-medium text-slate-100 dark:text-blue-600">
                     GitHub:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-800">
@@ -69,7 +69,7 @@ const DetailOther = () => {
                   </div>
                 </div>
                 <div className="flex gap-1 text-base text-slate-400 dark:text-blue-600">
-                  <div className="font-semibold text-slate-100 dark:text-blue-600">
+                  <div className="font-medium text-slate-100 dark:text-blue-600">
                     Live:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-800">

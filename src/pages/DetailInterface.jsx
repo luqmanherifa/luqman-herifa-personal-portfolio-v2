@@ -30,7 +30,7 @@ const DetailInterface = () => {
         <div className="max-w-3xl sm:max-w-xs">
           {selectedObject && (
             <div>
-              <div className="mt-2 mb-7 text-4xl font-bold leading-tight text-slate-100 dark:text-blue-600">
+              <div className="mt-2 mb-7 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-600">
                 <p>{selectedObject.name}</p>
               </div>
 
