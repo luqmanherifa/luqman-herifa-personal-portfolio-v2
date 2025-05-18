@@ -5,19 +5,25 @@ import Name from "../Elements/Works/Name";
 import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
 import Url from "../Elements/Works/Url";
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const WorksOther = () => {
   const [showAll, setShowAll] = useState(false);
+  const [renderAll, setRenderAll] = useState(false);
+  useEffect(() => {
+    if (showAll) {
+      setRenderAll(true);
+    } else {
+      const timeout = setTimeout(() => {
+        setRenderAll(false);
+      }, 800);
 
-  const toggleShowAll = () => {
-    setShowAll(!showAll);
-  };
+      return () => clearTimeout(timeout);
+    }
+  }, [showAll]);
 
-  const displayOtherData = showAll
-    ? WorksOtherData
-    : WorksOtherData.slice(0, 4);
+  const displayedData = renderAll ? WorksOtherData : WorksOtherData.slice(0, 4);
 
   return (
     <div>
@@ -27,41 +33,37 @@ const WorksOther = () => {
           title="Other Projects"
         ></TitleWorks>
         <div className="flex justify-center">
-          <div className="flex max-w-5xl flex-wrap justify-center gap-7 sm:gap-5">
-            {displayOtherData.map((workOther) => {
-              return (
-                <div key={workOther.id}>
-                  <Link to={`/other/${workOther.slug}`}>
-                    <Image image={workOther.image}></Image>
-                  </Link>
-                  <div className="max-w-md sm:max-w-[16rem]">
-                    <Name
+          <div
+            className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
+              showAll ? "max-h-[3000px]" : "max-h-[1000px]"
+            }`}
+          >
+            {displayedData.map((workOther) => (
+              <div key={workOther.id}>
+                <Link to={`/other/${workOther.slug}`}>
+                  <Image image={workOther.image} />
+                </Link>
+                <div className="max-w-md sm:max-w-[16rem]">
+                  <Name classname={workOther.css} name={workOther.name} />
+                  <Desc classname={workOther.css} desc={workOther.desc} />
+                  <div className="flex justify-between sm:block">
+                    <Tech
                       classname={workOther.css}
-                      name={workOther.name}
-                    ></Name>
-                    <Desc
-                      classname={workOther.css}
-                      desc={workOther.desc}
-                    ></Desc>
-                    <div className="flex justify-between sm:block">
-                      <Tech
-                        classname={workOther.css}
-                        tech1={workOther.tech1}
-                        tech2={workOther.tech2}
-                        tech3={workOther.tech3}
-                      ></Tech>
-                      <Url link={workOther.link} live={workOther.live}></Url>
-                    </div>
+                      tech1={workOther.tech1}
+                      tech2={workOther.tech2}
+                      tech3={workOther.tech3}
+                    />
+                    <Url link={workOther.link} live={workOther.live} />
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         </div>
         <div className="mt-7 flex justify-center">
           <button
             className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-blue-600 dark:bg-blue-100 dark:text-blue-600 dark:hover:bg-blue-200"
-            onClick={toggleShowAll}
+            onClick={() => setShowAll(!showAll)}
           >
             {showAll ? "Show Less" : "Show More"}
           </button>

@@ -6,16 +6,25 @@ import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
 import Url from "../Elements/Works/Url";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const WorksWeb = () => {
   const [showAll, setShowAll] = useState(false);
+  const [renderAll, setRenderAll] = useState(false);
 
-  const toggleShowAll = () => {
-    setShowAll(!showAll);
-  };
+  useEffect(() => {
+    if (showAll) {
+      setRenderAll(true);
+    } else {
+      const timeout = setTimeout(() => {
+        setRenderAll(false);
+      }, 800);
 
-  const displayWebData = showAll ? WorksWebData : WorksWebData.slice(0, 4);
+      return () => clearTimeout(timeout);
+    }
+  }, [showAll]);
+
+  const displayedData = renderAll ? WorksWebData : WorksWebData.slice(0, 4);
 
   return (
     <div>
@@ -23,38 +32,40 @@ const WorksWeb = () => {
         <TitleWorks
           classname="bg-yellow-400/10 text-yellow-400 dark:bg-white"
           title="Web Development"
-        ></TitleWorks>
+        />
         <div className="flex justify-center">
-          <div className="flex max-w-5xl flex-wrap justify-center gap-7 sm:gap-5">
-            {displayWebData.map((workWeb) => {
-              return (
-                <div key={workWeb.id}>
-                  <Link to={`/web/${workWeb.slug}`}>
-                    <Image image={workWeb.image}></Image>
-                  </Link>
-                  <div className="max-w-md sm:max-w-[16rem]">
-                    <Name classname={workWeb.css} name={workWeb.name}></Name>
-                    <Desc classname={workWeb.css} desc={workWeb.desc}></Desc>
-                    <div className="flex justify-between sm:block">
-                      <Tech
-                        classname={workWeb.css}
-                        classname3={workWeb.css}
-                        tech1={workWeb.tech1}
-                        tech2={workWeb.tech2}
-                        tech3={workWeb.tech3}
-                      ></Tech>
-                      <Url link={workWeb.link} live={workWeb.live}></Url>
-                    </div>
+          <div
+            className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
+              showAll ? "max-h-[3000px]" : "max-h-[1000px]"
+            }`}
+          >
+            {displayedData.map((workWeb) => (
+              <div key={workWeb.id}>
+                <Link to={`/web/${workWeb.slug}`}>
+                  <Image image={workWeb.image} />
+                </Link>
+                <div className="max-w-md sm:max-w-[16rem]">
+                  <Name classname={workWeb.css} name={workWeb.name} />
+                  <Desc classname={workWeb.css} desc={workWeb.desc} />
+                  <div className="flex justify-between sm:block">
+                    <Tech
+                      classname={workWeb.css}
+                      classname3={workWeb.css}
+                      tech1={workWeb.tech1}
+                      tech2={workWeb.tech2}
+                      tech3={workWeb.tech3}
+                    />
+                    <Url link={workWeb.link} live={workWeb.live} />
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         </div>
         <div className="mt-7 flex justify-center">
           <button
             className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-blue-600 dark:bg-blue-100 dark:text-blue-600 dark:hover:bg-blue-200"
-            onClick={toggleShowAll}
+            onClick={() => setShowAll(!showAll)}
           >
             {showAll ? "Show Less" : "Show More"}
           </button>
