@@ -7,26 +7,20 @@
   },
   {
     "id": 2,
-    "social": "Instagram",
-    "display": "instagram.com/luqmanherifa",
-    "url": "https://www.instagram.com/luqmanherifa"
-  },
-  {
-    "id": 3,
-    "social": "LinkedIn",
-    "display": "linkedin.com/in/luqmanherifa",
-    "url": "https://www.linkedin.com/in/luqmanherifa"
-  },
-  {
-    "id": 4,
     "social": "GitHub",
     "display": "github.com/luqmanherifa",
     "url": "https://github.com/luqmanherifa"
   },
   {
-    "id": 5,
+    "id": 3,
     "social": "Dribbble",
     "display": "dribbble.com/luqmanherifa",
     "url": "https://dribbble.com/luqmanherifa"
+  },
+  {
+    "id": 4,
+    "social": "LinkedIn",
+    "display": "linkedin.com/in/luqmanherifa",
+    "url": "https://www.linkedin.com/in/luqmanherifa"
   }
 ]
