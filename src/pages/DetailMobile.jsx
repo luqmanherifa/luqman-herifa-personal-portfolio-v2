@@ -63,6 +63,7 @@ const DetailMobile = () => {
                       href={selectedObject.link}
                       target="_blank"
                       rel="noreferrer"
+                      className="hover:underline"
                     >
                       {selectedObject.link}
                     </a>
@@ -77,6 +78,7 @@ const DetailMobile = () => {
                       href={selectedObject.live}
                       target="_blank"
                       rel="noreferrer"
+                      className="hover:underline"
                     >
                       {selectedObject.live}
                     </a>
