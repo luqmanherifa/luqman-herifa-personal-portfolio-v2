@@ -1,10 +1,4 @@
-import { useEffect } from "react";
-
 const Footer = () => {
-  useEffect(() => {
-    document.title = "Luqman Footer";
-  }, []);
-
   return (
     <footer className="py-4">
       <div className="max-w-screen-xl mx-auto flex w-full justify-center p-6">

@@ -51,7 +51,12 @@ const Social = () => {
                     >
                       <td className="px-9 py-5 sm:px-4">{social.social}</td>
                       <td className="px-3 py-5 text-sky-500 hover:text-sky-300 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
-                        <a href={social.url} target="_blank" rel="noreferrer">
+                        <a
+                          href={social.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="hover:underline"
+                        >
                           {social.display}
                         </a>
                       </td>
