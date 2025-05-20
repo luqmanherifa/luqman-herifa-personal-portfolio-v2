@@ -23,7 +23,7 @@ const WorksOther = () => {
     }
   }, [showAll]);
 
-  const displayedData = renderAll ? WorksOtherData : WorksOtherData.slice(0, 4);
+  const displayedData = renderAll ? WorksOtherData : WorksOtherData.slice(0, 2);
 
   return (
     <div>
@@ -31,11 +31,11 @@ const WorksOther = () => {
         <TitleWorks
           classname="bg-gray-400/10 text-gray-300 dark:text-blue-600 dark:bg-slate-100"
           title="Other Projects"
-        ></TitleWorks>
+        />
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
-              showAll ? "max-h-[3000px]" : "max-h-[1000px]"
+              showAll ? "max-h-[3000px]" : "max-h-[500px]"
             }`}
           >
             {displayedData.map((workOther) => (
