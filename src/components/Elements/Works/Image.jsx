@@ -8,7 +8,7 @@ const Image = (props) => {
     <div>
       <figure className="group relative h-[336px] w-full max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-auto sm:max-w-[16rem] sm:rounded-lg">
         {imageLoading && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-200 dark:bg-gray-700">
+          <div className="absolute inset-0 flex w-full items-center justify-center bg-gray-200 dark:bg-gray-700">
             <svg
               aria-hidden="true"
               className="h-8 w-8 animate-spin fill-blue-600 text-gray-200 dark:text-gray-600"
