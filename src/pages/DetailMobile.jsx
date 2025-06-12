@@ -54,7 +54,7 @@ const DetailMobile = () => {
                     <div className="absolute inset-0 flex items-center justify-center bg-gray-200 dark:bg-gray-700">
                       <svg
                         aria-hidden="true"
-                        className="h-8 w-8 animate-spin fill-blue-600 text-gray-200 dark:text-gray-600"
+                        className="h-12 w-12 animate-spin fill-blue-600 text-gray-200 dark:text-gray-600"
                         viewBox="0 0 100 101"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
