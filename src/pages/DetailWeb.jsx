@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const DetailWeb = () => {
   const [data, setData] = useState(null);
   const { slug } = useParams();
+  const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
     setData(jsonData);
@@ -52,7 +53,26 @@ const DetailWeb = () => {
 
               <div>
                 <figure className="relative h-[576px] w-full overflow-hidden rounded-3xl sm:h-auto sm:rounded-2xl">
-                  <img src={selectedObject.image} alt="" />
+                  {imageLoading && (
+                    <div className="absolute inset-0 z-10 flex items-center justify-center bg-gray-200 dark:bg-gray-700">
+                      <svg
+                        aria-hidden="true"
+                        className="h-8 w-8 animate-spin fill-blue-600 text-gray-200 dark:text-gray-600"
+                        viewBox="0 0 100 101"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      ></svg>
+                      <span className="sr-only">Loading...</span>
+                    </div>
+                  )}
+                  <img
+                    src={selectedObject.image}
+                    alt=""
+                    onLoad={() => setImageLoading(false)}
+                    className={`transition-opacity duration-500 ${
+                      imageLoading ? "opacity-0" : "opacity-100"
+                    }`}
+                  />
                 </figure>
               </div>
 

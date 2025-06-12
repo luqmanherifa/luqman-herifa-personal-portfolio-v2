@@ -2,12 +2,12 @@ import { useState } from "react";
 
 const Image = (props) => {
   const { image } = props;
-  const [loading, setLoading] = useState(true);
+  const [imageLoading, setImageLoading] = useState(true);
 
   return (
     <div>
       <figure className="group relative h-[336px] max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-auto sm:max-w-[16rem] sm:rounded-lg">
-        {loading && (
+        {imageLoading && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-200 dark:bg-gray-700">
             <svg
               aria-hidden="true"
@@ -31,9 +31,9 @@ const Image = (props) => {
         <img
           src={image}
           alt=""
-          onLoad={() => setTimeout(() => setLoading(false))}
+          onLoad={() => setImageLoading(false)}
           className={`cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125 ${
-            loading ? "opacity-0" : "opacity-100"
+            imageLoading ? "opacity-0" : "opacity-100"
           }`}
         />
       </figure>
