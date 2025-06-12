@@ -36,7 +36,7 @@ const WorksInterface = () => {
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
-              showAll ? "max-h-[3000px]" : "max-h-[500px]"
+              showAll ? "max-h-[3000px]" : "max-h-[420px]"
             }`}
           >
             {displayedData.map((workInterface) => (
@@ -45,11 +45,11 @@ const WorksInterface = () => {
                   <Image image={workInterface.image} />
                 </Link>
                 <div className="max-w-md sm:max-w-[16rem]">
-                  <div className="flex justify-between sm:block">
-                    <Name
-                      classname={workInterface.css}
-                      name={workInterface.name}
-                    />
+                  <Name
+                    classname={workInterface.css}
+                    name={workInterface.name}
+                  />
+                  <div className="flex justify-end sm:block">
                     <Url
                       link={workInterface.link}
                       live={workInterface.live}
