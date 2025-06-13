@@ -36,7 +36,9 @@ const WorksWeb = () => {
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
-              showAll ? "max-h-[3000px]" : "max-h-[1000px]"
+              showAll
+                ? "max-h-[3000px] sm:max-h-[4000px]"
+                : "max-h-[1000px] sm:max-h-[1600px]"
             }`}
           >
             {displayedData.map((workWeb) => (

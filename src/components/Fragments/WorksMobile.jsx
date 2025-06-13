@@ -38,7 +38,7 @@ const WorksMobile = () => {
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
-              showAll ? "max-h-[3000px]" : "max-h-[500px]"
+              showAll ? "max-h-[3000px]" : "max-h-[500px] sm:max-h-[760px]"
             }`}
           >
             {displayedData.map((workMobile) => (
