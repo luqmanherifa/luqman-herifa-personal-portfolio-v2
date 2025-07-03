@@ -21,10 +21,10 @@ const Hero = () => {
             transition={{ delay: 0 }}
             className="mb-6 text-center text-6xl font-semibold tracking-tight text-slate-100 drop-shadow-sm dark:font-semibold dark:text-blue-600 lg:text-5xl md:text-5xl sm:text-left sm:text-5xl sm:font-semibold"
           >
-            Halo! <br className="hidden sm:block" />
-            Dive into
+            Dive <br className="hidden sm:block" />
+            deep into
             <br className="sm:block" />
-            <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-pink-500 bg-clip-text font-semibold text-transparent dark:text-blue-600">
+            <span className="bg-gradient-to-r from-blue-600 via-blue-400 to-yellow-400 bg-clip-text font-semibold text-transparent dark:text-blue-600">
               Luqman Blueprints
             </span>
           </motion.h1>
@@ -34,10 +34,10 @@ const Hero = () => {
             transition={{ delay: 0 }}
             className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
           >
-            <p className="w-[43rem] text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:text-left">
-              Hi, I’m Luqman — a curious software engineer who loves building
-              things for the web. Always exploring code, design, coffee, and new
-              ideas. Let’s connect!
+            <p className="w-[43rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:text-left">
+              An engineer of thought between code and wonder.
+              <br />
+              Quietly building things. You know where to find me.
             </p>
           </motion.div>
         </div>
