@@ -1,26 +1,32 @@
 [
   {
     "id": 1,
-    "social": "Email",
+    "social": "Personal",
     "display": "luqmanherifa@gmail.com",
     "url": "mailto:luqmanherifa@gmail.com"
   },
   {
     "id": 2,
+    "social": "Freelance",
+    "display": "sagharalabs@gmail.com",
+    "url": "mailto:sagharalabs@gmail.com"
+  },
+  {
+    "id": 3,
+    "social": "LinkedIn",
+    "display": "linkedin.com/in/luqmanherifa",
+    "url": "https://www.linkedin.com/in/luqmanherifa"
+  },
+  {
+    "id": 4,
     "social": "GitHub",
     "display": "github.com/luqmanherifa",
     "url": "https://github.com/luqmanherifa"
   },
   {
-    "id": 3,
+    "id": 5,
     "social": "Dribbble",
     "display": "dribbble.com/luqmanherifa",
     "url": "https://dribbble.com/luqmanherifa"
-  },
-  {
-    "id": 4,
-    "social": "LinkedIn",
-    "display": "linkedin.com/in/luqmanherifa",
-    "url": "https://www.linkedin.com/in/luqmanherifa"
   }
 ]
