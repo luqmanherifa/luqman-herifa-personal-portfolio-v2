@@ -29,7 +29,7 @@ const Social = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="max-w-lg rounded-2xl border border-slate-700 dark:border-blue-600"
+            className="max-w-2xl rounded-2xl border border-slate-700 dark:border-blue-600"
           >
             <table className="text-sm text-slate-400 dark:text-blue-600">
               <thead>

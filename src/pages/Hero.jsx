@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ delay: 0 }}
             className="mb-6 text-center text-6xl font-semibold tracking-tight text-slate-100 drop-shadow-sm dark:font-semibold dark:text-blue-600 lg:text-5xl md:text-5xl sm:text-left sm:text-5xl sm:font-semibold"
           >
-            Dive <br className="hidden sm:block" />
+            Dive <br className="hidden sm:inline" />
             deep into
             <br className="sm:block" />
             <span className="bg-gradient-to-r from-blue-600 via-blue-400 to-yellow-400 bg-clip-text font-semibold text-transparent dark:text-blue-600">
@@ -36,7 +36,8 @@ const Hero = () => {
           >
             <p className="w-[43rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:text-left">
               An engineer of thought between code and wonder.
-              <br />
+              <span className="hidden sm:inline">&nbsp;</span>
+              <br className="inline sm:hidden" />
               Quietly building things. You know where to find me.
             </p>
           </motion.div>
