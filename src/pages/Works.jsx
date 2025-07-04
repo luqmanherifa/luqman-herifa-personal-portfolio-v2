@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import WorksWeb from "../components/Fragments/WorksWeb";
-import WorksMobile from "../components/Fragments/WorksMobile";
-import WorksInterface from "../components/Fragments/WorksInterface";
 import WorksOther from "../components/Fragments/WorksOther";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title/Title";
@@ -35,7 +33,7 @@ const Works = () => {
           transition={{ duration: 1.5, delay: 0.2 }}
         >
           <WorksWeb />
-          <WorksMobile />
+          {/* <WorksMobile /> */}
           {/* <WorksInterface /> */}
           <WorksOther />
         </motion.div>

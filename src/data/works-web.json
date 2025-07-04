@@ -57,6 +57,34 @@
   },
   {
     "id": 5,
+    "category": "Mobile",
+    "name": "Swanify: Learn Language Spelling",
+    "desc": "Swanify is a learning media about Indonesian spelling according to PUEBI and augmented reality features based on mobile. The project was developed for college final project using C#, Unity, and Vuforia AR.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "tech3": "Vuforia AR",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "swanify-learn-language-spelling",
+    "link": "https://github.com/luqmanherifa/swanify-learn-language-spelling",
+    "live": "https://bit.ly/swanify-googleplay",
+    "image": "/works/swanify.png"
+  },
+  {
+    "id": 6,
+    "category": "Mobile",
+    "name": "Winzard: Play and Learn Biology",
+    "desc": "Winzard is a game app combines 2D platformer game and biology learning media for students based on mobile. The project was developed for college internship by a team using C# and Unity.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "tech3": "CorelDRAW",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "winzard-play-and-learn-biology",
+    "link": "https://github.com/luqmanherifa/winzard-play-and-learn-biology",
+    "live": "https://bit.ly/winzard-googleplay",
+    "image": "/works/winzard.png"
+  },
+  {
+    "id": 7,
     "category": "Web",
     "name": "Savora: Culinary Spot",
     "desc": "Savora is a culinary platform contains resto list, food menu, cuisines, cities, and dashboard features based on web. The project was developed for fun using React, Laravel, Tailwind CSS, MySQL, and others.",
@@ -70,7 +98,7 @@
     "image": "/works/savora.png"
   },
   {
-    "id": 6,
+    "id": 8,
     "category": "Web",
     "name": "Wordium: Writing Platform",
     "desc": "Wordium is a writing platform contains story, knowledge, and perspective, post submit and edit features based on web. The project was developed for practicing Laravel and CRUD using Blade, Laravel, Tailwind CSS, MySQL, and others.",
@@ -84,7 +112,7 @@
     "image": "/works/wordium.png"
   },
   {
-    "id": 7,
+    "id": 9,
     "category": "Web",
     "name": "RSU Sumekar: Healthcare Company Profile",
     "desc": "RSU Sumekar is a hospital landing page that displays information such as profile, gallery, outpatient services, doctors, schedules, and contact details. The project was developed as a web-based company profile using React, Tailwind CSS, and others.",
@@ -98,7 +126,7 @@
     "image": "/works/rsusumekar2.png"
   },
   {
-    "id": 8,
+    "id": 10,
     "category": "Web",
     "name": "Sumber Brian Abadi: AC Maintenance Service",
     "desc": "Sumber Brian Abadi is a landing page for an air conditioner repair service, showcasing the company profile, key advantages, selling points, special offers, and contact information. The project was developed as a web-based company profile using NextJS, React, TypeScript, Tailwind CSS, and others",
@@ -112,7 +140,7 @@
     "image": "/works/sumberbrianabadi.png"
   },
   {
-    "id": 9,
+    "id": 11,
     "category": "Web",
     "name": "NoTimeToNews: News Portal",
     "desc": "NoTimeToNews is a news portal contains highlight and daily news, news submit and edit features based on web. The project was developed for practicing React and CRUD using React, Laravel, Tailwind CSS, MySQL, and others.",
@@ -126,7 +154,7 @@
     "image": "/works/notimetonews.png"
   },
   {
-    "id": 10,
+    "id": 12,
     "category": "Web",
     "name": "Proteus: Post Hub",
     "desc": "Proteus is a post hub contains posts and users information and detail, post and user submit and edit features based on web. The project was developed for practicing React and fetch API using React, Axios, Tailwind CSS, and others.",

@@ -23,24 +23,26 @@ const WorksOther = () => {
     }
   }, [showAll]);
 
-  const displayedData = renderAll ? WorksOtherData : WorksOtherData.slice(0, 2);
+  const displayedData = renderAll ? WorksOtherData : WorksOtherData.slice(0, 4);
 
   return (
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="border border-indigo-400 text-indigo-400 dark:text-blue-600 dark:bg-slate-100"
+          classname="border border-green-400 text-green-400 dark:text-blue-600 dark:bg-slate-100"
           title="Explorations"
         />
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
-              showAll ? "max-h-[3000px]" : "max-h-[500px] sm:max-h-[760px]"
+              showAll
+                ? "max-h-[4000px] sm:max-h-[5000px]"
+                : "max-h-[1000px] sm:max-h-[1530px] dark:sm:max-h-[1550px]"
             }`}
           >
             {displayedData.map((workOther) => (
               <div key={workOther.id}>
-                <Link to={`/other/${workOther.slug}`}>
+                <Link to={`/explorations/${workOther.slug}`}>
                   <Image image={workOther.image} />
                 </Link>
                 <div className="max-w-md sm:max-w-[16rem]">

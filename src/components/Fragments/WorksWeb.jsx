@@ -24,26 +24,26 @@ const WorksWeb = () => {
     }
   }, [showAll]);
 
-  const displayedData = renderAll ? WorksWebData : WorksWebData.slice(0, 4);
+  const displayedData = renderAll ? WorksWebData : WorksWebData.slice(0, 6);
 
   return (
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="border border-red-400 text-red-400 dark:bg-slate-100"
-          title="Web Development"
+          classname="border border-pink-400 text-pink-400 dark:bg-slate-100"
+          title="Projects"
         />
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
               showAll
-                ? "max-h-[3000px] sm:max-h-[4000px]"
-                : "max-h-[1000px] sm:max-h-[1600px]"
+                ? "max-h-[4000px] sm:max-h-[5000px]"
+                : "max-h-[1500px] sm:max-h-[2300px] dark:sm:max-h-[2330px]"
             }`}
           >
             {displayedData.map((workWeb) => (
               <div key={workWeb.id}>
-                <Link to={`/web/${workWeb.slug}`}>
+                <Link to={`/projects/${workWeb.slug}`}>
                   <Image image={workWeb.image} />
                 </Link>
                 <div className="max-w-md sm:max-w-[16rem]">
