@@ -28,14 +28,18 @@ const Image = (props) => {
             <span className="sr-only">Loading...</span>
           </div>
         )}
-        <img
-          src={image}
-          alt=""
-          onLoad={() => setImageLoading(false)}
-          className={`cursor-pointer transition-all duration-500 group-hover:rotate-6 group-hover:scale-125 ${
-            imageLoading ? "opacity-0" : "opacity-100"
-          }`}
-        />
+        <div className="relative overflow-hidden">
+          <img
+            src={image}
+            alt=""
+            onLoad={() => setImageLoading(false)}
+            className={`h-auto w-full cursor-pointer transition duration-300 ease-in-out group-hover:rotate-6 group-hover:scale-125
+              ${imageLoading ? "opacity-0" : "opacity-100"}
+              dark:grayscale dark:hue-rotate-[180deg] dark:filter
+            `}
+          />
+          <div className="pointer-events-none absolute inset-0 bg-blue-600 opacity-0 dark:opacity-40" />
+        </div>
       </figure>
     </div>
   );

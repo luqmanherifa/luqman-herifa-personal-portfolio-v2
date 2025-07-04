@@ -32,7 +32,7 @@ const WorksMobile = () => {
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="bg-green-400/10 text-green-400 dark:bg-slate-100"
+          classname="border border-green-400 text-green-400 dark:bg-slate-100"
           title="Mobile Development"
         />
         <div className="flex justify-center">

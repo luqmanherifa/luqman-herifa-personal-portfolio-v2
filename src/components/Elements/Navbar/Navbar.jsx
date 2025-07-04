@@ -35,8 +35,8 @@ const Navbar = () => {
       id: 1,
       text: "Home",
       page: "/",
-      css: "hover:text-slate-400 dark:hover:text-blue-800",
-      active: "text-slate-400 dark:text-blue-800",
+      css: "hover:text-slate-300 dark:hover:text-blue-800",
+      active: "text-slate-300 dark:text-blue-800",
       delay: "0.2",
     },
     {
