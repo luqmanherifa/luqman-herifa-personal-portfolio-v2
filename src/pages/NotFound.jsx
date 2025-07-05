@@ -4,11 +4,11 @@ import { useEffect } from "react";
 
 const NotFound = () => {
   useEffect(() => {
-    document.title = "Ups! Let's Move";
+    document.title = "404";
   }, []);
 
   return (
-    <section className="flex min-h-screen justify-center pt-36 pb-36">
+    <section className="flex min-h-screen justify-center py-40">
       <div className="text-center xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs">
         <motion.h1
           initial={{ scale: 0 }}
@@ -19,10 +19,9 @@ const NotFound = () => {
             damping: 20,
             delay: 0,
           }}
-          className="text-6xl font-bold tracking-tight text-slate-100 dark:text-blue-600"
+          className="text-3xl font-medium tracking-tight text-slate-100 dark:text-blue-600"
         >
-          Ups! <br className="hidden lg:block md:block sm:block" />
-          Page not found :(
+          You know where to find me.
         </motion.h1>
       </div>
     </section>
