@@ -23,7 +23,7 @@ const Works = () => {
             transition={{ delay: 0.1 }}
             className="text-center text-base text-slate-400 dark:text-blue-600"
           >
-            Here’s a glimpse of what I’ve built — from fun side projects to
+            Here’s a glimpse of what I’ve worked on — from fun side projects to
             real-world applications.
           </motion.p>
         </div>

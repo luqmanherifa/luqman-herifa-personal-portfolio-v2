@@ -30,7 +30,7 @@ const WorksWeb = () => {
     <div>
       <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="border border-pink-400 text-pink-400 dark:bg-slate-100"
+          classname="border border-slate-300 text-slate-300 dark:bg-slate-100"
           title="Projects"
         />
         <div className="flex justify-center">
@@ -38,7 +38,7 @@ const WorksWeb = () => {
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
               showAll
                 ? "max-h-[4000px] sm:max-h-[5000px]"
-                : "max-h-[1500px] dark:max-h-[1550px] sm:max-h-[2300px] dark:sm:max-h-[2330px]"
+                : "max-h-[1500px] dark:max-h-[1550px] sm:max-h-[2300px] dark:sm:max-h-[2350px]"
             }`}
           >
             {displayedData.map((workWeb) => (

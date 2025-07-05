@@ -22,7 +22,7 @@ const Social = () => {
             transition={{ delay: 0.1 }}
             className="mb-7 text-center text-base text-slate-400 dark:text-blue-600"
           >
-            I’d love to connect — feel free to reach out or just say hi through
+            I’m open to connect — feel free to reach out or just say hi through
             my socials.
           </motion.p>
           <motion.div
