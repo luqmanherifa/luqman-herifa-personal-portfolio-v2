@@ -10,7 +10,7 @@
     "css": "bg-slate-400/10 text-slate-300 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
     "slug": "luqman-herifa-personal-portfolio-v2",
     "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "live": "https://luqmanherifa.netlify.app/",
+    "live": "https://luqmanherifa.netlify.app",
     "image": "/works/luqmanherifav2.png"
   },
   {
@@ -129,7 +129,7 @@
     "id": 10,
     "category": "Web",
     "name": "Sumber Brian Abadi: AC Maintenance Service",
-    "desc": "Sumber Brian Abadi is a landing page for an air conditioner repair service, showcasing the company profile, key advantages, selling points, special offers, and contact information. The project was developed as a web-based company profile using NextJS, React, TypeScript, Tailwind CSS, and others",
+    "desc": "Sumber Brian Abadi is a landing page for an air conditioner repair service, showcasing the company profile, key advantages, selling points, special offers, and contact information. The project was developed collaboratively in a team as a web-based company profile using NextJS, React, TypeScript, Tailwind CSS, and others.",
     "tech1": "Next",
     "tech2": "React",
     "tech3": "TypeScript",
