@@ -12,7 +12,7 @@ const Footer = () => {
           >
             Luqman Herifa
           </a>
-          . All Rights Reserved.
+          . All rights reserved.
         </span>
       </div>
     </footer>

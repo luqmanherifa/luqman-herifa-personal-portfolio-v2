@@ -14,7 +14,7 @@ const Works = () => {
       <div>
         <div className="mx-auto flex max-w-3xl flex-col items-center justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
           <Title
-            classname="bg-blue-400/10 text-blue-400 dark:bg-slate-100"
+            classname="bg-yellow-400/10 text-yellow-400 dark:bg-slate-100"
             title="Works"
           ></Title>
           <motion.p
