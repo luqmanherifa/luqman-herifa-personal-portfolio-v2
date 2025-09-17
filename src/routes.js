@@ -1,9 +1,9 @@
 import Home from "./pages/Home";
 import Hero from "./pages/Hero";
 import Works from "./pages/Works";
-import Explorations from "./pages/Explorations";
 import DetailWeb from "./pages/DetailWeb";
 import DetailOther from "./pages/DetailOther";
+import Journal from "./pages/Journal";
 import Social from "./pages/Social";
 import NotFound from "./pages/NotFound";
 
@@ -27,6 +27,10 @@ const routes = [
   {
     path: "/explorations/:slug",
     element: <DetailOther />,
+  },
+  {
+    path: "/journal",
+    element: <Journal />,
   },
   {
     path: "/socials",
