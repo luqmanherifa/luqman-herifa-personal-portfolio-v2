@@ -28,11 +28,7 @@ const WorksWeb = () => {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
-        <TitleWorks
-          classname="border border-slate-300 text-slate-300 dark:bg-slate-100"
-          title="Projects"
-        />
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <div className="flex justify-center">
           <div
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${

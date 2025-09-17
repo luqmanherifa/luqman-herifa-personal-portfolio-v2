@@ -5,7 +5,7 @@ import Title from "../components/Elements/Title/Title";
 
 const Social = () => {
   useEffect(() => {
-    document.title = "Luqman Social";
+    document.title = "Luqman Socials";
   }, []);
 
   return (
@@ -14,7 +14,7 @@ const Social = () => {
         <div className="flex w-[48rem] max-w-2xl flex-col items-center justify-center">
           <Title
             classname="bg-yellow-400/10 text-yellow-400 dark:bg-slate-100"
-            title="Social"
+            title="Socials"
           ></Title>
           <motion.p
             initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ const Social = () => {
               <thead>
                 <tr className="dark:border-blue-600">
                   <th className="px-9 py-5 text-left font-semibold sm:px-4">
-                    Social
+                    Socials
                   </th>
                   <th className="w-96 px-4 py-5 text-left font-semibold sm:px-1">
                     URL

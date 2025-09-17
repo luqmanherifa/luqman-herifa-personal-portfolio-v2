@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import Hero from "./pages/Hero";
 import Works from "./pages/Works";
+import Explorations from "./pages/Explorations";
 import DetailWeb from "./pages/DetailWeb";
 import DetailOther from "./pages/DetailOther";
 import Social from "./pages/Social";
@@ -18,6 +19,10 @@ const routes = [
   {
     path: "/works",
     element: <Works />,
+  },
+  {
+    path: "/explorations",
+    element: <Explorations />,
   },
   {
     path: "/projects/:slug",

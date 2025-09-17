@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import WorksWeb from "../components/Fragments/WorksWeb";
+import WorksOther from "../components/Fragments/WorksOther";
 import { motion } from "framer-motion";
 import Title from "../components/Elements/Title/Title";
 
-const Works = () => {
+const Explorations = () => {
   useEffect(() => {
-    document.title = "Luqman Works";
+    document.title = "Luqman Explorations";
   }, []);
 
   return (
@@ -14,7 +14,7 @@ const Works = () => {
         <div className="mx-auto flex max-w-3xl flex-col items-center justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
           <Title
             classname="bg-yellow-400/10 text-yellow-400 dark:bg-slate-100"
-            title="Works"
+            title="Explorations"
           ></Title>
           <motion.p
             initial={{ opacity: 0 }}
@@ -22,8 +22,8 @@ const Works = () => {
             transition={{ delay: 0.1 }}
             className="text-center text-base text-slate-400 dark:text-blue-600"
           >
-            Here’s a glimpse of what I’ve worked on — from fun side projects to
-            real-world applications.
+            A space for my learning journey — messy, imperfect, and always a
+            work in progress.
           </motion.p>
         </div>
         <motion.div
@@ -31,7 +31,7 @@ const Works = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 0.2 }}
         >
-          <WorksWeb />
+          <WorksOther />
         </motion.div>
       </div>
 
@@ -40,4 +40,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Explorations;

@@ -49,11 +49,19 @@ const Navbar = () => {
     },
     {
       id: 3,
-      text: "Social",
-      page: "/social",
+      text: "Explorations",
+      page: "/explorations",
       css: "hover:text-yellow-400 dark:hover:text-blue-800",
       active: "text-yellow-400 dark:text-blue-800",
       delay: "0.4",
+    },
+    {
+      id: 4,
+      text: "Socials",
+      page: "/social",
+      css: "hover:text-yellow-400 dark:hover:text-blue-800",
+      active: "text-yellow-400 dark:text-blue-800",
+      delay: "0.5",
     },
   ];
 
