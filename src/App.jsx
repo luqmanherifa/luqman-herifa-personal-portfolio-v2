@@ -3,6 +3,7 @@ import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Elements/Navbar/Navbar";
 import routes from "./routes";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route key={index} path={route.path} element={route.element} />
         ))}
       </Routes>
+      <Footer />
     </div>
   );
 };

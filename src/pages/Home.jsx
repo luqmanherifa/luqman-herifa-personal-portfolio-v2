@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Hero from "./Hero";
 import Works from "./Works";
 import Social from "./Social";
-import Footer from "./Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -14,7 +13,6 @@ const Home = () => {
       <Hero />
       <Works />
       <Social />
-      <Footer />
     </div>
   );
 };
