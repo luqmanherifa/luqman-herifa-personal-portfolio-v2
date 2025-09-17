@@ -21,10 +21,6 @@ const routes = [
     element: <Works />,
   },
   {
-    path: "/explorations",
-    element: <Explorations />,
-  },
-  {
     path: "/projects/:slug",
     element: <DetailWeb />,
   },
@@ -33,7 +29,7 @@ const routes = [
     element: <DetailOther />,
   },
   {
-    path: "/social",
+    path: "/socials",
     element: <Social />,
   },
   {

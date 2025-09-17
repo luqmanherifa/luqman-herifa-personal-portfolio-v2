@@ -49,8 +49,8 @@ const Navbar = () => {
     },
     {
       id: 3,
-      text: "Explorations",
-      page: "/explorations",
+      text: "Journal",
+      page: "/journal",
       css: "hover:text-yellow-400 dark:hover:text-blue-800",
       active: "text-yellow-400 dark:text-blue-800",
       delay: "0.4",
@@ -58,7 +58,7 @@ const Navbar = () => {
     {
       id: 4,
       text: "Socials",
-      page: "/social",
+      page: "/socials",
       css: "hover:text-yellow-400 dark:hover:text-blue-800",
       active: "text-yellow-400 dark:text-blue-800",
       delay: "0.5",
