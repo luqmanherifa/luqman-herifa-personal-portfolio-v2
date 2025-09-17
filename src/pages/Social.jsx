@@ -50,7 +50,7 @@ const Social = () => {
                       className="border-t border-slate-700 dark:border-blue-600"
                     >
                       <td className="px-9 py-5 sm:px-4">{social.social}</td>
-                      <td className="px-3 py-5 text-yellow-400 hover:text-yellow-500 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
+                      <td className="px-3 py-5 text-blue-400 hover:text-blue-500 dark:text-blue-600 dark:hover:text-blue-800 sm:px-1">
                         <a
                           href={social.url}
                           target="_blank"
