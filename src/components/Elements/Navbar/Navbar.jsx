@@ -111,7 +111,7 @@ const Navbar = () => {
               ) : (
                 <FontAwesomeIcon
                   icon={faSun}
-                  className="w-5 transform text-base hover:text-slate-300"
+                  className="w-5 transform text-base hover:text-yellow-400"
                 />
               )}
             </button>
