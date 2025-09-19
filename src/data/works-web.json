@@ -16,19 +16,33 @@
   {
     "id": 2,
     "category": "Web",
-    "name": "RSU Sumekar: Healthcare Management System",
-    "desc": "RSU Sumekar is a hospital management information system that supports operational needs such as patient data, electronic medical records (EMR), online queue, prescriptions, and BPJS claim integration. The project was developed to enhance SIMRS features using Vue, Express, Tailwind CSS, MySQL, and others. *Note: This screenshot shows a part of a company project I worked on at RSU Sumekar. Sensitive data has been blurred or replaced with dummy content. I contributed during a specific stage of the project.",
-    "tech1": "Vue",
-    "tech2": "Express",
-    "tech3": "MySQL",
-    "css": "bg-teal-400/10 text-teal-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
-    "slug": "rsu-sumekar-healthcare-management-system",
+    "name": "What Wasn't Written: Creative Culture Space",
+    "desc": "This description is under construction. The content will be updated quite soon along with further detailed information.",
+    "tech1": "React",
+    "tech2": "JavaScript",
+    "tech3": "Tailwind CSS",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "what-wasnt-written-creative-culture-space",
     "link": "https://github.com/luqmanherifa",
-    "live": "https://www.linkedin.com/in/luqmanherifa",
-    "image": "/works/rsusumekar1.png"
+    "live": "https://whatwasntwritten.com",
+    "image": "/works/whatwasntwritten.png"
   },
   {
     "id": 3,
+    "category": "Web",
+    "name": "Prokopim Sumenep: Regional Public Archive",
+    "desc": "This description is under construction. The content will be updated quite soon along with further detailed information.",
+    "tech1": "Next",
+    "tech2": "React",
+    "tech3": "TypeScript",
+    "css": "bg-red-400/10 text-red-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "prokopim-sumenep-regional-public-archive",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://prokopim-sumenep.netlify.app",
+    "image": "/works/prokopimsumenep.png"
+  },
+  {
+    "id": 4,
     "category": "Web",
     "name": "GMF AeroAsia: Budget Realization Dashboard",
     "desc": "GMF AeroAsia is a tool that contains control and monitoring features for submitting and realizing investments and other operating expenses. It tracks the status and updates of received or paid IOs and POs. The project was developed for budget realization using Angular, NestJS, TypeScript, Tailwind CSS, PostgreSQL, and others. *Note: This screenshot shows a part of a company project I worked on at GMF AeroAsia. Sensitive data has been blurred or replaced with dummy content. I contributed during a specific stage of the project.",
@@ -42,7 +56,21 @@
     "image": "/works/ocx.png"
   },
   {
-    "id": 4,
+    "id": 5,
+    "category": "Web",
+    "name": "RSU Sumekar: Healthcare Management System",
+    "desc": "RSU Sumekar is a hospital management information system that supports operational needs such as patient data, electronic medical records (EMR), online queue, prescriptions, and BPJS claim integration. The project was developed to enhance SIMRS features using Vue, Express, Tailwind CSS, MySQL, and others. *Note: This screenshot shows a part of a company project I worked on at RSU Sumekar. Sensitive data has been blurred or replaced with dummy content. I contributed during a specific stage of the project.",
+    "tech1": "Vue",
+    "tech2": "Express",
+    "tech3": "MySQL",
+    "css": "bg-teal-400/10 text-teal-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "rsu-sumekar-healthcare-management-system",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://www.linkedin.com/in/luqmanherifa",
+    "image": "/works/rsusumekar1.png"
+  },
+  {
+    "id": 6,
     "category": "Web",
     "name": "AHASS Motor: Workshop Management System",
     "desc": "AHASS Motor is a motorcycle workshop management information system that contains promo, article, services, spare parts, and other web-based features. The project was developed for motorcycle workshop MIS using React, Laravel, Tailwind CSS, MySQL, and others. *Note: This screenshot shows a part of a company project I worked on at AHASS Motor. Sensitive data has been blurred or replaced with dummy content.",
@@ -56,7 +84,7 @@
     "image": "/works/motocraft.png"
   },
   {
-    "id": 5,
+    "id": 7,
     "category": "Mobile",
     "name": "Swanify: Indonesian Spelling App",
     "desc": "Swanify is a learning media about Indonesian spelling according to PUEBI and augmented reality features based on mobile. The project was developed for college final project using C#, Unity, and Vuforia AR.",
@@ -70,7 +98,7 @@
     "image": "/works/swanify.png"
   },
   {
-    "id": 6,
+    "id": 8,
     "category": "Mobile",
     "name": "Winzard: Biology Learning Game",
     "desc": "Winzard is a game app combines 2D platformer game and biology learning media for students based on mobile. The project was developed for college internship by a team using C# and Unity.",
@@ -82,34 +110,6 @@
     "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
     "live": "https://luqmanherifa.itch.io/winzard",
     "image": "/works/winzard.png"
-  },
-  {
-    "id": 7,
-    "category": "Web",
-    "name": "Savora: Culinary Spot",
-    "desc": "Savora is a culinary platform contains resto list, food menu, cuisines, cities, and dashboard features based on web. The project was developed for fun using React, Laravel, Tailwind CSS, MySQL, and others.",
-    "tech1": "React",
-    "tech2": "Laravel",
-    "tech3": "MySQL",
-    "css": "bg-green-400/10 text-green-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
-    "slug": "savora-culinary-spot",
-    "link": "https://github.com/luqmanherifa/savora-culinary-spot",
-    "live": "https://github.com/luqmanherifa/savora-culinary-spot",
-    "image": "/works/savora.png"
-  },
-  {
-    "id": 8,
-    "category": "Web",
-    "name": "Wordium: Writing Platform",
-    "desc": "Wordium is a writing platform contains story, knowledge, and perspective, post submit and edit features based on web. The project was developed for practicing Laravel and CRUD using Blade, Laravel, Tailwind CSS, MySQL, and others.",
-    "tech1": "Blade",
-    "tech2": "Laravel",
-    "tech3": "MySQL",
-    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
-    "slug": "wordium-writing-platform",
-    "link": "https://github.com/luqmanherifa/wordium-writing-platform",
-    "live": "https://youtu.be/wsGFfr5GPbw",
-    "image": "/works/wordium.png"
   },
   {
     "id": 9,
@@ -125,6 +125,7 @@
     "live": "https://rsusumekar.co.id",
     "image": "/works/rsusumekar2.png"
   },
+
   {
     "id": 10,
     "category": "Web",
@@ -142,29 +143,29 @@
   {
     "id": 11,
     "category": "Web",
-    "name": "NoTimeToNews: News Portal",
-    "desc": "NoTimeToNews is a news portal contains highlight and daily news, news submit and edit features based on web. The project was developed for practicing React and CRUD using React, Laravel, Tailwind CSS, MySQL, and others.",
-    "tech1": "React",
-    "tech2": "Laravel",
-    "tech3": "MySQL",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
-    "slug": "notimetonews-news-portal",
-    "link": "https://github.com/luqmanherifa/notimetonews-news-portal",
-    "live": "https://youtu.be/DtDKl8th9u8",
-    "image": "/works/notimetonews.png"
+    "name": "Saghara Labs: Digital Service Works",
+    "desc": "This description is under construction. The content will be updated quite soon along with further detailed information.",
+    "tech1": "Next",
+    "tech2": "React",
+    "tech3": "TypeScript",
+    "css": "bg-teal-400/10 text-teal-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "saghara-labs-digital-service-works",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://sagharalabs.com",
+    "image": "/works/sagharalabs.png"
   },
   {
     "id": 12,
     "category": "Web",
-    "name": "Proteus: Post Hub",
-    "desc": "Proteus is a post hub contains posts and users information and detail, post and user submit and edit features based on web. The project was developed for practicing React and fetch API using React, Axios, Tailwind CSS, and others.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "tech3": "API",
-    "css": "bg-sky-400/10 text-sky-300 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
-    "slug": "proteus-post-hub",
-    "link": "https://github.com/luqmanherifa/proteus-post-hub",
-    "live": "https://proteus-luqmanherifa.netlify.app",
-    "image": "/works/proteus.png"
+    "name": "Atma Karya Teknik: AC Maintenance Service",
+    "desc": "This description is under construction. The content will be updated quite soon along with further detailed information.",
+    "tech1": "Next",
+    "tech2": "React",
+    "tech3": "TypeScript",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-600 dark:bg-slate-100 dark:border dark:border-blue-600",
+    "slug": "atma-karya-teknik-ac-maintenance-service",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://atmakaryateknik.com",
+    "image": "/works/atmakaryateknik.png"
   }
 ]
