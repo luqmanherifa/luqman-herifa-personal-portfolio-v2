@@ -24,7 +24,7 @@ const Hero = () => {
             Dive <br className="hidden sm:inline" />
             deep into
             <br className="sm:block" />
-            <span className="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 bg-clip-text font-semibold text-transparent dark:text-blue-600">
+            <span className="bg-gradient-to-r from-yellow-400 to-blue-500 bg-clip-text font-semibold text-transparent dark:text-blue-600">
               Luqman Blueprints
             </span>
           </motion.h1>
