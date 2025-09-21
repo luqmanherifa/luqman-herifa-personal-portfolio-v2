@@ -38,7 +38,7 @@ const WorksWeb = () => {
           >
             {displayedData.map((workWeb) => (
               <div key={workWeb.id}>
-                <Link to={`/projects/${workWeb.slug}`}>
+                <Link to={`/works/${workWeb.slug}`}>
                   <Image image={workWeb.image} />
                 </Link>
                 <div className="max-w-md sm:max-w-[16rem]">
