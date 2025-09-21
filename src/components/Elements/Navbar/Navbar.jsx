@@ -82,7 +82,17 @@ const Navbar = () => {
                   <Link
                     to={`${data.page}`}
                     className={
-                      location.pathname === data.page
+                      data.page === "/"
+                        ? location.pathname === "/"
+                          ? `${data.css} ${data.active}`
+                          : data.css
+                        : data.page === "/works"
+                        ? location.pathname.startsWith("/works") ||
+                          location.pathname.startsWith("/explorations")
+                          ? `${data.css} ${data.active}`
+                          : data.css
+                        : location.pathname === data.page ||
+                          location.pathname.startsWith(`${data.page}/`)
                         ? `${data.css} ${data.active}`
                         : data.css
                     }
