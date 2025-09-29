@@ -50,7 +50,6 @@ const WorksWeb = () => {
                       classname3={workWeb.css}
                       tech1={workWeb.tech1}
                       tech2={workWeb.tech2}
-                      tech3={workWeb.tech3}
                     />
                     <Url link={workWeb.link} live={workWeb.live} />
                   </div>

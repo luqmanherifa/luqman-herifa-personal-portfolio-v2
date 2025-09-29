@@ -38,9 +38,6 @@ const DetailWeb = () => {
                 <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-600 dark:bg-slate-100 dark:text-blue-600">
                   {selectedObject.tech2}
                 </div>
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 line-clamp-1 dark:border-blue-600 dark:bg-slate-100 dark:text-blue-600">
-                  {selectedObject.tech3}
-                </div>
               </div>
 
               <div className="mt-2 mb-4 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-600">

@@ -48,7 +48,6 @@ const WorksOther = () => {
                       classname={workOther.css}
                       tech1={workOther.tech1}
                       tech2={workOther.tech2}
-                      tech3={workOther.tech3}
                     />
                     <Url link={workOther.link} live={workOther.live} />
                   </div>

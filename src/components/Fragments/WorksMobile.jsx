@@ -54,7 +54,6 @@ const WorksMobile = () => {
                       classname={workMobile.css}
                       tech1={workMobile.tech1}
                       tech2={workMobile.tech2}
-                      tech3={workMobile.tech3}
                     />
                     <Url link={workMobile.link} live={workMobile.live} />
                   </div>
