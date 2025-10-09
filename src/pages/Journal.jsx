@@ -60,7 +60,7 @@ const Journal = () => {
             <div className="mx-auto my-7 max-w-5xl lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-0">
               <div className="flex justify-center">
                 <div className="flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5">
-                  <figure className="group relative h-[432px] max-w-xl overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-auto sm:max-w-xs sm:rounded-lg">
+                  <figure className="group relative h-[432px] w-[576px] max-w-xl overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-auto sm:max-w-xs sm:rounded-lg">
                     <a
                       href="https://whatwasntwritten.com"
                       target="_blank"
