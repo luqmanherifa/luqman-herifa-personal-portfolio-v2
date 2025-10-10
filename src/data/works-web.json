@@ -119,7 +119,7 @@
   {
     "id": 10,
     "category": "Web",
-    "name": "Atma Karya Teknik: AC Maintenance Service",
+    "name": "Atma Karya Teknik: Service Company Profile",
     "desc": "A company website for air conditioner maintenance services, developed with NextJS and React for web.",
     "tech1": "Next",
     "tech2": "React",
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "category": "Web",
-    "name": "Sumber Brian Abadi: AC Maintenance Service",
+    "name": "Sumber Brian Abadi: Service Company Profile",
     "desc": "A company website for air conditioner maintenance services, developed with NextJS and React for web.",
     "tech1": "Next",
     "tech2": "React",
