@@ -1,10 +1,26 @@
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
   useEffect(() => {
     document.title = "Luqman Blueprints";
   }, []);
+
+  const mantra = "I quietly build things. ";
+  const repeatCount = 4;
+  const fullText = mantra.repeat(repeatCount);
+
+  const [displayedText, setDisplayedText] = useState("");
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setDisplayedText(fullText.slice(0, index + 1));
+      index++;
+      if (index === fullText.length) clearInterval(interval);
+    }, 50);
+    return () => clearInterval(interval);
+  }, [fullText]);
 
   return (
     <section className="pb-10 sm:pb-5">
@@ -34,11 +50,8 @@ const Hero = () => {
             transition={{ delay: 0 }}
             className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
           >
-            <p className="w-[43rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:text-left">
-              An engineer of thought between code and wonder.
-              <span className="hidden sm:inline">&nbsp;</span>
-              <br className="inline sm:hidden" />
-              Quietly building things. You know where to find me.
+            <p className="h-[3.5rem] w-[24rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-600 sm:h-[7rem] sm:w-[12rem] sm:text-left">
+              {displayedText}
             </p>
           </motion.div>
         </div>
