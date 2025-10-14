@@ -35,7 +35,7 @@ const Social = () => {
               <thead>
                 <tr className="dark:border-blue-600">
                   <th className="px-9 py-5 text-left font-semibold sm:px-4">
-                    Socials
+                    Social
                   </th>
                   <th className="w-96 px-4 py-5 text-left font-semibold sm:px-1">
                     URL
