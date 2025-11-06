@@ -123,7 +123,7 @@
     "desc": "A company website for air conditioner maintenance services, developed with NextJS and React for web.",
     "tech1": "Next",
     "tech2": "React",
-    "css": "bg-indigo-400/10 text-indigo-400 dark:text-indigo-600 dark:bg-blue-800 dark:border dark:border-indigo-600",
+    "css": "bg-indigo-400/10 text-indigo-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
     "slug": "atma-karya-teknik-ac-maintenance-service",
     "link": "https://github.com/luqmanherifa",
     "live": "https://atmakaryateknik.com",

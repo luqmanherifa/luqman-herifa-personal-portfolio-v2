@@ -47,7 +47,6 @@ const WorksWeb = () => {
                   <div className="flex justify-between sm:block">
                     <Tech
                       classname={workWeb.css}
-                      classname3={workWeb.css}
                       tech1={workWeb.tech1}
                       tech2={workWeb.tech2}
                     />
