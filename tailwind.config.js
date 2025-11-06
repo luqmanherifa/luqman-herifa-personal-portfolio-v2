@@ -9,7 +9,7 @@ module.exports = {
       },
       backgroundImage: {
         bglinelight: "url('/public/bg_line_light.png')",
-        bglinedark: "url('/public/bg_line_dark.png')",
+        bglinedark: "url('/public/bg_line_light.png')",
       },
       animation: {
         "bounce-fast": "bounce 0.3s infinite",

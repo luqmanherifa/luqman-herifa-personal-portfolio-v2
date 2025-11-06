@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-xl md:max-w-lg">
           <Title
-            classname="bg-cyan-400/10 text-cyan-400 dark:bg-slate-100"
+            classname="bg-cyan-400/10 text-cyan-400 dark:bg-blue-800"
             title="About"
           ></Title>
           <div className="flex sm:block">
@@ -34,7 +34,7 @@ const About = () => {
                 initial={{ opacity: 0 }}
                 animate={{ x: [250, 0], opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mb-4 text-base text-slate-400 dark:text-blue-600 2xl:w-[24rem] lg:w-auto md:w-auto sm:w-auto"
+                className="mb-4 text-base text-slate-400 dark:text-white 2xl:w-[24rem] lg:w-auto md:w-auto sm:w-auto"
               >
                 I am a Full-stack Web Developer with 2+ years of experience, a
                 graduate of STIKI Malang in Computer Science. I also have

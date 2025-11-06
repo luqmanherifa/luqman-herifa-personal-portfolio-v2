@@ -28,9 +28,9 @@ const WorksInterface = () => {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-600 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-white lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
-          classname="bg-blue-400/10 text-blue-400 dark:bg-slate-100"
+          classname="bg-blue-400/10 text-blue-400 dark:bg-blue-800"
           title="Interface Design"
         />
         <div className="flex justify-center">
@@ -63,7 +63,7 @@ const WorksInterface = () => {
         </div>
         <div className="mt-7 flex justify-center">
           <button
-            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-blue-600 dark:bg-blue-100 dark:text-blue-600 dark:hover:bg-blue-200"
+            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-white dark:bg-blue-900 dark:text-white dark:hover:bg-blue-700"
             onClick={() => setShowAll(!showAll)}
           >
             {showAll ? "Show Less" : "Show More"}
