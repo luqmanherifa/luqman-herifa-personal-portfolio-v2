@@ -32,10 +32,10 @@ const DetailOther = () => {
           {selectedObject && (
             <div>
               <div className="mb-3 flex gap-3 text-slate-100">
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-white dark:bg-blue-800 dark:text-white">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-white">
                   {selectedObject.tech1}
                 </div>
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-white dark:bg-blue-800 dark:text-white">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-white">
                   {selectedObject.tech2}
                 </div>
               </div>

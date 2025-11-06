@@ -30,7 +30,7 @@ const WorksMobile = () => {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-white lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
         <TitleWorks
           classname="border border-green-400 text-green-400 dark:bg-blue-800"
           title="Mobile Development"
@@ -64,7 +64,7 @@ const WorksMobile = () => {
         </div>
         <div className="mt-7 flex justify-center">
           <button
-            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-white dark:bg-blue-900 dark:text-white dark:hover:bg-blue-700"
+            className="rounded-lg bg-blue-700 px-4 py-2 text-xs font-medium text-slate-100 hover:bg-blue-800 dark:border dark:border-blue-400 dark:bg-blue-900 dark:text-white dark:hover:bg-blue-700"
             onClick={() => setShowAll(!showAll)}
           >
             {showAll ? "Show Less" : "Show More"}

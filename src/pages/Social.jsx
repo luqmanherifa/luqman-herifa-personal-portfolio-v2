@@ -29,11 +29,11 @@ const Social = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="max-w-2xl rounded-2xl border border-slate-700 dark:border-white"
+            className="max-w-2xl rounded-2xl border border-slate-700 dark:border-blue-400"
           >
             <table className="text-sm text-slate-400 dark:text-white">
               <thead>
-                <tr className="dark:border-white">
+                <tr className="dark:border-blue-400">
                   <th className="px-9 py-5 text-left font-semibold sm:px-4">
                     Social
                   </th>
@@ -47,7 +47,7 @@ const Social = () => {
                   return (
                     <tr
                       key={social.id}
-                      className="border-t border-slate-700 dark:border-white"
+                      className="border-t border-slate-700 dark:border-blue-400"
                     >
                       <td className="px-9 py-5 sm:px-4">{social.social}</td>
                       <td className="px-3 py-5 text-blue-400 hover:text-blue-500 dark:text-white dark:hover:text-blue-300 sm:px-1">

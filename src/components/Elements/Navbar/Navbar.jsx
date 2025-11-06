@@ -66,7 +66,7 @@ const Navbar = () => {
   ];
 
   return (
-    <section className="dark:border-white lg:border-b lg:border-slate-700 md:border-b md:border-slate-700 sm:border-b sm:border-slate-700">
+    <section className="dark:border-blue-400 lg:border-b lg:border-slate-700 md:border-b md:border-slate-700 sm:border-b sm:border-slate-700">
       <div className="mx-auto flex h-20 max-w-6xl items-center justify-between text-slate-100 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:h-16 sm:max-w-xs">
         <Icon />
         <nav className="flex gap-8 text-sm font-medium dark:text-white lg:gap-5 lg:font-normal md:gap-4 md:font-normal sm:hidden sm:gap-3 sm:text-xs sm:font-normal">
