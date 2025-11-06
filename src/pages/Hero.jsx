@@ -35,12 +35,12 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ y: [-100, 0], opacity: 1 }}
             transition={{ delay: 0 }}
-            className="mb-6 text-center text-6xl font-semibold tracking-tight text-slate-100 drop-shadow-sm dark:font-semibold dark:text-white lg:text-5xl md:text-5xl sm:text-left sm:text-5xl sm:font-semibold"
+            className="mb-6 text-center text-6xl font-semibold tracking-tight text-slate-100 drop-shadow-sm dark:font-semibold dark:text-blue-100 lg:text-5xl md:text-5xl sm:text-left sm:text-5xl sm:font-semibold"
           >
             Dive <br className="hidden sm:inline" />
             deep into
             <br className="sm:block" />
-            <span className="bg-gradient-to-r from-yellow-400 via-emerald-200 to-blue-500 bg-clip-text font-semibold text-transparent dark:text-white">
+            <span className="bg-gradient-to-r from-yellow-400 via-emerald-200 to-blue-500 bg-clip-text font-semibold text-transparent dark:text-blue-100">
               Luqman Blueprints
             </span>
           </motion.h1>
@@ -50,7 +50,7 @@ const Hero = () => {
             transition={{ delay: 0 }}
             className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
           >
-            <p className="h-[3.5rem] w-[24rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-white sm:h-[7rem] sm:w-[12rem] sm:text-left">
+            <p className="h-[3.5rem] w-[24rem] text-center text-lg text-slate-400 drop-shadow-sm dark:text-blue-100 sm:h-[7rem] sm:w-[12rem] sm:text-left">
               {displayedText}
             </p>
           </motion.div>

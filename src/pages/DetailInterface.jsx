@@ -31,7 +31,7 @@ const DetailInterface = () => {
         <div className="max-w-3xl sm:max-w-xs">
           {selectedObject && (
             <div>
-              <div className="mt-2 mb-7 text-3xl font-semibold leading-tight text-slate-100 dark:text-white">
+              <div className="mt-2 mb-7 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
                 <p>{selectedObject.name}</p>
               </div>
 
@@ -70,8 +70,8 @@ const DetailInterface = () => {
               </div>
 
               <div className="mt-7 flex flex-col gap-1.5">
-                <div className="flex gap-1 text-base text-slate-400 dark:text-white">
-                  <div className="font-semibold text-slate-100 dark:text-white">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-100">
+                  <div className="font-semibold text-slate-100 dark:text-blue-100">
                     Figma:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-300">
@@ -85,8 +85,8 @@ const DetailInterface = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex gap-1 text-base text-slate-400 dark:text-white">
-                  <div className="font-semibold text-slate-100 dark:text-white">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-100">
+                  <div className="font-semibold text-slate-100 dark:text-blue-100">
                     Live:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-300">

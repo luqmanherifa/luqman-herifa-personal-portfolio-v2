@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="py-4">
       <div className="max-w-screen-xl mx-auto flex w-full justify-center p-6">
-        <span className="text-sm text-slate-400 dark:text-white sm:text-center">
+        <span className="text-sm text-slate-400 dark:text-blue-100 sm:text-center">
           © {new Date().getFullYear()}{" "}
           <a
             href="https://github.com/luqmanherifa"

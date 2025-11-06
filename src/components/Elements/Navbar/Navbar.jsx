@@ -36,7 +36,7 @@ const Navbar = () => {
       text: "Home",
       page: "/",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-white",
+      active: "text-yellow-400 dark:text-blue-100",
       delay: "0.2",
     },
     {
@@ -44,7 +44,7 @@ const Navbar = () => {
       text: "Works",
       page: "/works",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-white",
+      active: "text-yellow-400 dark:text-blue-100",
       delay: "0.3",
     },
     {
@@ -52,7 +52,7 @@ const Navbar = () => {
       text: "Journal",
       page: "/journal",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-white",
+      active: "text-yellow-400 dark:text-blue-100",
       delay: "0.4",
     },
     {
@@ -60,7 +60,7 @@ const Navbar = () => {
       text: "Socials",
       page: "/socials",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-white",
+      active: "text-yellow-400 dark:text-blue-100",
       delay: "0.5",
     },
   ];
@@ -69,7 +69,7 @@ const Navbar = () => {
     <section className="dark:border-blue-400 lg:border-b lg:border-slate-700 md:border-b md:border-slate-700 sm:border-b sm:border-slate-700">
       <div className="mx-auto flex h-20 max-w-6xl items-center justify-between text-slate-100 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:h-16 sm:max-w-xs">
         <Icon />
-        <nav className="flex gap-8 text-sm font-medium dark:text-white lg:gap-5 lg:font-normal md:gap-4 md:font-normal sm:hidden sm:gap-3 sm:text-xs sm:font-normal">
+        <nav className="flex gap-8 text-sm font-medium dark:text-blue-100 lg:gap-5 lg:font-normal md:gap-4 md:font-normal sm:hidden sm:gap-3 sm:text-xs sm:font-normal">
           {navbarData.map((data) => {
             return (
               <motion.div
@@ -137,12 +137,12 @@ const Navbar = () => {
             {isMenuOpen ? (
               <FontAwesomeIcon
                 icon={faTimes}
-                className="flex text-2xl hover:text-slate-300 dark:text-white dark:hover:text-blue-300"
+                className="flex text-2xl hover:text-slate-300 dark:text-blue-100 dark:hover:text-blue-300"
               />
             ) : (
               <FontAwesomeIcon
                 icon={faBars}
-                className="flex text-xl hover:text-slate-300 dark:text-white dark:hover:text-blue-300"
+                className="flex text-xl hover:text-slate-300 dark:text-blue-100 dark:hover:text-blue-300"
               />
             )}
           </motion.button>
@@ -152,7 +152,7 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <div className="hidden sm:block">
             <div className="mx-auto max-w-xs">
-              <div className="pb-5 text-slate-100 dark:text-white">
+              <div className="pb-5 text-slate-100 dark:text-blue-100">
                 {navbarData.map((data) => {
                   return (
                     <motion.div

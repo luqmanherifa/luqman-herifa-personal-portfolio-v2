@@ -32,19 +32,19 @@ const DetailWeb = () => {
           {selectedObject && (
             <div>
               <div className="mb-3 flex gap-3 text-slate-100">
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-white">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-blue-100">
                   {selectedObject.tech1}
                 </div>
-                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-white">
+                <div className="rounded-xl border border-slate-500 bg-slate-600 py-1 px-3 text-sm text-slate-300 dark:border-blue-400 dark:bg-blue-800 dark:text-blue-100">
                   {selectedObject.tech2}
                 </div>
               </div>
 
-              <div className="mt-2 mb-4 text-3xl font-semibold leading-tight text-slate-100 dark:text-white">
+              <div className="mt-2 mb-4 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
                 <p>{selectedObject.name}</p>
               </div>
 
-              <div className="mb-7 text-slate-400 dark:text-white">
+              <div className="mb-7 text-slate-400 dark:text-blue-100">
                 <p className="text-lg">{selectedObject.desc}</p>
               </div>
 
@@ -83,8 +83,8 @@ const DetailWeb = () => {
               </div>
 
               <div className="mt-7 flex flex-col gap-1.5">
-                <div className="flex gap-1 text-base text-slate-400 dark:text-white">
-                  <div className="font-medium text-slate-100 dark:text-white">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-100">
+                  <div className="font-medium text-slate-100 dark:text-blue-100">
                     GitHub:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-300">
@@ -98,8 +98,8 @@ const DetailWeb = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex gap-1 text-base text-slate-400 dark:text-white">
-                  <div className="font-medium text-slate-100 dark:text-white">
+                <div className="flex gap-1 text-base text-slate-400 dark:text-blue-100">
+                  <div className="font-medium text-slate-100 dark:text-blue-100">
                     Live:
                   </div>
                   <div className="line-clamp-1 hover:text-slate-200 dark:hover:text-blue-300">

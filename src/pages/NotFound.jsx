@@ -19,7 +19,7 @@ const NotFound = () => {
             damping: 20,
             delay: 0,
           }}
-          className="text-3xl font-medium tracking-tight text-slate-100 dark:text-white"
+          className="text-3xl font-medium tracking-tight text-slate-100 dark:text-blue-100"
         >
           You know where to find me.
         </motion.h1>

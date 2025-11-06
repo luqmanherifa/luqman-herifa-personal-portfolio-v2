@@ -3,7 +3,7 @@ const TitleWorks = (props) => {
   return (
     <div className="text-center">
       <h3
-        className={`mb-7 inline-block rounded-full px-5 py-2 text-base font-medium dark:border dark:border-blue-400 dark:text-white sm:mb-5 sm:text-base ${classname}`}
+        className={`mb-7 inline-block rounded-full px-5 py-2 text-base font-medium dark:border dark:border-blue-400 dark:text-blue-100 sm:mb-5 sm:text-base ${classname}`}
       >
         {title}
       </h3>

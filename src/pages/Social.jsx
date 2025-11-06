@@ -20,7 +20,7 @@ const Social = () => {
             initial={{ opacity: 0 }}
             animate={{ x: [-150, 0], opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="mb-7 text-center text-base text-slate-400 dark:text-white"
+            className="mb-7 text-center text-base text-slate-400 dark:text-blue-100"
           >
             I’m open to connect — feel free to reach out or just say hi through
             my socials.
@@ -31,7 +31,7 @@ const Social = () => {
             transition={{ delay: 0.2 }}
             className="max-w-2xl rounded-2xl border border-slate-700 dark:border-blue-400"
           >
-            <table className="text-sm text-slate-400 dark:text-white">
+            <table className="text-sm text-slate-400 dark:text-blue-100">
               <thead>
                 <tr className="dark:border-blue-400">
                   <th className="px-9 py-5 text-left font-semibold sm:px-4">
@@ -50,7 +50,7 @@ const Social = () => {
                       className="border-t border-slate-700 dark:border-blue-400"
                     >
                       <td className="px-9 py-5 sm:px-4">{social.social}</td>
-                      <td className="px-3 py-5 text-blue-400 hover:text-blue-500 dark:text-white dark:hover:text-blue-300 sm:px-1">
+                      <td className="px-3 py-5 text-blue-400 hover:text-blue-500 dark:text-blue-100 dark:hover:text-blue-300 sm:px-1">
                         <a
                           href={social.url}
                           target="_blank"
