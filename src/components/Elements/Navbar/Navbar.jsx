@@ -36,7 +36,7 @@ const Navbar = () => {
       text: "Home",
       page: "/",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-blue-100",
+      active: "text-yellow-400 dark:text-blue-300",
       delay: "0.2",
     },
     {
@@ -44,7 +44,7 @@ const Navbar = () => {
       text: "Works",
       page: "/works",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-blue-100",
+      active: "text-yellow-400 dark:text-blue-300",
       delay: "0.3",
     },
     {
@@ -52,7 +52,7 @@ const Navbar = () => {
       text: "Journal",
       page: "/journal",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-blue-100",
+      active: "text-yellow-400 dark:text-blue-300",
       delay: "0.4",
     },
     {
@@ -60,7 +60,7 @@ const Navbar = () => {
       text: "Socials",
       page: "/socials",
       css: "hover:text-yellow-400 dark:hover:text-blue-300",
-      active: "text-yellow-400 dark:text-blue-100",
+      active: "text-yellow-400 dark:text-blue-300",
       delay: "0.5",
     },
   ];
