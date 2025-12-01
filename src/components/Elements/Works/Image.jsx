@@ -38,7 +38,7 @@ const Image = (props) => {
               dark:grayscale dark:hue-rotate-[180deg] dark:filter
             `}
           />
-          <div className="pointer-events-none absolute inset-0 bg-blue-600 opacity-0 dark:opacity-40" />
+          <div className="pointer-events-none absolute inset-0 bg-blue-600 opacity-0 dark:opacity-20" />
         </div>
       </figure>
     </div>

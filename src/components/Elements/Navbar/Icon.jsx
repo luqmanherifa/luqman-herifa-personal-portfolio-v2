@@ -19,7 +19,7 @@ const Icon = () => {
             alt="icon"
             className="w-7 dark:grayscale sm:w-6"
           />
-          <div className="absolute inset-0 rounded-full bg-blue-600 opacity-0 dark:opacity-40" />
+          <div className="absolute inset-0 rounded-full bg-blue-600 opacity-0 dark:opacity-20" />
         </div>
       </a>
     </motion.div>

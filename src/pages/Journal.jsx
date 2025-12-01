@@ -100,7 +100,7 @@ const Journal = () => {
       `}
                       />
 
-                      <div className="pointer-events-none absolute inset-0 bg-blue-600 opacity-0 dark:opacity-40" />
+                      <div className="pointer-events-none absolute inset-0 bg-blue-600 opacity-0 dark:opacity-20" />
                     </a>
                   </figure>
                 </div>
