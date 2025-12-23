@@ -22,7 +22,7 @@
     "css": "bg-teal-400/10 text-teal-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
     "slug": "saghara-labs-digital-service-works",
     "link": "https://github.com/luqmanherifa",
-    "live": "https://sagharalabs.com",
+    "live": "https://sagharalabs.netlify.app",
     "image": "/works/sagharalabs.png"
   },
   {
