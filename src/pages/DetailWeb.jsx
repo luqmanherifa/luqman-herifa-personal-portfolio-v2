@@ -112,7 +112,27 @@ const DetailWeb = () => {
                         className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-700 dark:bg-slate-200"
                       >
                         {!isLoaded && (
-                          <div className="absolute inset-0 animate-pulse bg-slate-600 dark:bg-slate-300" />
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <svg
+                              className="h-4 w-4 animate-spin text-slate-400 dark:text-slate-500"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                            >
+                              <circle
+                                className="opacity-25"
+                                cx="12"
+                                cy="12"
+                                r="10"
+                                stroke="currentColor"
+                                strokeWidth="3"
+                              />
+                              <path
+                                className="opacity-75"
+                                fill="currentColor"
+                                d="M4 12a8 8 0 018-8v3a5 5 0 00-5 5H4z"
+                              />
+                            </svg>
+                          </div>
                         )}
 
                         <motion.img
@@ -131,7 +151,10 @@ const DetailWeb = () => {
                               ? "brightness(1)"
                               : "brightness(0.8)",
                           }}
-                          transition={{ duration: 0.18, ease: "easeOut" }}
+                          transition={{
+                            duration: 0.18,
+                            ease: "easeOut",
+                          }}
                         />
                       </motion.button>
                     );
