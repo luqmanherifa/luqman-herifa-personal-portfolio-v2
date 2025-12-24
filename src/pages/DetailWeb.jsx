@@ -114,7 +114,7 @@ const DetailWeb = () => {
                         {!isLoaded && (
                           <div className="absolute inset-0 flex items-center justify-center">
                             <svg
-                              className="h-4 w-4 animate-spin text-slate-600 dark:text-blue-600"
+                              className="h-4 w-4 animate-spin text-slate-800 dark:text-blue-800"
                               viewBox="0 0 24 24"
                               fill="none"
                             >
