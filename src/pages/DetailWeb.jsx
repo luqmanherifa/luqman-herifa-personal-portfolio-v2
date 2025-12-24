@@ -8,6 +8,7 @@ const DetailWeb = () => {
   const { slug } = useParams();
   const [activeImage, setActiveImage] = useState(0);
   const [imageLoading, setImageLoading] = useState(true);
+  const [loadedThumbs, setLoadedThumbs] = useState({});
 
   useEffect(() => {
     setData(jsonData);
@@ -94,6 +95,7 @@ const DetailWeb = () => {
                 <div className="mt-4 flex gap-3 overflow-x-auto">
                   {selectedObject.images.map((img, index) => {
                     const isActive = index === activeImage;
+                    const isLoaded = loadedThumbs[index];
 
                     return (
                       <motion.button
@@ -105,29 +107,31 @@ const DetailWeb = () => {
                           }
                         }}
                         whileHover={{ scale: isActive ? 1 : 0.98 }}
-                        animate={{
-                          scale: isActive ? 1 : 0.94,
-                        }}
-                        transition={{
-                          duration: 0.18,
-                          ease: "easeOut",
-                        }}
-                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl"
+                        animate={{ scale: isActive ? 1 : 0.94 }}
+                        transition={{ duration: 0.18, ease: "easeOut" }}
+                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-700 dark:bg-slate-200"
                       >
+                        {!isLoaded && (
+                          <div className="absolute inset-0 animate-pulse bg-slate-600 dark:bg-slate-300" />
+                        )}
+
                         <motion.img
                           src={img}
                           alt={`Preview ${index + 1}`}
+                          onLoad={() =>
+                            setLoadedThumbs((prev) => ({
+                              ...prev,
+                              [index]: true,
+                            }))
+                          }
                           className="h-full w-full object-cover"
                           animate={{
-                            opacity: isActive ? 1 : 0.5,
+                            opacity: isLoaded ? (isActive ? 1 : 0.5) : 0,
                             filter: isActive
                               ? "brightness(1)"
                               : "brightness(0.8)",
                           }}
-                          transition={{
-                            duration: 0.18,
-                            ease: "easeOut",
-                          }}
+                          transition={{ duration: 0.18, ease: "easeOut" }}
                         />
                       </motion.button>
                     );
