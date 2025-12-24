@@ -109,12 +109,12 @@ const DetailWeb = () => {
                         whileHover={{ scale: isActive ? 1 : 0.98 }}
                         animate={{ scale: isActive ? 1 : 0.94 }}
                         transition={{ duration: 0.18, ease: "easeOut" }}
-                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-700 dark:bg-slate-200"
+                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-600 dark:bg-blue-600"
                       >
                         {!isLoaded && (
                           <div className="absolute inset-0 flex items-center justify-center">
                             <svg
-                              className="h-4 w-4 animate-spin text-slate-400 dark:text-slate-500"
+                              className="h-4 w-4 animate-spin text-slate-600 dark:text-blue-600"
                               viewBox="0 0 24 24"
                               fill="none"
                             >
