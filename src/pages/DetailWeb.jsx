@@ -109,7 +109,7 @@ const DetailWeb = () => {
                         whileHover={{ scale: isActive ? 1 : 0.98 }}
                         animate={{ scale: isActive ? 1 : 0.94 }}
                         transition={{ duration: 0.18, ease: "easeOut" }}
-                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-500 dark:bg-blue-500"
+                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl bg-slate-500 dark:bg-blue-400"
                       >
                         {!isLoaded && (
                           <div className="absolute inset-0 flex items-center justify-center">
