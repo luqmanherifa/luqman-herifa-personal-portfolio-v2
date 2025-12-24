@@ -10,7 +10,7 @@
     "slug": "prokopim-sumenep-regional-public-archive",
     "link": "https://github.com/luqmanherifa",
     "live": "https://prokopim-sumenep.netlify.app",
-    "image": "/works/prokopim.png"
+    "images": ["/works/prokopim.png", "/works/prokopim-2.png"]
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "slug": "gmf-aeroasia-budget-realization-dashboard",
     "link": "https://github.com/luqmanherifa",
     "live": "https://www.linkedin.com/in/luqmanherifa",
-    "image": "/works/gmfaeroasia.png"
+    "images": ["/works/gmfaeroasia.png", "/works/gmfaeroasia-2.png"]
   },
   {
     "id": 3,
@@ -36,7 +36,12 @@
     "slug": "rsu-sumekar-healthcare-management-system",
     "link": "https://github.com/luqmanherifa",
     "live": "https://www.linkedin.com/in/luqmanherifa",
-    "image": "/works/rsusumekar1.png"
+    "images": [
+      "/works/rsusumekar1.png",
+      "/works/rsusumekar1-2.png",
+      "/works/rsusumekar1-3.png",
+      "/works/rsusumekar1-4.png"
+    ]
   },
   {
     "id": 4,
@@ -49,7 +54,12 @@
     "slug": "ahass-motor-workshop-management-system",
     "link": "https://github.com/luqmanherifa",
     "live": "https://youtu.be/Zycy6pxrcNg",
-    "image": "/works/ahassmotor1.png"
+    "images": [
+      "/works/ahassmotor1.png",
+      "/works/ahassmotor1-2.png",
+      "/works/ahassmotor1-3.png",
+      "/works/ahassmotor1-4.png"
+    ]
   },
   {
     "id": 5,
@@ -62,7 +72,11 @@
     "slug": "swanify-indonesian-spelling-app",
     "link": "https://github.com/luqmanherifa/swanify-indonesian-spelling-app",
     "live": "https://bit.ly/swanify-googleplay",
-    "image": "/works/swanify.png"
+    "images": [
+      "/works/swanify.png",
+      "/works/swanify-2.png",
+      "/works/swanify-3.png"
+    ]
   },
   {
     "id": 6,
@@ -75,7 +89,11 @@
     "slug": "winzard-biology-learning-game",
     "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
     "live": "https://luqmanherifa.itch.io/winzard",
-    "image": "/works/winzard.png"
+    "images": [
+      "/works/winzard.png",
+      "/works/winzard-2.png",
+      "/works/winzard-3.png"
+    ]
   },
   {
     "id": 7,
@@ -88,7 +106,7 @@
     "slug": "what-wasnt-written-life-journal-space",
     "link": "https://github.com/luqmanherifa",
     "live": "https://whatwasntwritten.com",
-    "image": "/works/whatwasntwritten.png"
+    "images": ["/works/whatwasntwritten.png", "/works/whatwasntwritten-2.png"]
   },
   {
     "id": 8,
@@ -101,7 +119,7 @@
     "slug": "saghara-labs-digital-service-works",
     "link": "https://github.com/luqmanherifa",
     "live": "https://sagharalabs.netlify.app",
-    "image": "/works/sagharalabs.png"
+    "images": ["/works/sagharalabs.png", "/works/sagharalabs-2.png"]
   },
   {
     "id": 9,
@@ -114,7 +132,11 @@
     "slug": "ahass-motor-workshop-company-profile",
     "link": "https://github.com/luqmanherifa",
     "live": "https://youtu.be/Zycy6pxrcNg",
-    "image": "/works/ahassmotor2.png"
+    "images": [
+      "/works/ahassmotor2.png",
+      "/works/ahassmotor2-2.png",
+      "/works/ahassmotor2-3.png"
+    ]
   },
   {
     "id": 10,
@@ -127,7 +149,11 @@
     "slug": "rsu-sumekar-healthcare-company-profile",
     "link": "https://github.com/luqmanherifa",
     "live": "https://rsusumekar.co.id",
-    "image": "/works/rsusumekar2.png"
+    "images": [
+      "/works/rsusumekar2.png",
+      "/works/rsusumekar2-2.png",
+      "/works/rsusumekar2-3.png"
+    ]
   },
   {
     "id": 11,
@@ -140,7 +166,7 @@
     "slug": "atma-karya-teknik-ac-maintenance-service",
     "link": "https://github.com/luqmanherifa",
     "live": "https://atmakaryateknik.com",
-    "image": "/works/atmakarya.png"
+    "images": ["/works/atmakarya.png", "/works/atmakarya-2.png"]
   },
   {
     "id": 12,
@@ -153,6 +179,6 @@
     "slug": "sumber-brian-abadi-ac-maintenance-service",
     "link": "https://github.com/luqmanherifa",
     "live": "https://sumberbrianabadi.com",
-    "image": "/works/sumberbrian.png"
+    "images": ["/works/sumberbrian.png", "/works/sumberbrian-2.png"]
   }
 ]

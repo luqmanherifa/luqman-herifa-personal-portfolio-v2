@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const DetailWeb = () => {
   const [data, setData] = useState(null);
   const { slug } = useParams();
+  const [activeImage, setActiveImage] = useState(0);
   const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
@@ -17,6 +18,13 @@ const DetailWeb = () => {
   useEffect(() => {
     if (selectedObject) {
       document.title = selectedObject.name + " - Luqman Works";
+    }
+  }, [selectedObject]);
+
+  useEffect(() => {
+    if (selectedObject?.images?.length) {
+      setActiveImage(0);
+      setImageLoading(true);
     }
   }, [selectedObject]);
 
@@ -72,14 +80,42 @@ const DetailWeb = () => {
                     </div>
                   )}
                   <img
-                    src={selectedObject.image}
-                    alt=""
+                    src={selectedObject.images[activeImage]}
+                    alt={selectedObject.name}
                     onLoad={() => setImageLoading(false)}
-                    className={`transition-opacity duration-500 ${
+                    className={`h-full w-full object-cover transition-opacity duration-500 ${
                       imageLoading ? "opacity-0" : "opacity-100"
                     }`}
                   />
                 </figure>
+                {selectedObject.images.length > 1 && (
+                  <div className="mt-4 flex gap-3 overflow-x-auto">
+                    {selectedObject.images.map((img, index) => (
+                      <button
+                        key={img}
+                        onClick={() => {
+                          if (index !== activeImage) {
+                            setImageLoading(true);
+                            setActiveImage(index);
+                          }
+                        }}
+                        className={`relative h-20 w-28 overflow-hidden rounded-xl border transition
+          ${
+            index === activeImage
+              ? "border-blue-500"
+              : "border-slate-600 hover:border-slate-400"
+          }
+        `}
+                      >
+                        <img
+                          src={img}
+                          alt={`Preview ${index + 1}`}
+                          className="h-full w-full object-cover"
+                        />
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <div className="mt-7 flex flex-col gap-1.5">
