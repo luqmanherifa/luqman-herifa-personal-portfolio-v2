@@ -2,32 +2,6 @@
   {
     "id": 1,
     "category": "Web",
-    "name": "What Wasn't Written: Life Journal Space",
-    "desc": "A platform for exploring and recording personal experiences, developed with React and JavaScript for web.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "what-wasnt-written-life-journal-space",
-    "link": "https://github.com/luqmanherifa",
-    "live": "https://whatwasntwritten.com",
-    "image": "/works/whatwasntwritten.png"
-  },
-  {
-    "id": 2,
-    "category": "Web",
-    "name": "Saghara Labs: Digital Service Works",
-    "desc": "A company website for presenting digital services and projects, developed with Next and React for web.",
-    "tech1": "Next",
-    "tech2": "React",
-    "css": "bg-teal-400/10 text-teal-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "saghara-labs-digital-service-works",
-    "link": "https://github.com/luqmanherifa",
-    "live": "https://sagharalabs.netlify.app",
-    "image": "/works/sagharalabs.png"
-  },
-  {
-    "id": 3,
-    "category": "Web",
     "name": "Prokopim Sumenep: Regional Public Archive",
     "desc": "A platform for accessing regional magazine content, developed with Next and React for web.",
     "tech1": "Next",
@@ -39,7 +13,7 @@
     "image": "/works/prokopim.png"
   },
   {
-    "id": 4,
+    "id": 2,
     "category": "Web",
     "name": "GMF AeroAsia: Budget Realization Dashboard",
     "desc": "A system for tracking investments and expenses efficiently, developed with Angular and NestJS for web.",
@@ -52,7 +26,7 @@
     "image": "/works/gmfaeroasia.png"
   },
   {
-    "id": 5,
+    "id": 3,
     "category": "Web",
     "name": "RSU Sumekar: Healthcare Management System",
     "desc": "A system for managing hospital operations, developed with Vue and Express for web.",
@@ -65,7 +39,7 @@
     "image": "/works/rsusumekar1.png"
   },
   {
-    "id": 6,
+    "id": 4,
     "category": "Web",
     "name": "AHASS Motor: Workshop Management System",
     "desc": "A system for managing motorcycle workshop operations, developed with React and Laravel for web.",
@@ -78,33 +52,46 @@
     "image": "/works/ahassmotor1.png"
   },
   {
-    "id": 7,
-    "category": "Mobile",
-    "name": "Swanify: Indonesian Spelling App",
-    "desc": "An educational app for learning Indonesian spelling with AR features, developed with C# and Unity for mobile.",
-    "tech1": "C#",
-    "tech2": "Unity",
+    "id": 5,
+    "category": "Web",
+    "name": "What Wasn't Written: Life Journal Space",
+    "desc": "A platform for exploring and recording personal experiences, developed with React and JavaScript for web.",
+    "tech1": "React",
+    "tech2": "JavaScript",
     "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "swanify-indonesian-spelling-app",
-    "link": "https://github.com/luqmanherifa/swanify-indonesian-spelling-app",
-    "live": "https://bit.ly/swanify-googleplay",
-    "image": "/works/swanify.png"
+    "slug": "what-wasnt-written-life-journal-space",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://whatwasntwritten.com",
+    "image": "/works/whatwasntwritten.png"
+  },
+  {
+    "id": 6,
+    "category": "Web",
+    "name": "Saghara Labs: Digital Service Works",
+    "desc": "A company website for presenting digital services and projects, developed with Next and React for web.",
+    "tech1": "Next",
+    "tech2": "React",
+    "css": "bg-teal-400/10 text-teal-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "saghara-labs-digital-service-works",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://sagharalabs.netlify.app",
+    "image": "/works/sagharalabs.png"
+  },
+  {
+    "id": 7,
+    "category": "Web",
+    "name": "AHASS Motor: Workshop Company Profile",
+    "desc": "A company website for motorcycle workshop information and services, developed with React and JavaScript for web.",
+    "tech1": "React",
+    "tech2": "Laravel",
+    "css": "bg-red-400/10 text-red-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "ahass-motor-workshop-management-system",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://youtu.be/Zycy6pxrcNg",
+    "image": "/works/ahassmotor2.png"
   },
   {
     "id": 8,
-    "category": "Mobile",
-    "name": "Winzard: Biology Learning Game",
-    "desc": "A game for learning biology through 2D platformer gameplay, developed with C# and Unity for mobile.",
-    "tech1": "C#",
-    "tech2": "Unity",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "winzard-biology-learning-game",
-    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
-    "live": "https://luqmanherifa.itch.io/winzard",
-    "image": "/works/winzard.png"
-  },
-  {
-    "id": 9,
     "category": "Web",
     "name": "RSU Sumekar: Healthcare Company Profile",
     "desc": "A company website for hospital information and services, developed with React and JavaScript for web.",
@@ -117,7 +104,7 @@
     "image": "/works/rsusumekar2.png"
   },
   {
-    "id": 10,
+    "id": 9,
     "category": "Web",
     "name": "Atma Karya Teknik: Service Company Profile",
     "desc": "A company website for air conditioner maintenance services, developed with NextJS and React for web.",
@@ -130,7 +117,7 @@
     "image": "/works/atmakarya.png"
   },
   {
-    "id": 11,
+    "id": 10,
     "category": "Web",
     "name": "Sumber Brian Abadi: Service Company Profile",
     "desc": "A company website for air conditioner maintenance services, developed with NextJS and React for web.",
@@ -143,16 +130,29 @@
     "image": "/works/sumberbrian.png"
   },
   {
+    "id": 11,
+    "category": "Mobile",
+    "name": "Swanify: Indonesian Spelling App",
+    "desc": "An educational app for learning Indonesian spelling with AR features, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "swanify-indonesian-spelling-app",
+    "link": "https://github.com/luqmanherifa/swanify-indonesian-spelling-app",
+    "live": "https://bit.ly/swanify-googleplay",
+    "image": "/works/swanify.png"
+  },
+  {
     "id": 12,
-    "category": "Web",
-    "name": "Luqman Herifa: Personal Portfolio v2",
-    "desc": "A portfolio for showcasing my work and contact info, developed with React and JavaScript for web.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "css": "bg-slate-400/10 text-slate-300 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "luqman-herifa-personal-portfolio-v2",
-    "link": "https://github.com/luqmanherifa/luqman-herifa-personal-portfolio-v2",
-    "live": "https://luqmanherifa.netlify.app",
-    "image": "/works/luqmanherifav2.png"
+    "category": "Mobile",
+    "name": "Winzard: Biology Learning Game",
+    "desc": "A game for learning biology through 2D platformer gameplay, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "winzard-biology-learning-game",
+    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
+    "live": "https://luqmanherifa.itch.io/winzard",
+    "image": "/works/winzard.png"
   }
 ]
