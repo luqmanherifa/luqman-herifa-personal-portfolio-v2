@@ -79,43 +79,60 @@ const DetailWeb = () => {
                       <span className="sr-only">Loading...</span>
                     </div>
                   )}
-                  <img
+                  <motion.img
+                    key={selectedObject.images[activeImage]}
                     src={selectedObject.images[activeImage]}
                     alt={selectedObject.name}
                     onLoad={() => setImageLoading(false)}
-                    className={`h-full w-full object-cover transition-opacity duration-500 ${
-                      imageLoading ? "opacity-0" : "opacity-100"
-                    }`}
+                    initial={{ opacity: 0, scale: 0.98 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.35, ease: "easeOut" }}
+                    className="h-full w-full object-cover"
                   />
                 </figure>
-                {selectedObject.images.length > 1 && (
-                  <div className="mt-4 flex gap-3 overflow-x-auto">
-                    {selectedObject.images.map((img, index) => (
-                      <button
+
+                <div className="mt-4 flex gap-3 overflow-x-auto">
+                  {selectedObject.images.map((img, index) => {
+                    const isActive = index === activeImage;
+
+                    return (
+                      <motion.button
                         key={img}
                         onClick={() => {
-                          if (index !== activeImage) {
+                          if (!isActive) {
                             setImageLoading(true);
                             setActiveImage(index);
                           }
                         }}
-                        className={`relative h-20 w-28 overflow-hidden rounded-xl border transition
-          ${
-            index === activeImage
-              ? "border-blue-500"
-              : "border-slate-600 hover:border-slate-400"
-          }
-        `}
+                        whileHover={{ scale: isActive ? 1 : 0.98 }}
+                        animate={{
+                          scale: isActive ? 1 : 0.94,
+                        }}
+                        transition={{
+                          duration: 0.18,
+                          ease: "easeOut",
+                        }}
+                        className="relative h-20 w-28 cursor-pointer overflow-hidden rounded-xl"
                       >
-                        <img
+                        <motion.img
                           src={img}
                           alt={`Preview ${index + 1}`}
                           className="h-full w-full object-cover"
+                          animate={{
+                            opacity: isActive ? 1 : 0.5,
+                            filter: isActive
+                              ? "brightness(1)"
+                              : "brightness(0.8)",
+                          }}
+                          transition={{
+                            duration: 0.18,
+                            ease: "easeOut",
+                          }}
                         />
-                      </button>
-                    ))}
-                  </div>
-                )}
+                      </motion.button>
+                    );
+                  })}
+                </div>
               </div>
 
               <div className="mt-7 flex flex-col gap-1.5">
