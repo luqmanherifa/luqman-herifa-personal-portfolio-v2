@@ -60,7 +60,7 @@ const DetailWeb = () => {
               <div>
                 <figure className="relative h-[576px] w-full overflow-hidden rounded-3xl sm:h-auto sm:rounded-2xl">
                   {imageLoading && (
-                    <div className="absolute inset-0 flex items-center justify-center bg-slate-200 dark:bg-slate-700">
+                    <div className="absolute inset-0 flex items-center justify-center bg-slate-200 dark:bg-slate-400">
                       <svg
                         aria-hidden="true"
                         className="h-12 w-12 animate-spin fill-blue-600 text-slate-200 dark:text-slate-600"
@@ -114,7 +114,7 @@ const DetailWeb = () => {
                         {!isLoaded && (
                           <div className="absolute inset-0 flex items-center justify-center">
                             <svg
-                              className="h-4 w-4 animate-spin text-slate-600 dark:text-slate-400"
+                              className="h-4 w-4 animate-spin text-slate-700 dark:text-slate-600"
                               viewBox="0 0 24 24"
                               fill="currentColor"
                             >
