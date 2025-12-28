@@ -106,7 +106,11 @@
     "slug": "what-wasnt-written-life-journal-space",
     "link": "https://github.com/luqmanherifa",
     "live": "https://whatwasntwritten.com",
-    "images": ["/works/whatwasntwritten.png", "/works/whatwasntwritten-2.png"]
+    "images": [
+      "/works/whatwasntwritten.png",
+      "/works/whatwasntwritten-2.png",
+      "/works/whatwasntwritten-3.png"
+    ]
   },
   {
     "id": 8,
