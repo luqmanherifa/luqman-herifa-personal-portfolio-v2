@@ -9,6 +9,7 @@ const DetailWeb = () => {
   const [activeImage, setActiveImage] = useState(0);
   const [imageLoading, setImageLoading] = useState(true);
   const [loadedThumbs, setLoadedThumbs] = useState({});
+  const [isManual, setIsManual] = useState(false);
 
   useEffect(() => {
     setData(jsonData);
@@ -28,6 +29,27 @@ const DetailWeb = () => {
       setImageLoading(true);
     }
   }, [selectedObject]);
+
+  useEffect(() => {
+    if (!selectedObject?.images?.length || isManual) return;
+
+    const interval = setInterval(() => {
+      setActiveImage((prev) => {
+        const nextIndex = (prev + 1) % selectedObject.images.length;
+        setImageLoading(true);
+        return nextIndex;
+      });
+    }, 3500);
+
+    return () => clearInterval(interval);
+  }, [selectedObject, isManual]);
+
+  useEffect(() => {
+    if (!isManual) return;
+
+    const timeout = setTimeout(() => setIsManual(false), 6000);
+    return () => clearTimeout(timeout);
+  }, [isManual]);
 
   return (
     <motion.section
@@ -102,6 +124,7 @@ const DetailWeb = () => {
                         key={img}
                         onClick={() => {
                           if (!isActive) {
+                            setIsManual(true);
                             setImageLoading(true);
                             setActiveImage(index);
                           }
