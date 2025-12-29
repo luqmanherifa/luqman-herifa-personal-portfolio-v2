@@ -41,10 +41,10 @@ const WorksWeb = () => {
                 <Link to={`/works/${workWeb.slug}`}>
                   <Image image={workWeb.images?.[0] || "/works/uc.png"} />
                 </Link>
-                <div className="max-w-md sm:max-w-[16rem]">
+                <div className="max-w-md sm:max-w-[20rem]">
                   <Name classname={workWeb.css} name={workWeb.name} />
                   <Desc classname={workWeb.css} desc={workWeb.desc} />
-                  <div className="flex justify-between sm:block">
+                  <div className="flex justify-between">
                     <Tech
                       classname={workWeb.css}
                       tech1={workWeb.tech1}

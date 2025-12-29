@@ -46,10 +46,10 @@ const WorksMobile = () => {
                 <Link to={`/mobile/${workMobile.slug}`}>
                   <Image image={workMobile.image} />
                 </Link>
-                <div className="max-w-md sm:max-w-[16rem]">
+                <div className="max-w-md sm:max-w-[20rem]">
                   <Name classname={workMobile.css} name={workMobile.name} />
                   <Desc classname={workMobile.css} desc={workMobile.desc} />
-                  <div className="flex justify-between sm:block">
+                  <div className="flex justify-between">
                     <Tech
                       classname={workMobile.css}
                       tech1={workMobile.tech1}

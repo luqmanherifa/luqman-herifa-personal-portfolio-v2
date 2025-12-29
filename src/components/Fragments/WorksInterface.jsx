@@ -44,7 +44,7 @@ const WorksInterface = () => {
                 <Link to={`/interface/${workInterface.slug}`}>
                   <Image image={workInterface.image} />
                 </Link>
-                <div className="max-w-md sm:max-w-[16rem]">
+                <div className="max-w-md sm:max-w-[20rem]">
                   <Name
                     classname={workInterface.css}
                     name={workInterface.name}

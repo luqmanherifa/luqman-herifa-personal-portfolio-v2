@@ -40,10 +40,10 @@ const WorksOther = () => {
                 <Link to={`/explorations/${workOther.slug}`}>
                   <Image image={workOther.image} />
                 </Link>
-                <div className="max-w-md sm:max-w-[16rem]">
+                <div className="max-w-md sm:max-w-[20rem]">
                   <Name classname={workOther.css} name={workOther.name} />
                   <Desc classname={workOther.css} desc={workOther.desc} />
-                  <div className="flex justify-between sm:block">
+                  <div className="flex justify-between">
                     <Tech
                       classname={workOther.css}
                       tech1={workOther.tech1}
