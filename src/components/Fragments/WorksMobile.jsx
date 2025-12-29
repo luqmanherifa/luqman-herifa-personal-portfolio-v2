@@ -30,7 +30,7 @@ const WorksMobile = () => {
 
   return (
     <div>
-      <div className="mx-auto my-7 max-w-5xl rounded-[2rem] border border-slate-700 py-12 dark:border-blue-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:rounded-3xl sm:py-8">
+      <div className="mx-auto my-7 max-w-5xl border border-slate-700 py-12 dark:border-blue-400 lg:max-w-xl md:max-w-lg sm:my-6 sm:max-w-xs sm:py-8">
         <TitleWorks
           classname="border border-green-400 text-green-400 dark:bg-blue-800"
           title="Mobile Development"
