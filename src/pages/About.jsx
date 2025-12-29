@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <section className="pb-20">
-      <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
+      <div className="mx-auto flex max-w-5xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-xl md:max-w-lg">
           <Title
             classname="bg-cyan-400/10 text-cyan-400 dark:bg-blue-800"

@@ -27,7 +27,7 @@ const DetailMobile = () => {
       animate={{ x: [-150, 0], opacity: 1 }}
       transition={{ delay: 0.1 }}
     >
-      <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
+      <div className="mx-auto flex max-w-5xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl sm:max-w-xs">
           {selectedObject && (
             <div>

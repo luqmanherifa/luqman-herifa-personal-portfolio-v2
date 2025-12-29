@@ -10,7 +10,7 @@ const Social = () => {
 
   return (
     <section className="pb-16 sm:pb-12">
-      <div className="mx-auto flex max-w-6xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
+      <div className="mx-auto flex max-w-5xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="flex w-[48rem] max-w-2xl flex-col items-center justify-center">
           <Title
             classname="bg-yellow-400/10 text-yellow-400 dark:bg-blue-800"
