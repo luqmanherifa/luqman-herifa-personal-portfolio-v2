@@ -58,7 +58,7 @@ const DetailWeb = () => {
       animate={{ x: [-150, 0], opacity: 1 }}
       transition={{ delay: 0.1 }}
     >
-      <div className="mx-auto flex max-w-5xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
+      <div className="mx-auto flex max-w-2xl justify-center pt-9 xl:max-w-4xl lg:max-w-xl md:max-w-lg sm:max-w-xs sm:pt-9">
         <div className="max-w-3xl sm:max-w-xs">
           {selectedObject && (
             <div>
@@ -71,7 +71,7 @@ const DetailWeb = () => {
                 </div>
               </div>
 
-              <div className="mt-2 mb-4 text-3xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
+              <div className="mt-4 mb-4 text-2xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
                 <p>{selectedObject.name}</p>
               </div>
 
@@ -80,7 +80,7 @@ const DetailWeb = () => {
               </div>
 
               <div>
-                <figure className="relative h-[576px] w-full overflow-hidden rounded-3xl sm:h-auto sm:rounded-2xl">
+                <figure className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl sm:h-auto sm:rounded-2xl">
                   {imageLoading && (
                     <div className="absolute inset-0 flex items-center justify-center bg-slate-200 dark:bg-slate-400">
                       <svg
