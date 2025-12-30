@@ -10,7 +10,11 @@
     "slug": "prokopim-sumenep-regional-public-archive",
     "link": "https://github.com/luqmanherifa",
     "live": "https://prokopim-sumenep.netlify.app",
-    "images": ["/works/prokopim.png", "/works/prokopim-2.png"]
+    "images": [
+      "/works/prokopim.png",
+      "/works/prokopim-2.png",
+      "/works/prokopim-3.png"
+    ]
   },
   {
     "id": 2,
@@ -45,7 +49,8 @@
       "/works/rsusumekar1.png",
       "/works/rsusumekar1-2.png",
       "/works/rsusumekar1-3.png",
-      "/works/rsusumekar1-4.png"
+      "/works/rsusumekar1-4.png",
+      "/works/rsusumekar1-5.png"
     ]
   },
   {
