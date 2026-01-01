@@ -40,7 +40,7 @@ const DetailOther = () => {
                 </div>
               </div>
 
-              <div className="mt-4 mb-4 text-2xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
+              <div className="mt-4 mb-2 text-2xl font-semibold leading-tight text-slate-100 dark:text-blue-100">
                 <p>{selectedObject.name}</p>
               </div>
 
