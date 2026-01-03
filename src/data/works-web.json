@@ -13,7 +13,9 @@
     "images": [
       "/works/prokopim.png",
       "/works/prokopim-2.png",
-      "/works/prokopim-3.png"
+      "/works/prokopim-3.png",
+      "/works/prokopim-4.png",
+      "/works/prokopim-5.png"
     ]
   },
   {
@@ -75,40 +77,6 @@
   },
   {
     "id": 5,
-    "category": "Mobile",
-    "name": "Swanify: Indonesian Spelling App",
-    "desc": "An educational app for learning Indonesian spelling with AR features, developed with C# and Unity for mobile.",
-    "tech1": "C#",
-    "tech2": "Unity",
-    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "swanify-indonesian-spelling-app",
-    "link": "https://github.com/luqmanherifa/swanify-indonesian-spelling-app",
-    "live": "https://bit.ly/swanify-googleplay",
-    "images": [
-      "/works/swanify.png",
-      "/works/swanify-2.png",
-      "/works/swanify-3.png"
-    ]
-  },
-  {
-    "id": 6,
-    "category": "Mobile",
-    "name": "Winzard: Biology Learning Game",
-    "desc": "A game for learning biology through 2D platformer gameplay, developed with C# and Unity for mobile.",
-    "tech1": "C#",
-    "tech2": "Unity",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
-    "slug": "winzard-biology-learning-game",
-    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
-    "live": "https://luqmanherifa.itch.io/winzard",
-    "images": [
-      "/works/winzard.png",
-      "/works/winzard-2.png",
-      "/works/winzard-3.png"
-    ]
-  },
-  {
-    "id": 7,
     "category": "Web",
     "name": "What Wasn't Written: Life Journal Space",
     "desc": "A platform for exploring and recording personal experiences, developed with React and JavaScript for web.",
@@ -125,6 +93,40 @@
     ]
   },
   {
+    "id": 6,
+    "category": "Mobile",
+    "name": "Swanify: Indonesian Spelling App",
+    "desc": "An educational app for learning Indonesian spelling with AR features, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "swanify-indonesian-spelling-app",
+    "link": "https://github.com/luqmanherifa/swanify-indonesian-spelling-app",
+    "live": "https://bit.ly/swanify-googleplay",
+    "images": [
+      "/works/swanify.png",
+      "/works/swanify-2.png",
+      "/works/swanify-3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Mobile",
+    "name": "Winzard: Biology Learning Game",
+    "desc": "A game for learning biology through 2D platformer gameplay, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
+    "slug": "winzard-biology-learning-game",
+    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
+    "live": "https://luqmanherifa.itch.io/winzard",
+    "images": [
+      "/works/winzard.png",
+      "/works/winzard-2.png",
+      "/works/winzard-3.png"
+    ]
+  },
+  {
     "id": 8,
     "category": "Web",
     "name": "Saghara Labs: Digital Service Works",
@@ -133,7 +135,7 @@
     "tech2": "React",
     "css": "bg-teal-400/10 text-teal-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
     "slug": "saghara-labs-digital-service-works",
-    "link": "https://github.com/luqmanherifa",
+    "link": "https://github.com/Saghara-Labs/saghara-labs-digital-service-works",
     "live": "https://sagharalabs.netlify.app",
     "images": ["/works/sagharalabs.png", "/works/sagharalabs-2.png"]
   },
