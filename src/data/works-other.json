@@ -55,8 +55,8 @@
   {
     "id": 5,
     "category": "Web",
-    "name": "Savora: Culinary Spot",
-    "desc": "A platform for discovering restaurants and menus, developed with React and Laravel for web.",
+    "name": "Savora: Culinary Discovery Spot",
+    "desc": "A portal for discovering restaurants and menus, developed with React and Laravel for web.",
     "tech1": "React",
     "tech2": "Laravel",
     "css": "bg-green-400/10 text-green-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400",
@@ -68,7 +68,7 @@
   {
     "id": 6,
     "category": "Web",
-    "name": "Wordium: Writing Platform",
+    "name": "Wordium: Writing Ideas Platform",
     "desc": "A platform for sharing stories and posts, developed with Blade and Laravel for web.",
     "tech1": "Blade",
     "tech2": "Laravel",
@@ -94,7 +94,7 @@
   {
     "id": 8,
     "category": "Web",
-    "name": "NoTimeToNews: News Portal",
+    "name": "NoTimeToNews: Daily News Portal",
     "desc": "A platform for reading daily news and articles, developed with React and Laravel for web.",
     "tech1": "React",
     "tech2": "Laravel",
