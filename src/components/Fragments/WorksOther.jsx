@@ -1,5 +1,5 @@
 import WorksOtherData from "../../data/works-other.json";
-import Image from "../Elements/Works/Image";
+import ImageOther from "../Elements/Works/ImageOther";
 import Name from "../Elements/Works/Name";
 import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
@@ -38,7 +38,7 @@ const WorksOther = () => {
             {displayedData.map((workOther) => (
               <div key={workOther.id}>
                 <Link to={`/explorations/${workOther.slug}`}>
-                  <Image image={workOther.image} />
+                  <ImageOther image={workOther.image} />
                 </Link>
                 <div className="max-w-md sm:max-w-[20rem]">
                   <Name classname={workOther.css} name={workOther.name} />

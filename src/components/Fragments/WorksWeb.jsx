@@ -1,5 +1,5 @@
 import WorksWebData from "../../data/works-web.json";
-import Image from "../Elements/Works/Image";
+import ImageWeb from "../Elements/Works/ImageWeb";
 import Name from "../Elements/Works/Name";
 import Desc from "../Elements/Works/Desc";
 import Tech from "../Elements/Works/Tech";
@@ -39,7 +39,7 @@ const WorksWeb = () => {
             {displayedData.map((workWeb) => (
               <div key={workWeb.id}>
                 <Link to={`/works/${workWeb.slug}`}>
-                  <Image image={workWeb.images?.[0] || "/works/uc.png"} />
+                  <ImageWeb images={workWeb.images} />
                 </Link>
                 <div className="max-w-md sm:max-w-[20rem]">
                   <Name classname={workWeb.css} name={workWeb.name} />
