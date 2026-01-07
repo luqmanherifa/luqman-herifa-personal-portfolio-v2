@@ -33,7 +33,7 @@ const WorksWeb = () => {
             className={`flex max-w-5xl flex-wrap justify-center gap-7 overflow-hidden transition-all duration-700 ease-in-out sm:gap-5 ${
               showAll
                 ? "max-h-[4000px] sm:max-h-[5000px]"
-                : "max-h-[1500px] dark:max-h-[1550px] sm:max-h-[2300px] dark:sm:max-h-[2350px]"
+                : "max-h-[1500px] dark:max-h-[1550px] sm:max-h-[1600px] dark:sm:max-h-[1650px]"
             }`}
           >
             {displayedData.map((workWeb) => (

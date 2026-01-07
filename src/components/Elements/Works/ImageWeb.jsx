@@ -21,7 +21,7 @@ const Image = ({ images = [] }) => {
 
   return (
     <figure
-      className="group relative h-[336px] max-w-md overflow-hidden rounded-2xl transition-all duration-300 hover:scale-95 sm:h-auto sm:max-w-[20rem] sm:rounded-lg"
+      className="group relative h-[336px] max-w-md overflow-hidden rounded-2xl transition-all duration-500 hover:scale-95 sm:h-[240px] sm:max-w-[20rem] sm:rounded-lg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => {
         setHovered(false);
@@ -55,12 +55,13 @@ const Image = ({ images = [] }) => {
             alt=""
             onLoad={() => index === 0 && setImageLoading(false)}
             className={`
-              duration-400 absolute inset-0 h-full w-full
+              duration-400 absolute inset-0 w-full
               object-cover transition-all ease-out
               ${index === activeIndex ? "opacity-100" : "opacity-0"}
               group-hover:rotate-3 group-hover:scale-125
               ${imageLoading ? "opacity-0" : ""}
               dark:grayscale dark:hue-rotate-[180deg] dark:filter
+              sm:h-auto
             `}
           />
         ))}
