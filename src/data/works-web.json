@@ -2,6 +2,25 @@
   {
     "id": 1,
     "category": "Web",
+    "name": "Jasa Raharja: Traffic Accident Monitoring",
+    "desc": "A system for tracking traffic accidents, managing victim data, mapping high-risk zones, and reports, developed with React and Firebase for web.",
+    "tech1": "React",
+    "tech2": "Firebase",
+    "css": "bg-amber-400/10 text-amber-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-amber-400/40",
+    "slug": "jasa-raharja-traffic-accident-monitoring",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://www.linkedin.com/in/luqmanherifa",
+    "images": [
+      "/works/jasaraharja.png",
+      "/works/jasaraharja-2.png",
+      "/works/jasaraharja-3.png",
+      "/works/jasaraharja-4.png",
+      "/works/jasaraharja-5.png"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Web",
     "name": "Prokopim Sumenep: Regional Public Archive",
     "desc": "A portal for accessing regional magazine content and publications, developed with Next and React for web.",
     "tech1": "Next",
@@ -19,13 +38,13 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "category": "Web",
     "name": "GMF AeroAsia: Budget Realization Dashboard",
     "desc": "A system for tracking investments and expenses for monitoring, developed with Angular and Nest for web.",
     "tech1": "Angular",
     "tech2": "Nest",
-    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400  border border-blue-400/40",
+    "css": "bg-blue-400/10 text-blue-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-blue-400/40",
     "slug": "gmf-aeroasia-budget-realization-dashboard",
     "link": "https://github.com/luqmanherifa",
     "live": "https://www.linkedin.com/in/luqmanherifa",
@@ -38,7 +57,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "category": "Web",
     "name": "RSU Sumekar: Healthcare Management System",
     "desc": "A system for managing hospital operations and internal workflows, developed with Vue and Express for web.",
@@ -57,7 +76,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "category": "Web",
     "name": "AHASS Motor: Workshop Management System",
     "desc": "A system for managing motorcycle workshop operations and records, developed with React and Laravel for web.",
@@ -76,7 +95,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "category": "Mobile",
     "name": "Swanify: Indonesian Spelling App",
     "desc": "An educational app for learning Indonesian spelling with AR features, developed with C# and Unity for mobile.",
@@ -94,24 +113,24 @@
     ]
   },
   {
-    "id": 6,
-    "category": "Mobile",
-    "name": "Winzard: Biology Learning Game",
-    "desc": "A game for learning biology through interactive 2D gameplay, developed with C# and Unity for mobile.",
-    "tech1": "C#",
-    "tech2": "Unity",
-    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-yellow-400/40",
-    "slug": "winzard-biology-learning-game",
-    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
-    "live": "https://luqmanherifa.itch.io/winzard",
+    "id": 7,
+    "category": "Web",
+    "name": "RSU Sumekar: Healthcare Company Profile",
+    "desc": "A company profile for hospital information and patient services, developed with React and JavaScript for web.",
+    "tech1": "React",
+    "tech2": "JavaScript",
+    "css": "bg-lime-400/10 text-lime-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-lime-400/40",
+    "slug": "rsu-sumekar-healthcare-company-profile",
+    "link": "https://github.com/luqmanherifa",
+    "live": "https://www.linkedin.com/in/luqmanherifa",
     "images": [
-      "/works/winzard.png",
-      "/works/winzard-2.png",
-      "/works/winzard-3.png"
+      "/works/rsusumekar2.png",
+      "/works/rsusumekar2-2.png",
+      "/works/rsusumekar2-3.png"
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "category": "Web",
     "name": "AHASS Motor: Workshop Company Profile",
     "desc": "A company profile for motorcycle workshop info and services, developed with React and JavaScript for web.",
@@ -127,23 +146,6 @@
       "/works/ahassmotor2-3.png",
       "/works/ahassmotor2-4.png",
       "/works/ahassmotor2-5.png"
-    ]
-  },
-  {
-    "id": 8,
-    "category": "Web",
-    "name": "RSU Sumekar: Healthcare Company Profile",
-    "desc": "A company profile for hospital information and patient services, developed with React and JavaScript for web.",
-    "tech1": "React",
-    "tech2": "JavaScript",
-    "css": "bg-lime-400/10 text-lime-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-lime-400/40",
-    "slug": "rsu-sumekar-healthcare-company-profile",
-    "link": "https://github.com/luqmanherifa",
-    "live": "https://www.linkedin.com/in/luqmanherifa",
-    "images": [
-      "/works/rsusumekar2.png",
-      "/works/rsusumekar2-2.png",
-      "/works/rsusumekar2-3.png"
     ]
   },
   {
@@ -171,5 +173,22 @@
     "link": "https://github.com/luqmanherifa",
     "live": "https://www.linkedin.com/in/luqmanherifa",
     "images": ["/works/sumberbrian.png", "/works/sumberbrian-2.png"]
+  },
+  {
+    "id": 11,
+    "category": "Mobile",
+    "name": "Winzard: Biology Learning Game",
+    "desc": "A game for learning biology through interactive 2D gameplay, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-yellow-400/40",
+    "slug": "winzard-biology-learning-game",
+    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
+    "live": "https://luqmanherifa.itch.io/winzard",
+    "images": [
+      "/works/winzard.png",
+      "/works/winzard-2.png",
+      "/works/winzard-3.png"
+    ]
   }
 ]
