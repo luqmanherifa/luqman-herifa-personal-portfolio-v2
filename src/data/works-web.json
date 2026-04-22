@@ -163,15 +163,19 @@
   },
   {
     "id": 10,
-    "category": "Web",
-    "name": "Sumber Brian Abadi: Air Conditioning Services",
-    "desc": "A company profile website for air conditioner and cooling system services, developed with Next and React for web.",
-    "tech1": "Next",
-    "tech2": "React",
-    "css": "bg-cyan-400/10 text-cyan-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-cyan-400/40",
-    "slug": "sumber-brian-abadi-air-conditioning-services",
-    "link": "https://github.com/luqmanherifa",
-    "live": "https://www.linkedin.com/in/luqmanherifa",
-    "images": ["/works/sumberbrian.png", "/works/sumberbrian-2.png"]
+    "category": "Mobile",
+    "name": "Winzard: Biology Learning Game",
+    "desc": "A game for learning biology through interactive 2D gameplay, developed with C# and Unity for mobile.",
+    "tech1": "C#",
+    "tech2": "Unity",
+    "css": "bg-yellow-400/10 text-yellow-400 dark:text-blue-100 dark:bg-blue-800 dark:border dark:border-blue-400 border border-yellow-400/40",
+    "slug": "winzard-biology-learning-game",
+    "link": "https://github.com/luqmanherifa/winzard-biology-learning-game",
+    "live": "https://luqmanherifa.itch.io/winzard",
+    "images": [
+      "/works/winzard.png",
+      "/works/winzard-2.png",
+      "/works/winzard-3.png"
+    ]
   }
 ]
